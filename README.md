@@ -1,7 +1,8 @@
 # Marstek-venus-A
 Node-red script with UI to control the Marstek venus A
 
-Link to the latest flows: [https://github.com/hansvanlin/Marsek-venus-A ](https://github.com/hansvanlin/Marstek-venus-A)
+Link to the latest flows: https://github.com/hansvanlin/Marstek-venus-A
+
 
 <img width="336" height="614" alt="image" src="https://github.com/user-attachments/assets/e7146a2f-35ea-4cc5-a000-e29ee7e08201" />
 
