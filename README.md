@@ -1,4 +1,4 @@
-# Marsek-venus-A
+# Marstek-venus-A
 Node-red script with UI to control the Marstek venus A
 
 Link to the latest flows: https://github.com/hansvanlin/Marsek-venus-A 
