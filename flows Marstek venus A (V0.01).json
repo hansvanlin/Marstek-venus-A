@@ -1,0 +1,1886 @@
+[
+    {
+        "id": "85f954b04cbf1a86",
+        "type": "subflow",
+        "name": "0.x",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 70,
+                "wires": [
+                    {
+                        "id": "94cb59f282c2c911"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 370,
+                "y": 70,
+                "wires": [
+                    {
+                        "id": "94cb59f282c2c911",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "94cb59f282c2c911",
+        "type": "change",
+        "z": "85f954b04cbf1a86",
+        "name": "Convert to 0.x",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)\t\t",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.payload, 1)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 220,
+        "y": 70,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f235640b7cb44a9",
+        "type": "subflow",
+        "name": "0.xx",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 75,
+                "wires": [
+                    {
+                        "id": "87ed2ab53564d859"
+                    },
+                    {
+                        "id": "57918fca3037144d"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 315,
+                "y": 75,
+                "wires": [
+                    {
+                        "id": "57918fca3037144d",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "87ed2ab53564d859",
+        "type": "function",
+        "z": "3f235640b7cb44a9",
+        "d": true,
+        "name": "0.xx",
+        "func": "msg.payload = msg.payload.toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 185,
+        "y": 75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57918fca3037144d",
+        "type": "change",
+        "z": "3f235640b7cb44a9",
+        "name": "Convert to 0.xx",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)\t\t",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.payload, 2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f32aaab05a0cf37",
+        "type": "tab",
+        "label": "Marstek",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6f3b06f9eece4ad3",
+        "type": "group",
+        "z": "8f32aaab05a0cf37",
+        "name": "Read modbus ",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6c4d3c287aec0c3e",
+            "4dfe5e2e19855d95",
+            "20f3caf5a2c0f481",
+            "32bd41d8e08a9b3b",
+            "54fa5f8bfb25d834",
+            "95b0b07b044c8838",
+            "90b1aba38348c387",
+            "a675f7131ee80f92",
+            "215d5466c4b068ec",
+            "042bb002e66c3f8c",
+            "88c3c38799829dc0",
+            "a49fd8e446273768",
+            "30c277fd994b3251",
+            "453e82db14621418",
+            "048de029a5d1ec8b",
+            "675866f5a0b9691f",
+            "92543281bc95c695",
+            "6a876bc9bc3262e7",
+            "36c5487010a1bd25",
+            "34eacb9e7e37bfcf",
+            "1c52218d552d26f3",
+            "b2a5504cc482e999",
+            "71d3a563e018f274",
+            "e3377b502f96ac1e",
+            "b5bb6dc92fe70310",
+            "cd0467fd237b7f8a",
+            "9889d5182e1600f5",
+            "bb2b200201d6c233",
+            "43c4aa7e73e1ce21",
+            "49ae5069ebacbe13",
+            "f93207f6ab543a11",
+            "e4758b5dbbde4843",
+            "8860e51f3343b411",
+            "b1c5f5222925e6d2",
+            "4f655706417f4268",
+            "9073e24faa59ff82",
+            "71f58bdd7d3c2951",
+            "f25f796de2c84a39",
+            "9c55c4d87a87bdd6",
+            "cf7c5f7115250f16",
+            "16a0a412f6cf533b",
+            "b8336de7be7b42eb",
+            "85cd7d9a3b7bd60d",
+            "e38b0198d57bef75",
+            "f5799e670d18983f"
+        ],
+        "x": 204,
+        "y": 39,
+        "w": 1712,
+        "h": 782
+    },
+    {
+        "id": "27e7e9903a15f41c",
+        "type": "group",
+        "z": "8f32aaab05a0cf37",
+        "name": "Write modbus",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "42b63cb6448e382e",
+            "87f678905bb139f8",
+            "7f4c689f0eec335e",
+            "907b234799299aea"
+        ],
+        "x": 204,
+        "y": 1039,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "6c4d3c287aec0c3e",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 1 SOC 32104",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32104",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 580,
+        "y": 130,
+        "wires": [
+            [
+                "95b0b07b044c8838",
+                "71d3a563e018f274"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4dfe5e2e19855d95",
+        "type": "inject",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 270,
+        "wires": [
+            [
+                "6c4d3c287aec0c3e",
+                "20f3caf5a2c0f481",
+                "43c4aa7e73e1ce21",
+                "49ae5069ebacbe13"
+            ]
+        ]
+    },
+    {
+        "id": "20f3caf5a2c0f481",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 2 SOC 32104",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "32104",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 580,
+        "y": 220,
+        "wires": [
+            [
+                "90b1aba38348c387",
+                "b5bb6dc92fe70310"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "32bd41d8e08a9b3b",
+        "type": "inject",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "54fa5f8bfb25d834",
+                "215d5466c4b068ec"
+            ]
+        ]
+    },
+    {
+        "id": "54fa5f8bfb25d834",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 1 State 35100",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "35100",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 570,
+        "y": 510,
+        "wires": [
+            [
+                "a675f7131ee80f92"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "95b0b07b044c8838",
+        "type": "ui_gauge",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "SOC M1",
+        "group": "337a5786b63541f1",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "Battery 1",
+        "label": "%",
+        "format": "{{value}} ",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#d7321e",
+            "#f4911f",
+            "#00b400"
+        ],
+        "seg1": "15",
+        "seg2": "25",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "90b1aba38348c387",
+        "type": "ui_gauge",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "SOC M2",
+        "group": "337a5786b63541f1",
+        "order": 8,
+        "width": 2,
+        "height": 2,
+        "gtype": "gage",
+        "title": "Battery 2",
+        "label": "%",
+        "format": "{{value}} ",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#d7321e",
+            "#f4911f",
+            "#00b400"
+        ],
+        "seg1": "15",
+        "seg2": "25",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 210,
+        "wires": []
+    },
+    {
+        "id": "a675f7131ee80f92",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Get Status",
+        "func": "var Status = msg.payload ;\n\nif (Status == \"0\") {(Status = \"Sleep\")\n}\nelse if(Status == \"1\") {(Status = \"Standby\")\n}\nelse if(Status == \"2\") {(Status = \"Charge\")\n}\nelse if(Status == \"3\") {(Status = \"Discharge\")\n}\nelse if(Status == \"4\") {(Status = \"Backup\")\n}\nelse if(Status == \"5\") {(Status = \"OTA\")\n}\n\nreturn [{ payload: Status }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 510,
+        "wires": [
+            [
+                "30c277fd994b3251"
+            ]
+        ]
+    },
+    {
+        "id": "215d5466c4b068ec",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 2 State 35100",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "35100",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "042bb002e66c3f8c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "042bb002e66c3f8c",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Get Status",
+        "func": "var Status = msg.payload ;\n\nif (Status == \"0\") {(Status = \"Sleep\")\n}\nelse if(Status == \"1\") {(Status = \"Standby\")\n}\nelse if(Status == \"2\") {(Status = \"Charge\")\n}\nelse if(Status == \"3\") {(Status = \"Discharge\")\n}\nelse if(Status == \"4\") {(Status = \"Backup\")\n}\nelse if(Status == \"5\") {(Status = \"OTA\")\n}\n\nreturn [{ payload: Status }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 580,
+        "wires": [
+            [
+                "453e82db14621418"
+            ]
+        ]
+    },
+    {
+        "id": "88c3c38799829dc0",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "2333",
+        "info": "",
+        "x": 530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a49fd8e446273768",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "0f8d",
+        "info": "",
+        "x": 530,
+        "y": 190,
+        "wires": []
+    },
+    {
+        "id": "30c277fd994b3251",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "status",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 950,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "453e82db14621418",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "name": "status",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 950,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "46e0d981ca209592",
+        "type": "inject",
+        "z": "8f32aaab05a0cf37",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 1490,
+        "wires": [
+            [
+                "2190cef513c0801a"
+            ]
+        ]
+    },
+    {
+        "id": "2190cef513c0801a",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "name": "Marstek 1 test",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "37004",
+        "quantity": "4",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 640,
+        "y": 1490,
+        "wires": [
+            [
+                "82a446165a26305c",
+                "9a9f0caa2717e56f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "82a446165a26305c",
+        "type": "debug",
+        "z": "8f32aaab05a0cf37",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "ac0c3f4e9cf44081",
+        "type": "inject",
+        "z": "8f32aaab05a0cf37",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 400,
+        "y": 1600,
+        "wires": [
+            [
+                "f6251a784be63833"
+            ]
+        ]
+    },
+    {
+        "id": "f6251a784be63833",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "name": "Marstek 2 test",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "44000",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 630,
+        "y": 1600,
+        "wires": [
+            [
+                "0559d950ce126579"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0559d950ce126579",
+        "type": "debug",
+        "z": "8f32aaab05a0cf37",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 1590,
+        "wires": []
+    },
+    {
+        "id": "048de029a5d1ec8b",
+        "type": "inject",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 780,
+        "wires": [
+            [
+                "675866f5a0b9691f",
+                "92543281bc95c695",
+                "0598cb858cadcc60",
+                "24db78fe6d18039e"
+            ]
+        ]
+    },
+    {
+        "id": "675866f5a0b9691f",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 1 Ch/Dis-charge Pow 30006",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "30006",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 620,
+        "y": 650,
+        "wires": [
+            [
+                "cf7c5f7115250f16",
+                "e38b0198d57bef75"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "92543281bc95c695",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 2 Ch/Dis-charge Pow 30006",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "30006",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 620,
+        "y": 740,
+        "wires": [
+            [
+                "9c55c4d87a87bdd6",
+                "f5799e670d18983f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6a876bc9bc3262e7",
+        "type": "change",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "topic1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Discharge1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 640,
+        "wires": [
+            [
+                "34eacb9e7e37bfcf",
+                "71f58bdd7d3c2951"
+            ]
+        ]
+    },
+    {
+        "id": "36c5487010a1bd25",
+        "type": "change",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "topic2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Discharge2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 750,
+        "wires": [
+            [
+                "34eacb9e7e37bfcf",
+                "f25f796de2c84a39"
+            ]
+        ]
+    },
+    {
+        "id": "34eacb9e7e37bfcf",
+        "type": "SumUltimate",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "tot discharge",
+        "property": "payload",
+        "math": "sum",
+        "subtractstartfrom": "",
+        "x": 1360,
+        "y": 690,
+        "wires": [
+            [
+                "1c52218d552d26f3"
+            ]
+        ]
+    },
+    {
+        "id": "1c52218d552d26f3",
+        "type": "link out",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek Discharge",
+        "mode": "link",
+        "links": [
+            "01b8b0978fd6fc8a"
+        ],
+        "x": 1595,
+        "y": 690,
+        "wires": []
+    },
+    {
+        "id": "b2a5504cc482e999",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "to actual calc",
+        "info": "",
+        "x": 1820,
+        "y": 690,
+        "wires": []
+    },
+    {
+        "id": "71d3a563e018f274",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "remaining [kWh]",
+        "func": "var soc = (msg.payload)* (4.2/100);\n\nreturn [{ payload: soc }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 80,
+        "wires": [
+            [
+                "e3377b502f96ac1e"
+            ]
+        ]
+    },
+    {
+        "id": "e3377b502f96ac1e",
+        "type": "subflow:3f235640b7cb44a9",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "",
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "9889d5182e1600f5"
+            ]
+        ]
+    },
+    {
+        "id": "b5bb6dc92fe70310",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "remaining [kWh]",
+        "func": "var soc = (msg.payload)* (4.2/100);\n\nreturn [{ payload: soc }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 170,
+        "wires": [
+            [
+                "cd0467fd237b7f8a"
+            ]
+        ]
+    },
+    {
+        "id": "cd0467fd237b7f8a",
+        "type": "subflow:3f235640b7cb44a9",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "",
+        "x": 990,
+        "y": 170,
+        "wires": [
+            [
+                "bb2b200201d6c233"
+            ]
+        ]
+    },
+    {
+        "id": "9889d5182e1600f5",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "Remaining M1",
+        "label": "",
+        "format": "{{msg.payload}} kWh",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 1170,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bb2b200201d6c233",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 11,
+        "width": 2,
+        "height": 1,
+        "name": "Remaining M2",
+        "label": "",
+        "format": "{{msg.payload}} kWh",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 1170,
+        "y": 170,
+        "wires": []
+    },
+    {
+        "id": "43c4aa7e73e1ce21",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 1 Int Temperature 35000",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "35000",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 620,
+        "y": 290,
+        "wires": [
+            [
+                "b1c5f5222925e6d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "49ae5069ebacbe13",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Marstek 2 Int Temperature 35000",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "35000",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 620,
+        "y": 330,
+        "wires": [
+            [
+                "f93207f6ab543a11"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f93207f6ab543a11",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "IT /10",
+        "func": "var iT = (msg.payload)/10;\n\nreturn [{ payload: iT }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 330,
+        "wires": [
+            [
+                "8860e51f3343b411"
+            ]
+        ]
+    },
+    {
+        "id": "e4758b5dbbde4843",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "name": "Int Temperature M1",
+        "label": "",
+        "format": "{{msg.payload}}°C",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1180,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "8860e51f3343b411",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 10,
+        "width": 1,
+        "height": 1,
+        "name": "Int Temperature M2",
+        "label": "",
+        "format": "{{msg.payload}}°C",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1180,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "b1c5f5222925e6d2",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "IT /10",
+        "func": "var iT = (msg.payload)/10;\n\nreturn [{ payload: iT }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 290,
+        "wires": [
+            [
+                "e4758b5dbbde4843"
+            ]
+        ]
+    },
+    {
+        "id": "4f655706417f4268",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "name": "AC M1",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 1500,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9073e24faa59ff82",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 12,
+        "width": 2,
+        "height": 1,
+        "name": "AC M2",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 1500,
+        "y": 750,
+        "wires": []
+    },
+    {
+        "id": "71f58bdd7d3c2951",
+        "type": "template",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} W",
+        "output": "str",
+        "x": 1330,
+        "y": 640,
+        "wires": [
+            [
+                "4f655706417f4268"
+            ]
+        ]
+    },
+    {
+        "id": "f25f796de2c84a39",
+        "type": "template",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} W",
+        "output": "str",
+        "x": 1330,
+        "y": 750,
+        "wires": [
+            [
+                "9073e24faa59ff82"
+            ]
+        ]
+    },
+    {
+        "id": "9c55c4d87a87bdd6",
+        "type": "StatusUltimate",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Status",
+        "property": "payload",
+        "x": 805,
+        "y": 780,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "cf7c5f7115250f16",
+        "type": "StatusUltimate",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Status",
+        "property": "payload",
+        "x": 805,
+        "y": 690,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "9a9f0caa2717e56f",
+        "type": "StatusUltimate",
+        "z": "8f32aaab05a0cf37",
+        "name": "Status",
+        "property": "payload",
+        "x": 815,
+        "y": 1510,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "42b63cb6448e382e",
+        "type": "ui_dropdown",
+        "z": "8f32aaab05a0cf37",
+        "g": "27e7e9903a15f41c",
+        "name": "",
+        "label": "Mode B1",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "337a5786b63541f1",
+        "order": 13,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Manual",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "AntiFeed",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 290,
+        "y": 1080,
+        "wires": [
+            [
+                "7f4c689f0eec335e"
+            ]
+        ]
+    },
+    {
+        "id": "87f678905bb139f8",
+        "type": "ui_dropdown",
+        "z": "8f32aaab05a0cf37",
+        "g": "27e7e9903a15f41c",
+        "name": "",
+        "label": "Mode B2",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "337a5786b63541f1",
+        "order": 15,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Manual",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "AntiFeed",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 290,
+        "y": 1140,
+        "wires": [
+            [
+                "907b234799299aea"
+            ]
+        ]
+    },
+    {
+        "id": "7f4c689f0eec335e",
+        "type": "modbus-write",
+        "z": "8f32aaab05a0cf37",
+        "g": "27e7e9903a15f41c",
+        "name": "Modbus Write 43000 ( Mode M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "43000",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "907b234799299aea",
+        "type": "modbus-write",
+        "z": "8f32aaab05a0cf37",
+        "g": "27e7e9903a15f41c",
+        "name": "Modbus Write 43000 ( Mode M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "43000",
+        "quantity": "1",
+        "server": "076ca4c29c17cd9f",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 570,
+        "y": 1140,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "16a0a412f6cf533b",
+        "type": "link in",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "kWh meter from home",
+        "links": [
+            "ea9b415971beca6e"
+        ],
+        "x": 825,
+        "y": 450,
+        "wires": [
+            [
+                "b8336de7be7b42eb"
+            ]
+        ]
+    },
+    {
+        "id": "b8336de7be7b42eb",
+        "type": "ui_text",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "group": "337a5786b63541f1",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "P1 Power meter",
+        "label": "P1 Power meter:",
+        "format": "{{msg.payload}} W",
+        "layout": "row-right",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#64c832",
+        "x": 980,
+        "y": 450,
+        "wires": []
+    },
+    {
+        "id": "85cd7d9a3b7bd60d",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "charging thenregister 30001 ?",
+        "info": "",
+        "x": 1690,
+        "y": 650,
+        "wires": []
+    },
+    {
+        "id": "0598cb858cadcc60",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "d": true,
+        "name": "Marstek 1 Charge Pow 30001",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "30001",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 590,
+        "y": 870,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "24db78fe6d18039e",
+        "type": "modbus-getter",
+        "z": "8f32aaab05a0cf37",
+        "d": true,
+        "name": "Marstek 2 Charge Pow 30001",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "30001",
+        "quantity": "2",
+        "server": "076ca4c29c17cd9f",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 590,
+        "y": 960,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "30fdbb27de8f0e01",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "name": "function 10",
+        "func": "msg = msg.payload /1000 ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 1740,
+        "wires": [
+            [
+                "c603ccf7263b6cc0"
+            ]
+        ]
+    },
+    {
+        "id": "c603ccf7263b6cc0",
+        "type": "subflow:85f954b04cbf1a86",
+        "z": "8f32aaab05a0cf37",
+        "name": "",
+        "x": 1000,
+        "y": 1740,
+        "wires": [
+            [
+                "53c5da69417d132c"
+            ]
+        ]
+    },
+    {
+        "id": "53c5da69417d132c",
+        "type": "json",
+        "z": "8f32aaab05a0cf37",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1130,
+        "y": 1730,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e38b0198d57bef75",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Convert charge value",
+        "func": "var value = msg.payload ;\n//var convert = (msg.payload << 16) >> 16 ;\n\nif (value > 2000) {(value = value - (65536 ))\n}\n//else if (value < 2000) {(value = value )}\nreturn [{ payload: value }]\n\n// Input: msg.payload = 64324\n// msg.payload = (msg.payload << 16) >> 16;\n\n// Output: msg.payload = -1212\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 640,
+        "wires": [
+            [
+                "6a876bc9bc3262e7"
+            ]
+        ]
+    },
+    {
+        "id": "f5799e670d18983f",
+        "type": "function",
+        "z": "8f32aaab05a0cf37",
+        "g": "6f3b06f9eece4ad3",
+        "name": "Convert charge value",
+        "func": "var value = msg.payload ;\n//var convert = (msg.payload << 16) >> 16 ;\n\nif (value > 2000) {(value = value - (65536 ))\n}\n//else if (value < 2000) {(value = value )}\nreturn [{ payload: value }]\n\n// Input: msg.payload = 64324\n// msg.payload = (msg.payload << 16) >> 16;\n\n// Output: msg.payload = -1212\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 750,
+        "wires": [
+            [
+                "36c5487010a1bd25"
+            ]
+        ]
+    },
+    {
+        "id": "2c30472e5c3e4bab",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "name": "another option for the same",
+        "info": "",
+        "x": 490,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "1377251758eb852e",
+        "type": "comment",
+        "z": "8f32aaab05a0cf37",
+        "name": "testing write to marstek modbus",
+        "info": "",
+        "x": 620,
+        "y": 1430,
+        "wires": []
+    },
+    {
+        "id": "6f5618204a535f33",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "dca5125.1377bf",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9a3cf49ffa732650",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "4fb0db5cea9cd881",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3c22a48f8b9bb41b",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "4fb0db5cea9cd881",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "604312073c2c27a8",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "337a5786b63541f1",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "450b9da8a556f3f8",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "337a5786b63541f1",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "85bcebbd1a613442",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "337a5786b63541f1",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0504976c7fd449ee",
+        "type": "ui_spacer",
+        "z": "8f32aaab05a0cf37",
+        "name": "spacer",
+        "group": "d15c50bb.6b0f38",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "67aa8a7899544f4d",
+        "type": "modbus-client",
+        "name": "Marstek 1",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.178.7",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 3,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "076ca4c29c17cd9f",
+        "type": "modbus-client",
+        "name": "Marstek 2",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.178.8",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "337a5786b63541f1",
+        "type": "ui_group",
+        "name": "Marstek",
+        "tab": "cccf47e4.857ec8",
+        "order": 6,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "dca5125.1377bf",
+        "type": "ui_group",
+        "name": "Solar",
+        "tab": "cccf47e4.857ec8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "4fb0db5cea9cd881",
+        "type": "ui_group",
+        "name": "SMA  settings",
+        "tab": "cccf47e4.857ec8",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "d15c50bb.6b0f38",
+        "type": "ui_group",
+        "name": "kWh Meter",
+        "tab": "cccf47e4.857ec8",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "cccf47e4.857ec8",
+        "type": "ui_tab",
+        "name": "Energy",
+        "icon": "battery_charging_60",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "532d3f38b3ccfcc1",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-modbus": "5.45.2",
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-boolean-logic-ultimate": "1.2.3"
+        }
+    }
+]
