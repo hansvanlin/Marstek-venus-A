@@ -1,5 +1,12 @@
 # Marstek-venus-A
 Node-red script with UI to control the Marstek venus A
+\
+Simple UI to control self or manual mode without diging deep into marstek app to toggle the options.
+The flow is easy to adapt to your needs.
+If the modbus becomes more clear what registers to use I will adapt the UI.
+\
+The flow makes use of the "node-red-contrib-modbus" nodes.
+Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
 Link to the latest flows: https://github.com/hansvanlin/Marstek-venus-A
 
