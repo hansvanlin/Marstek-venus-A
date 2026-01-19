@@ -20,3 +20,6 @@ flow Reading modbus registers:
 
 flow Write to modbus registers:\
 <img width="394" height="111" alt="image" src="https://github.com/user-attachments/assets/364ea11a-faab-4a28-a08a-7c846669ba1c" />
+
+example with exported SOC and Power to domoticz:
+<img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
