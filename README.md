@@ -8,10 +8,11 @@ If the modbus becomes more clear what registers to use I will adapt the UI.
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
-Link to the latest flows: https://github.com/hansvanlin/Marstek-venus-A
+Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 
+Added controll options:
+<img width="310" height="610" alt="image" src="https://github.com/user-attachments/assets/143c323d-58e9-4f7f-bb1d-eb8b5667b61a" />
 
-<img width="336" height="614" alt="image" src="https://github.com/user-attachments/assets/e7146a2f-35ea-4cc5-a000-e29ee7e08201" />
 
 <img width="305" height="553" alt="image" src="https://github.com/user-attachments/assets/8e04afda-6203-47ef-8d6a-4fe83944eb1f" />
 
