@@ -1,6 +1,8 @@
 # Marstek-venus-A
 Node-red script with UI to control the Marstek venus A
 \
+How to use Node-red: https://nodered.org
+\
 Simple UI to control self or manual mode without diging deep into marstek app to toggle the options.
 The flow is easy to adapt to your needs.
 If the modbus becomes more clear what registers to use I will adapt the UI.
