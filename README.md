@@ -14,7 +14,6 @@ Added controll options:
 <img width="310" height="610" alt="image" src="https://github.com/user-attachments/assets/143c323d-58e9-4f7f-bb1d-eb8b5667b61a" />
 
 
-<img width="305" height="553" alt="image" src="https://github.com/user-attachments/assets/8e04afda-6203-47ef-8d6a-4fe83944eb1f" />
 
 flow Reading modbus registers:
 <img width="942" height="435" alt="image" src="https://github.com/user-attachments/assets/df028d9e-af0f-4dcd-aaa3-959b4411bb5b" />
