@@ -12,6 +12,11 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 
 Added controll options:\
 <img width="310" height="610" alt="image" src="https://github.com/user-attachments/assets/143c323d-58e9-4f7f-bb1d-eb8b5667b61a" />
+Force Mode:\
+First switch on Force Mode\
+Select in the pull down menu one off the options eg:discharge\
+Then use the slider to which level it should discharge eg: 20%\
+For charge use 80-100%\
 
 
 
