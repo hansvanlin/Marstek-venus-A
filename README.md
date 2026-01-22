@@ -13,6 +13,12 @@ Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
 Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 
+Real use case example:
+\
+<img width="1665" height="945" alt="image" src="https://github.com/user-attachments/assets/0e5ae802-c011-44dc-9f44-feb499d9e9da" />
+
+
+
 Added controll options:\
 <img width="310" height="610" alt="image" src="https://github.com/user-attachments/assets/143c323d-58e9-4f7f-bb1d-eb8b5667b61a" />\
 Force Mode:\
