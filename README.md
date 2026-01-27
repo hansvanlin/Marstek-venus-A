@@ -13,6 +13,7 @@ Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
 Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 \
+\
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
 
