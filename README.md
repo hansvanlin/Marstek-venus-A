@@ -1,5 +1,5 @@
 # Marstek-venus-A
-Node-red script with UI to control the Marstek venus A (Tested with firmware 144 and 147) \
+Node-red script with UI to control the Marstek venus A (Tested with firmware 144) \
 \
 \
 How to use Node-red: https://nodered.org \
