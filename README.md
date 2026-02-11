@@ -33,7 +33,7 @@ Force Mode:\
 First switch on Force Mode\
 Select in the pull down menu one off the options eg:discharge\
 Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%) \
-\
+
 
 
 
