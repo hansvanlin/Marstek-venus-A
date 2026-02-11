@@ -5692,6 +5692,7 @@
         "id": "5bffb65b3244a15f",
         "type": "ui_slider",
         "z": "25e2799f16e25ca7",
+        "d": true,
         "g": "04d824f9dca96fed",
         "name": "Limit B3 Testing purpose",
         "label": "SOC B3 test",
@@ -6423,7 +6424,7 @@
         "hidden": false
     },
     {
-        "id": "253c1b0337285fec",
+        "id": "5bee8ec177e58d9b",
         "type": "global-config",
         "env": [],
         "modules": {
