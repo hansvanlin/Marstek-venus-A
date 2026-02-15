@@ -25,9 +25,7 @@ Real use case example:
 
 Added controll options:\
 <img width="342" height="685" alt="image" src="https://github.com/user-attachments/assets/bb36913a-5f81-40d8-bd4d-c4c05fa15cec" />
-\
-Auto Antifeed: Stops charging / discharging when min or max limit is reached,\
-starting in the morning charging again when there is enough Solar Power eg > 250W.\
+
 \
 Force Mode:\
 First switch on Force Mode\
