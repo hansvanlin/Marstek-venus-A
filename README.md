@@ -1,5 +1,5 @@
 # Marstek-venus-A
-Node-red script with UI to control the Marstek venus A (Tested with firmware 144 and 147) \
+Node-red script with UI to control the Marstek venus A (Tested with firmware 144, 147 and 147.3) \
 \
 \
 How to use Node-red: https://nodered.org \
@@ -16,15 +16,13 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
-\
-Real use case example:
-\
-<img width="1665" height="945" alt="image" src="https://github.com/user-attachments/assets/0e5ae802-c011-44dc-9f44-feb499d9e9da" />
-
-
 
 Added controll options:\
-<img width="342" height="685" alt="image" src="https://github.com/user-attachments/assets/bb36913a-5f81-40d8-bd4d-c4c05fa15cec" />
+<img width="269" height="584" alt="image" src="https://github.com/user-attachments/assets/0f3c34b8-3225-44c4-8865-cc7bde6c68c6" />
+
+\
+auto flow:
+<img width="828" height="470" alt="image" src="https://github.com/user-attachments/assets/50ccb0ac-f349-49a9-ae32-c2ad6f449fae" />
 
 \
 Force Mode:\
