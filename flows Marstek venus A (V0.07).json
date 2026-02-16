@@ -2598,8 +2598,7 @@
             [
                 "635f4aef4de285ed",
                 "589d1c05fe1734d7",
-                "f759776b1b1ac10c",
-                "4a27b3b4cdcf3ded"
+                "f759776b1b1ac10c"
             ]
         ]
     },
@@ -6797,7 +6796,7 @@
         "hidden": false
     },
     {
-        "id": "040fd8c46a68b939",
+        "id": "05ce5a3c1104954e",
         "type": "global-config",
         "env": [],
         "modules": {
