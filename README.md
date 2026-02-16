@@ -22,6 +22,7 @@ Added controll options:\
 
 \
 auto flow:
+\
 <img width="828" height="470" alt="image" src="https://github.com/user-attachments/assets/50ccb0ac-f349-49a9-ae32-c2ad6f449fae" />
 
 \
