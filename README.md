@@ -7,6 +7,10 @@ How to use Node-red: https://nodered.org \
 Simple UI to control self or manual mode without diging deep into marstek app to toggle the options.
 The flow is easy to adapt to your needs.
 If the modbus becomes more clear what registers to use I will adapt the UI.
+For now the script is using software ranges the target soc registers don't react yet on the values stored.
+Maybe in the future with different firmware it is different.
+If the limit is reached the mode is changed to manual. If in the morning enough solar is detected it 
+switches back to self mode for charging and back to manual if not enough is generated and back to self if it does.
 \
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
