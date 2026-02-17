@@ -23,7 +23,8 @@ Added controll options:\
 \
 auto flow:
 \
-<img width="828" height="470" alt="image" src="https://github.com/user-attachments/assets/50ccb0ac-f349-49a9-ae32-c2ad6f449fae" />
+<img width="1166" height="602" alt="image" src="https://github.com/user-attachments/assets/da741154-4bc0-433b-92bf-027f2f5e90b2" />
+
 
 \
 Force Mode:\
