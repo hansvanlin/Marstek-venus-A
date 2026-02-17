@@ -18,7 +18,8 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 \
 
 Added controll options:\
-<img width="269" height="584" alt="image" src="https://github.com/user-attachments/assets/0f3c34b8-3225-44c4-8865-cc7bde6c68c6" />
+<img width="482" height="1040" alt="image" src="https://github.com/user-attachments/assets/abe42db2-bcc5-49cc-a603-fd16c81a5e52" />
+
 
 \
 auto flow:
