@@ -27,8 +27,9 @@ Added status Leds:\
 \
 Red: Disabled\
 Pink: Enabled\
-Green: Value within limits or Solar above set trigger value\
-Yellow: Idle or no value detected yet.\
+Green: Value within limits or Solar high enough to charge\
+Yellow: Idle or no value detected yet.
+\
 
 
 Added controll options:\
