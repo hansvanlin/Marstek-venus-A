@@ -27,9 +27,9 @@ Added status Leds:\
 \
 Red: Disabled\
 Pink: Enabled\
-Green: within limits or solar above set trigger value\
+Green: Value within limits or Solar above set trigger value\
 Yellow: Idle or no value detected yet.\
-\
+
 
 Added controll options:\
 <img width="482" height="1040" alt="image" src="https://github.com/user-attachments/assets/abe42db2-bcc5-49cc-a603-fd16c81a5e52" />
