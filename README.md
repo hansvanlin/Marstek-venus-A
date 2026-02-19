@@ -30,6 +30,7 @@ Pink: Enabled\
 Green: Value within limits or Solar high enough to charge\
 Yellow: Idle or no value detected yet.
 \
+\
 
 
 Added controll options:\
