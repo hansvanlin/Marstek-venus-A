@@ -25,10 +25,10 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 Added status Leds:\
 <img width="429" height="1027" alt="image" src="https://github.com/user-attachments/assets/49de9165-c74c-4516-97c2-1f3690b7762e" />
 \
-Red: Disabled
-Pink: Enabled
-Green: within limits or solar above set trigger value
-Yellow: Idle or no value detected yet.
+Red: Disabled\
+Pink: Enabled\
+Green: within limits or solar above set trigger value\
+Yellow: Idle or no value detected yet.\
 \
 
 Added controll options:\
