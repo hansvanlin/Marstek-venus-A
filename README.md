@@ -35,7 +35,8 @@ Yellow: Idle or Solar not high enough.
 \
 auto flow:
 \
-<img width="1166" height="602" alt="image" src="https://github.com/user-attachments/assets/da741154-4bc0-433b-92bf-027f2f5e90b2" />
+<img width="1534" height="803" alt="image" src="https://github.com/user-attachments/assets/8141aa0a-eccf-467d-9edd-d249d7b16fa4" />
+
 
 
 \
