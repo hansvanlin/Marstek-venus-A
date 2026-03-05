@@ -20,6 +20,12 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
+Added Modbus " still alive " and scheduled auto reset/reboot function:\
+<img width="453" height="1042" alt="image" src="https://github.com/user-attachments/assets/e8a40892-193e-4ae4-b10a-74c9db88e38d" />\
+Red: communication error\
+Green: commnunication ok\
+Pink: communication ok, data not changed\
+Light green: communication ok, data has changed
 
 \
 Added status Leds:\
