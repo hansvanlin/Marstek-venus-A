@@ -1,5 +1,5 @@
 # Marstek-venus-A
-Node-red script with UI to control the Marstek venus A (Tested with firmware 144, 147, 147.3 and 147.7) \
+Node-red script with UI to control the Marstek venus A (Tested with firmware 144, 147, 147.3, 147.7 and 148) \
 My Experience is that firmware 147.7 responds better with start charging (in self mode when requested by the script).
 \
 How to use Node-red: https://nodered.org \
