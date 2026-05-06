@@ -6,11 +6,11 @@ How to use Node-red: https://nodered.org \
 \
 Simple UI to control self or manual mode without diging deep into marstek app to toggle the options.
 The flow is easy to adapt to your needs.
-If the modbus becomes more clear what registers to use I will adapt the UI.
 For now the script is using software ranges the target soc registers don't react yet on the values stored.
 Maybe in the future with different firmware it is different.
 If the limit is reached the mode is changed to manual. If in the morning enough solar is detected it 
 switches back to self mode for charging and back to manual if not enough is generated and back to self if it does.
+Started to implement Price based mode, using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive hours to discharge max power and save some capacity for self mode.
 \
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
@@ -21,7 +21,8 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
 Added Modbus " still alive " and scheduled auto reset/reboot function:\
-<img width="453" height="1042" alt="image" src="https://github.com/user-attachments/assets/e8a40892-193e-4ae4-b10a-74c9db88e38d" />\
+<img width="242" height="584" alt="image" src="https://github.com/user-attachments/assets/81deab9c-402a-4717-a78d-0fed46f7e416" />
+
 Modbus Leds:\
 Red: communication error\
 Green: commnunication ok\
