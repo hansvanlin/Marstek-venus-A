@@ -20,7 +20,8 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
-<img width="1278" height="576" alt="image" src="https://github.com/user-attachments/assets/41d70c5f-ac9e-4840-bb98-1ba98c3d3cea" />
+<img width="1604" height="449" alt="image" src="https://github.com/user-attachments/assets/3fc994dd-673b-413e-8a29-f1a5e8eb631c" />
+
 
 \
 Added Modbus " still alive " and scheduled auto reset/reboot function:\
