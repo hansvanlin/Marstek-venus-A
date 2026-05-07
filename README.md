@@ -20,6 +20,7 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
+\
 <img width="1604" height="449" alt="image" src="https://github.com/user-attachments/assets/3fc994dd-673b-413e-8a29-f1a5e8eb631c" />
 
 
