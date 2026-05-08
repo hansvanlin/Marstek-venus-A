@@ -10,6 +10,7 @@ For now the script is using software ranges the target soc registers don't react
 Maybe in the future with different firmware it is different.
 If the limit is reached the mode is changed to manual. If in the morning enough solar is detected it 
 switches back to self mode for charging and back to manual if not enough is generated and back to self if it does.
+\
 Started to implement Price based mode, using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive hours to discharge max power and save some capacity for self mode.
 \
 The flow makes use of the "node-red-contrib-modbus" nodes.
