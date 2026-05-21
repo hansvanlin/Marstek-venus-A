@@ -18,8 +18,10 @@ Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
 Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 \
+\
 Price Based result:
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
+\
 <img width="585" height="1026" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />
 \
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
