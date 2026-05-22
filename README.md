@@ -15,7 +15,8 @@ Started to implement Price based mode, using enever (zonneplan) day ahead prices
 \
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
-
+From version 0.1.5 a 3th battery is added since I'm going to buy a 3th set. Also it is easier to remove/ disable batteries tan adding them.
+\
 Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 \
 \
