@@ -20,6 +20,11 @@ From version 0.1.5 a 3th battery is added since I'm going to buy a 3th set.
 Also it is easier to remove/ disable batteries than adding them.
 \
 \
+> [!IMPORTANT]
+> **Firmware Update Workaround (Discharge Issue):**
+> If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
+\
+\
 Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 \
 \
