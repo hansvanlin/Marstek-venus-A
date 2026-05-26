@@ -27,7 +27,7 @@ This is now a basic version and power settings now need to be adapted in the flo
 \
 \
 > [!IMPORTANT]
-> **Firmware Update Workaround (Discharge Issue):**
+> **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
 > If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
 
 \
