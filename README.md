@@ -57,7 +57,8 @@ Orange is energy used from grid.
 
 \
 Added Modbus " still alive " and scheduled auto reset/reboot function:\
-<img width="242" height="584" alt="image" src="https://github.com/user-attachments/assets/81deab9c-402a-4717-a78d-0fed46f7e416" />
+<img width="266" height="668" alt="image" src="https://github.com/user-attachments/assets/8628b6df-1245-4225-b76e-3687c43c83ec" />
+
 
 Modbus Leds:\
 Red: communication error\
