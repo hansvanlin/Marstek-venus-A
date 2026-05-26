@@ -23,6 +23,9 @@ Due to the discharge bug I changed to different way of controlling the batteries
 This is now a basic version and power settings now need to be adapted in the flow but later it can be done in the UI. The power is now set to 1400W to avoid the bug.
 \
 \
+<img width="1866" height="849" alt="image" src="https://github.com/user-attachments/assets/dab7ba52-5fc6-49d3-9a71-0387e06a8484" />
+\
+\
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue):**
 > If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
