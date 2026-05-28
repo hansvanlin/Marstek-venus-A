@@ -40,7 +40,7 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
 \
-> ## **How to install:**
+> [!How to install:]
 > install Node-Red: https://nodered.org/docs/getting-started/
 > Open the node-red workspace @ http://localhost:1880
 > Install the missing nodes, not every node is default available in node-red
