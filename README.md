@@ -41,8 +41,7 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 \
 \
 \
-## **Some SrceenShots:**:
-\
+## **Some ScreenShots:**
 "Price Based Mode ON" result:\
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 \
