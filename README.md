@@ -41,12 +41,12 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 \
 \
 \
->[!## **How to Install:**]
->-Install Node-Red: https://nodered.org/docs/getting-started/
->-Open the node-red workspace @ http://localhost:1880
->-Install the missing nodes, not every node is default available in node-red
->-Import the zonneplan json file and the marstek json file and deploy
->-Adapt the modbus nodes for the correct Ip and port number 502
+>[!How to Install:]
+>-Install Node-Red: https://nodered.org/docs/getting-started/ \
+>-Open the node-red workspace @ http://localhost:1880 \
+>-Install the missing nodes, not every node is default available in node-red \
+>-Import the zonneplan json file and the marstek json file and deploy \
+>-Adapt the modbus nodes for the correct Ip and port number 502 \
 >-Open the UI @  http://localhost:1880/ui
   
 \
