@@ -78,29 +78,16 @@ Pink: Enabled\
 Green: Value within limits or Solar high enough to charge\
 Yellow: Idle or Solar not high enough.
 \
-\
-
-\
+\\
 auto flow:
 \
 <img width="1534" height="803" alt="image" src="https://github.com/user-attachments/assets/8141aa0a-eccf-467d-9edd-d249d7b16fa4" />
-
-
 
 \
 Force Mode:\
 First switch on Force Mode\
 Select in the pull down menu one off the options eg:discharge\
 Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%) \
-
-
-
-
-flow Reading modbus registers:
-<img width="942" height="435" alt="image" src="https://github.com/user-attachments/assets/df028d9e-af0f-4dcd-aaa3-959b4411bb5b" />
-
-flow Write to modbus registers:\
-<img width="394" height="111" alt="image" src="https://github.com/user-attachments/assets/364ea11a-faab-4a28-a08a-7c846669ba1c" />
 
 example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
