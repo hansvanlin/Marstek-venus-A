@@ -56,9 +56,6 @@ Marstek simple fast schedule write sequence:
 <img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
 \
 \
-<img width="1604" height="449" alt="image" src="https://github.com/user-attachments/assets/3fc994dd-673b-413e-8a29-f1a5e8eb631c" />
-
-
 \
 Added Modbus " still alive " and scheduled auto reset/reboot function:\
 <img width="265" height="1032" alt="image" src="https://github.com/user-attachments/assets/e6ce0539-3815-4147-8b77-e092493f9ac5" />
