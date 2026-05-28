@@ -3,7 +3,7 @@ Node-red script with UI to control the Marstek venus A (Tested up to firmware 14
 \
 How to use Node-red: https://nodered.org \
 \
-Simple UI to control self or manual mode without diging deep into marstek app to toggle the options.
+Simple UI to control the schedule modes (modbus schedule registers) without diging deep into marstek app to toggle the options.
 The flow is easy to adapt to your needs.
 For now the script is using software ranges the target soc registers don't react yet on the values stored.
 Maybe in the future with different firmware it is different.
