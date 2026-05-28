@@ -78,10 +78,6 @@ Pink: Enabled\
 Green: Value within limits or Solar high enough to charge\
 Yellow: Idle or Solar not high enough.
 \
-\\
-auto flow:
-\
-<img width="1534" height="803" alt="image" src="https://github.com/user-attachments/assets/8141aa0a-eccf-467d-9edd-d249d7b16fa4" />
 
 \
 Force Mode:\
