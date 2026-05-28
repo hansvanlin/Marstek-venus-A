@@ -20,7 +20,7 @@ From version 0.1.5 a 3th battery is added since I'm going to buy a 3th set.
 Also it is easier to remove/ disable batteries than adding them.
 \
 Due to the discharge bug I changed to different way of controlling the batteries. From version 0.1.7 I'm using the schedule's which I can change via Modbus.
-This is now a basic version and power settings now need to be adapted in the flow but later it can be done in the UI. The power is now set to 1400W to avoid the bug.
+In this version power settings can be set in the UI. The power can be set to 1500W in case it doesn't discharge try 1400W to avoid the fw bug.
 \
 \
 <img width="1866" height="849" alt="image" src="https://github.com/user-attachments/assets/dab7ba52-5fc6-49d3-9a71-0387e06a8484" />
