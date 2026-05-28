@@ -40,7 +40,8 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
 \
-###**Some SrceenShots**:
+\
+## **Some SrceenShots:**:
 \
 "Price Based Mode ON" result:\
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
