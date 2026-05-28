@@ -57,7 +57,8 @@ Orange is energy used from grid.
 
 \
 Added Modbus " still alive " and scheduled auto reset/reboot function:\
-<img width="266" height="668" alt="image" src="https://github.com/user-attachments/assets/8628b6df-1245-4225-b76e-3687c43c83ec" />
+<img width="265" height="1032" alt="image" src="https://github.com/user-attachments/assets/e6ce0539-3815-4147-8b77-e092493f9ac5" />
+
 
 
 Modbus Leds:\
