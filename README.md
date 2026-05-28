@@ -10,7 +10,7 @@ Maybe in the future with different firmware it is different.
 If the limit is reached the mode is changed to manual. If in the morning enough solar is detected it 
 switches back to self mode for charging and back to manual if not enough is generated and back to self if it does.
 \
-# **The UI has 3 modes:**\
+## **The UI has 3 modes:**
 ***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, MOM) and keep the SOC within min and max set value's.\
 ***. Price based mode:*** Using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive\    hours to discharge max power and save some capacity for self mode.\
 ***3. Charge PV:*** Charge the batteries whenever there is enough sun. Charge only without any feedback to the grid.\
