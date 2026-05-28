@@ -56,6 +56,7 @@ Marstek simple fast schedule write sequence:
 <img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
 \
 Pulldown menu items:
+\
 <img width="318" height="325" alt="image" src="https://github.com/user-attachments/assets/ef70cf06-a297-4bc6-b18c-2057ae50c545" />
 \
 \
