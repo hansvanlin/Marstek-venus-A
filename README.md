@@ -39,7 +39,7 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
-\
+
 ## How to Install
 
 1. Install Node-RED
@@ -66,11 +66,11 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 7. Open the dashboard UI
    http://localhost:1880/ui
 
+
+
 \
 \
-\
-\
-\
+
 ## **Some ScreenShots:**
 "Price Based Mode ON" result:\
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
