@@ -46,16 +46,15 @@ Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 <img width="585" height="1026" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />
 \
 \
-Marstek simple fast schedule write sequence:
-<img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
-\
 \
 Orange is energy used from grid.
 \
 \
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
 \
-
+Marstek simple fast schedule write sequence:
+<img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
+\
 \
 <img width="1604" height="449" alt="image" src="https://github.com/user-attachments/assets/3fc994dd-673b-413e-8a29-f1a5e8eb631c" />
 
