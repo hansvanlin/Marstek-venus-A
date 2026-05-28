@@ -40,14 +40,32 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 \
 \
-> [!How to install:]
-> install Node-Red: https://nodered.org/docs/getting-started/
-> Open the node-red workspace @ http://localhost:1880
-> Install the missing nodes, not every node is default available in node-red
-> Import the zonneplan json file and the marstek json file and deploy
-> Adapt the modbus nodes for the correct Ip and port number 502
-> Open the UI @  http://localhost:1880/ui
- 
+## How to Install
+
+1. Install Node-RED
+   https://nodered.org/docs/getting-started/
+
+2. Open the Node-RED workspace
+   http://localhost:1880
+
+3. Install the missing nodes
+   Not every node is included by default in Node-RED.
+
+4. Import the flow files
+
+   * Import the Zonneplan JSON file
+   * Import the Marstek JSON file
+
+5. Deploy the flows
+
+6. Configure the Modbus nodes
+
+   * Set the correct IP address
+   * Use port `502`
+
+7. Open the dashboard UI
+   http://localhost:1880/ui
+
 \
 \
 \
