@@ -68,11 +68,12 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 
 
 
-\
+
 ## **Write Schedule Methode:**
 Marstek Mode Controller Schedule Registers
 \
 The Mode Controller creates and activates a schedule by writing the following Modbus registers.
+\
 \
 Register| Value| Description\
 43100| 127| Active days bitmask (Monday-Sunday)\
