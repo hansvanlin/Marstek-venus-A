@@ -26,7 +26,7 @@ Due to the discharge bug I changed to different way of controlling the batteries
 From version 0.1.7 I'm using the Marstek schedule's which I can change via Modbus registers 43100-43104. These registers are written in one command thru the "Marstek Mode controller" node.
 \
 \
-In this version power settings can be set in the UI. The power can be set to 1500W in case it doesn't discharge try 1400W to avoid the fw bug.
+In this version power settings can be set in the UI. The power can be set from 100W to 1500W in case it doesn't discharge try 1400W to avoid the fw bug.
 \
 \
 <img width="1866" height="849" alt="image" src="https://github.com/user-attachments/assets/dab7ba52-5fc6-49d3-9a71-0387e06a8484" />
@@ -34,7 +34,7 @@ In this version power settings can be set in the UI. The power can be set to 150
 \
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
-> If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
+> If discharg,ing at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
 
 \
 \
@@ -46,7 +46,7 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 
 ## How to Install:
 
-1. Install Node-RED
+1. InstWall Node-RED
    https://nodered.org/docs/getting-started/
 
 2. Open the Node-RED workspace
