@@ -6,6 +6,7 @@ How to use Node-red: https://nodered.org \
 Simple UI to control the schedule modes (modbus schedule registers) without diging deep into marstek app to toggle the options.
 
 
+
 ## **The UI has 3 modes:**
 ***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, NOM) and keep the SOC within min and max set value's.
 
