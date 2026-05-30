@@ -118,16 +118,13 @@ Disabled| N/A| 64036\
 Write Sequence
 \
 The controller writes the registers in the following order:
-\
+
 1. Disable schedule ("43104 = 0")
 2. Set active days ("43100 = 127")
 3. Set start time ("43101 = 0000")
 4. Set end time ("43102 = 2359")
 5. Set mode/power value ("43103")
 6. Enable schedule ("43104 = 1")
-\
-\
-A delay of 350 ms is used between writes to ensure reliable processing by the inverter.
 \
 \
 ## **Some ScreenShots:**
