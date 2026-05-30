@@ -125,7 +125,7 @@ The controller writes the registers in the following order:
 4. Set end time ("43102 = 2359")
 5. Set mode/power value ("43103")
 6. Enable schedule ("43104 = 1")
-\
+
 \
 ## **Some ScreenShots:**
 "Price Based Mode ON" result:\
