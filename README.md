@@ -71,7 +71,7 @@ Requirements\
 •Local network connection\
 •Battery with P1 meter
 
-## How to Install:
+## 🏗️ How to Install:
 
 1. Install Node-RED
    https://nodered.org/docs/getting-started/
