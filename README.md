@@ -29,7 +29,7 @@ Simple UI to control the schedule modes (modbus schedule registers 43100-43104) 
 
 ***3. Charge PV:*** Charge the batteries whenever there is enough sun. Charge only without any feedback to the grid.
 
-***4. Force mode:*** Control the batteries with the special registers 42000-42022 & 44002-44003, where rs485 must be enabled.
+***4. Force mode:*** Control the batteries with the special registers where rs485 must be enabled.
 
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
