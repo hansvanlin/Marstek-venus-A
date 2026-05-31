@@ -45,7 +45,7 @@ Requirements\
 •Raspbery pi or other small pc \
 •Node-red\
 •Imported flows\
-•Local network connection\
+•Local network connection
 
 ## How to Install:
 
