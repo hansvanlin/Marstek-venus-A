@@ -25,7 +25,7 @@ Simple UI to control the schedule modes (modbus schedule registers 43100-43104) 
 ## **The UI has 4 modes:**
 ***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, NOM) and keep the SOC within min and max set value's.
 
-***2. Price based mode:*** Using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive hours to discharge max power and save some capacity for self mode.
+***2. Price based mode:*** Using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive hours to discharge max power and save some capacity for antifeed mode. Other hours are standby or antifeed mode.
 
 ***3. Charge PV:*** Charge the batteries whenever there is enough sun. Charge only without any feedback to the grid.
 
