@@ -40,10 +40,16 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 \
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 
+## Quick start
+Requirements
+•Raspbery pi or other small pc 
+•Node-red
+•Imported flows
+•Local network connection
 
 ## How to Install:
 
-1. InstWall Node-RED
+1. Install Node-RED
    https://nodered.org/docs/getting-started/
 
 2. Open the Node-RED workspace
