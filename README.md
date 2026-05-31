@@ -3,7 +3,7 @@
 Node-RED dashboard and Modbus control flow
 for local control of the Marstek Venus A battery.
 
-🔧Features:
+🔧 Features:
 - Local control
 - Charge / Discharge
 - AntiFeed
