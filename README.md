@@ -267,7 +267,7 @@ Yellow: Idle or Solar not high enough.
 ### Force Mode:
 First switch on Force Mode\
 Select in the pull down menu one off the options eg:discharge\
-Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%) \
+Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%)
 
 ### Example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
