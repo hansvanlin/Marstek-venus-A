@@ -62,7 +62,7 @@ https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 
 https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 
-▶️## Quick start
+## ▶️ Quick start
 Requirements\
 •Raspbery pi or other small pc \
 •Optional domoticz or HomeAssistant installed\
@@ -100,7 +100,7 @@ Requirements\
 
 
 
-💡## **Write Schedule Method:**
+## 💡 **Write Schedule Method:**
 Marstek Mode Controller Schedule Registers
 \
 The Mode Controller creates and activates a schedule by writing the following Modbus registers.
