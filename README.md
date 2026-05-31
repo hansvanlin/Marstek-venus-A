@@ -41,11 +41,11 @@ Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripow
 Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 
 ## Quick start
-Requirements
-•Raspbery pi or other small pc 
-•Node-red
-•Imported flows
-•Local network connection
+Requirements\
+•Raspbery pi or other small pc \
+•Node-red\
+•Imported flows\
+•Local network connection\
 
 ## How to Install:
 
