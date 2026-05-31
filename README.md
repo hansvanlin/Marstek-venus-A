@@ -17,18 +17,20 @@ Node-red script with UI to control the Marstek venus A (Tested up to firmware 14
 \
 (How to use Node-red: https://nodered.org )\
 \
-Simple UI to control the schedule modes (modbus schedule registers) without diging deep into marstek app to toggle the options.
+Simple UI to control the schedule modes (modbus schedule registers 41100-41104) without diging deep into marstek app to toggle the options.
 
 <img width="577" height="1805" alt="Screenshot_20260530_224551_Gallery" src="https://github.com/user-attachments/assets/a4b45200-8de4-4cd4-a87b-0fdbe3b85251" />
 
 
-## **The UI has 3 modes:**
+## **The UI has 4 modes:**
 ***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, NOM) and keep the SOC within min and max set value's.
 
 ***2. Price based mode:*** Using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive\    hours to discharge max power and save some capacity for self mode.
 
 ***3. Charge PV:*** Charge the batteries whenever there is enough sun. Charge only without any feedback to the grid.\
-\
+
+***4. Force mode:*** Control the batteries with the special registers 42000-42022 & 44002-44003, where rs485 must be enabled.
+
 The flow makes use of the "node-red-contrib-modbus" nodes.
 Adapt the marstek Ip number to your "your Ip number" with port ":502"
 \
@@ -45,7 +47,7 @@ Dis/Charge Power setting can be set in the UI. The power can be set from 100W to
 
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
-> If discharg,ing at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
+> If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
 
 
 ## Related Projects
