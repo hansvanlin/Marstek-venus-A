@@ -140,37 +140,41 @@ The controller writes the registers in the following order:
 ## **Some ScreenShots:**
 
 ### **Flow for reading all the data from the modbus registers**
+
 <img width="1319" height="763" alt="image" src="https://github.com/user-attachments/assets/d1367478-e9c4-4314-bc10-193fab94c35a" />
 
 ### **Flow for processing and contolling the batteries**
+
 <img width="909" height="779" alt="image" src="https://github.com/user-attachments/assets/7834c48e-a141-48d7-948e-f5056c33d18c" />
 
 
 
-"Price Based Mode ON" result:\
+### **Price Based Mode ON** result:
+
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
-\
+
 <img width="585" height="1026" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />
 \
 \
 \
-Orange is energy used from grid.
-\
-\
+### Orange is energy used from grid.
+
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
 \
 \
-Pulldown menu items:
-\
+### Pulldown menu items:
+
 <img width="318" height="325" alt="image" src="https://github.com/user-attachments/assets/ef70cf06-a297-4bc6-b18c-2057ae50c545" />
 \
 \
-Added Modbus " still alive " and scheduled auto reset/reboot function:\
+### Added Modbus " still alive " and scheduled auto reset/reboot function:
+
 <img width="265" height="1032" alt="image" src="https://github.com/user-attachments/assets/e6ce0539-3815-4147-8b77-e092493f9ac5" />
 
 
 
-Modbus Leds:\
+### Modbus Leds:
+
 Red: communication error\
 Green: commnunication ok\
 Pink: communication ok, data not changed\
