@@ -36,7 +36,7 @@ Adapt the marstek Ip number to your "your Ip number" with port ":502"
 \
 \
 Due to the discharge bug I changed to different way of controlling the batteries. 
-From version 0.1.7 I'm using one of the Marstek schedule's and configure it via Modbus registers 43100-43104. These registers are written in one command thru the "Marstek Mode controller" node.
+From version 0.1.7 I'm using one of the Marstek schedule's and dynamically configure it via Modbus registers 43100-43104. These registers are written in one command thru the "Marstek Mode controller" node.
 \
 Marstek simple fast schedule write sequence:
 <img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
