@@ -5,6 +5,7 @@ How to use Node-red: https://nodered.org \
 \
 Simple UI to control the schedule modes (modbus schedule registers) without diging deep into marstek app to toggle the options.
 
+<img width="577" height="1805" alt="Screenshot_20260530_224551_Gallery" src="https://github.com/user-attachments/assets/a4b45200-8de4-4cd4-a87b-0fdbe3b85251" />
 
 
 ## **The UI has 3 modes:**
