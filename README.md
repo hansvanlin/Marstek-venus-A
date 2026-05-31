@@ -47,12 +47,18 @@ Dis/Charge Power setting can be set in the UI. The power can be set from 100W to
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
 > If discharg,ing at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
 
-\
-\
-Check also my updated Inverter Control: https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
-\
-\
-Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
+
+## Related Projects
+
+### SMA Active Power Control
+
+For active PV power limiting and dynamic export control:
+
+https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
+
+### Modbus test tool: 
+
+https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 
 ## Quick start
 Requirements\
