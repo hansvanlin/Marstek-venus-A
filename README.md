@@ -162,6 +162,40 @@ The controller writes the registers in the following order:
 
 It's also posible to use the more common method via Force mode.
 
+## **Rationale: Control Methods**
+
+### Schedule Control (Recommended)
+
+Uses the internal schedule registers:
+
+- 43100 Day Mask
+- 43101 Start Time
+- 43102 End Time
+- 43103 Power/Mode
+- 43104 Enable
+
+Advantages:
+- Stable
+- Works on multiple firmware versions
+- Supports local automation
+
+### Force Mode
+
+Uses direct control registers:
+
+- 42000 RS485 Enable
+- 42011 Target SOC
+- 42021 Force Mode / Discharge Power
+- 42022 Charge Power
+
+Advantages:
+- Direct battery control
+- Target SOC support
+
+Notes:
+- Behaviour may differ between firmware versions.
+- Some firmware versions show inconsistent discharge behaviour at higher power levels.
+
 ## Important Modbus Registers used
 
 | Register | Access | Description |
