@@ -1,3 +1,15 @@
+# Marstek Venus A Controller
+
+Node-RED dashboard and Modbus control flow
+for local control of the Marstek Venus A battery.
+\
+Features:\
+- Local control\
+- Charge / Discharge\
+- AntiFeed\
+- Schedule control\
+- Modbus register access
+
 # Marstek-venus-A
 Node-red script with UI to control the Marstek venus A (Tested up to firmware 149)
 \
