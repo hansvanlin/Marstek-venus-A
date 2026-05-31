@@ -162,7 +162,7 @@ The controller writes the registers in the following order:
 
 It's also posible to use the more common method via Force mode.
 
-## **Rationale: Control Methods**
+## 💡 **Rationale: Control Methods**
 
 ### Schedule Control (Recommended)
 
@@ -196,7 +196,7 @@ Notes:
 - Behaviour may differ between firmware versions.
 - Some firmware versions show inconsistent discharge behaviour at higher power levels.
 
-## Important Modbus Registers used
+## 💡 Important Modbus Registers used
 
 | Register | Access | Description |
 |-----------|--------|-------------|
