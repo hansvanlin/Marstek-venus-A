@@ -27,7 +27,7 @@ Marstek simple fast schedule write sequence:
 \
 \
 Dis/Charge Power setting can be set in the UI. The power can be set from 100W to 1500W in case it doesn't discharge try 1400W to avoid the fw bug.
-\
+
 
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
