@@ -154,19 +154,15 @@ The controller writes the registers in the following order:
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 
 <img width="585" height="1026" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />
-\
-\
-\
+
 ### Orange is energy used from grid.
 
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
-\
-\
+
 ### Pulldown menu items:
 
 <img width="318" height="325" alt="image" src="https://github.com/user-attachments/assets/ef70cf06-a297-4bc6-b18c-2057ae50c545" />
-\
-\
+
 ### Added Modbus " still alive " and scheduled auto reset/reboot function:
 
 <img width="265" height="1032" alt="image" src="https://github.com/user-attachments/assets/e6ce0539-3815-4147-8b77-e092493f9ac5" />
@@ -180,21 +176,19 @@ Green: commnunication ok\
 Pink: communication ok, data not changed\
 Light green: communication ok, data has changed
 
-\
-Added status Leds:\
+
+### Added status Leds:
 <img width="429" height="1027" alt="image" src="https://github.com/user-attachments/assets/49de9165-c74c-4516-97c2-1f3690b7762e" />
-\
+
 Red: Disabled\
 Pink: Enabled\
 Green: Value within limits or Solar high enough to charge\
 Yellow: Idle or Solar not high enough.
-\
 
-\
-Force Mode:\
+### Force Mode:
 First switch on Force Mode\
 Select in the pull down menu one off the options eg:discharge\
 Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%) \
 
-example with exported SOC and Power to domoticz:
+### Example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
