@@ -10,7 +10,7 @@ Features:
 - Schedule control
 - Modbus register access
 
-# Marstek-venus-A
+## Dashboard
 Node-red script with UI to control the Marstek venus A (Tested up to firmware 149)
 \
 (How to use Node-red: https://nodered.org )\
