@@ -9,6 +9,7 @@ Features:
 - AntiFeed
 - Price based control
 - Schedule control
+- Force mode control
 - Modbus register access
 
 ## Dashboard
@@ -149,6 +150,29 @@ The controller writes the registers in the following order:
 5. Set mode/power value ("43103")
 6. Enable schedule ("43104 = 1")
 
+## **Force Mode**
+
+It's also posible to use the more common method via Force mode.
+
+## Important Modbus Registers used
+
+| Register | Access | Description |
+|-----------|--------|-------------|
+| 30006 | R | Charge / Discharge Power |
+| 32104 | R | Battery SOC |
+| 35000 | R | Internal Temperature |
+| 35100 | R | Battery State |
+| 42000 | W | RS485 Enable / Disable |
+| 42011 | W | Target SOC |
+| 42021 | W | Force Mode / Discharge Power |
+| 42022 | W | Charge Power |
+| 43100 | W | Schedule Day Bitmask |
+| 43101 | W | Schedule Start Time |
+| 43102 | W | Schedule End Time |
+| 43103 | W | Schedule Mode / Power |
+| 43104 | W | Schedule Enable |
+| 44002 | W | Max Charge Power |
+| 44003 | W | Max Discharge Power |
 
 ## **Some ScreenShots:**
 
