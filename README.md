@@ -65,7 +65,7 @@ https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 ## Quick start
 Requirements\
 •Raspbery pi or other small pc \
-•Nice if domoticz or HomeAssistant is installed\
+•Optional domoticz or HomeAssistant installed\
 •Node-red\
 •Imported flows\
 •Local network connection\
