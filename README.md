@@ -195,6 +195,6 @@ Then use the slider to which level it should discharge eg: 20% (For charge use 8
 
 > [!DISCLAIMER]
 > **Use at your own risk**
->Start with low power values
->Change the maximum values according eg 800W or 1500W. You can change the maxima in the slider node an marstek controller node.
+> Start with low power values
+> Change the maximum values according eg 800W > or 1500W. You can change the maxima in the > slider node an marstek controller node.
 
