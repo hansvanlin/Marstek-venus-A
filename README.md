@@ -43,9 +43,11 @@ Modbus test tool: https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc6574
 ## Quick start
 Requirements\
 •Raspbery pi or other small pc \
+•Nice if domoticz or HomeAssistant is installed\
 •Node-red\
 •Imported flows\
-•Local network connection
+•Local network connection\
+•Battery with P1 meter
 
 ## How to Install:
 
