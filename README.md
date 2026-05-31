@@ -28,7 +28,7 @@ Marstek simple fast schedule write sequence:
 \
 Dis/Charge Power setting can be set in the UI. The power can be set from 100W to 1500W in case it doesn't discharge try 1400W to avoid the fw bug.
 \
-\
+
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
 > If discharg,ing at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
@@ -142,8 +142,6 @@ Orange is energy used from grid.
 \
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
 \
-Marstek simple fast schedule write sequence:
-<img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
 \
 Pulldown menu items:
 \
