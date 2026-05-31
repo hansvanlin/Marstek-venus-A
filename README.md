@@ -138,6 +138,12 @@ The controller writes the registers in the following order:
 
 
 ## **Some ScreenShots:**
+
+###**Flow for reading all the data from the modbus registers**
+<img width="1319" height="763" alt="image" src="https://github.com/user-attachments/assets/d1367478-e9c4-4314-bc10-193fab94c35a" />
+
+\
+
 "Price Based Mode ON" result:\
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 \
