@@ -7,6 +7,7 @@ Features:
 - Local control
 - Charge / Discharge
 - AntiFeed
+- Price based control
 - Schedule control
 - Modbus register access
 
