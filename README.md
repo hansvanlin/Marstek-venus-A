@@ -193,8 +193,10 @@ Then use the slider to which level it should discharge eg: 20% (For charge use 8
 ### Example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
 
+>
 > [!DISCLAIMER]
-> **Use at your own risk**
-> Start with low power values
+> **Use at your own risk** \
+> Start with low power values 
 > Change the maximum values according eg 800W > or 1500W. You can change the maxima in the > slider node an marstek controller node.
+>
 
