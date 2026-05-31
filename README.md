@@ -139,10 +139,10 @@ The controller writes the registers in the following order:
 
 ## **Some ScreenShots:**
 
-###**Flow for reading all the data from the modbus registers**
+### **Flow for reading all the data from the modbus registers**
 <img width="1319" height="763" alt="image" src="https://github.com/user-attachments/assets/d1367478-e9c4-4314-bc10-193fab94c35a" />
 
-###**Flow for processing and contolling the batteries**
+### **Flow for processing and contolling the batteries**
 <img width="909" height="779" alt="image" src="https://github.com/user-attachments/assets/7834c48e-a141-48d7-948e-f5056c33d18c" />
 
 
