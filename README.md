@@ -106,7 +106,7 @@ Marstek Mode Controller Schedule Registers
 \
 The Mode Controller creates and activates a schedule by writing the following Modbus registers.
 \
-\
+
 |Register|Value|Description|
 |-----|-----|---------------------------------|
 |43100| 127| Active days bitmask (Monday-Sunday)|
@@ -141,7 +141,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |2| Discharge| Power value (100-1500 W)|
 |3| Charge| 65536 - Power value|
 
-|Examples|     |              |
+|Examples:|     |              |
 |--|---|----------------------|
 |Mode| Power| Register 43103|
 |AntiFeed| N/A| 65535|
@@ -149,9 +149,9 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |Charge| 800 W| 64736|
 |Disabled| N/A| 64036|
 
-|Write Sequence|
+|Write Sequence:|
 |----------------------|
-|he controller writes the registers in the following order:|
+|the controller writes the registers in the following order:|
 |1. Disable schedule ("43104 = 0")|
 |2. Set active days ("43100 = 127")|
 |3. Set start time ("43101 = 0000")|
