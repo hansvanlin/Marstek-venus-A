@@ -84,6 +84,7 @@ Requirements\
 
    * Import the Zonneplan JSON file
    * Import the Marstek JSON file
+   * Import the Battery tooling JSON file
 
 5. Deploy the flows
 
