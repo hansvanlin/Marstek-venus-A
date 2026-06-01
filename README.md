@@ -107,7 +107,7 @@ Marstek Mode Controller Schedule Registers
 The Mode Controller creates and activates a schedule by writing the following Modbus registers.
 \
 \
-|Register| Value| Description|
+|Register|Value|Description|
 |-----|-----|---------------------------------|
 |43100| 127| Active days bitmask (Monday-Sunday)|
 |43101| 0000| Start time (HHMM)|
@@ -115,7 +115,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |43103| Mode dependent| Power or control value|
 |43104| 0 / 1| Schedule enable (0 = disabled, 1 = enabled)|
 
-|Day| Bitmask | (Register 43100)|
+|Day|Bitmask |(Register 43100)|
 |-----|-----|---------------------------------|
 |Bit| Value| Day|
 0| 1| Monday|
