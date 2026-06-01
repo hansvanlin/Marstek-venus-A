@@ -108,7 +108,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 
 
 |Register|Value|Description|
-|-----|-----|---------------------------------|
+|:-----|:-----|:---------------------------------|
 |43100| 127| Active days bitmask (Monday-Sunday)|
 |43101| 0000| Start time (HHMM)|
 |43102| 2359| End time (HHMM)|
@@ -116,7 +116,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |43104| 0 / 1| Schedule enable (0 = disabled, 1 = enabled)|
 
 |Day|Bitmask |(Register 43100)|
-|--|---|----------------------|
+|:--|:---|:----------------------|
 |Bit| Value| Day|
 0| 1| Monday|
 1| 2| Tuesday|
@@ -127,14 +127,14 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 6| 64| Sunday|
 
 |Example:|    |
-|---|---------|
+|:---|:---------|
 |Value| Active Days|
 |127| Monday-Sunday|
 |31| Monday-Friday|
 |96| Saturday-Sunday|
 
 |Mode|Values| (Register 43103)|
-|--|---|----------------------|
+|:--|:---|:----------------------|
 |Input Mode| Function| Register Value|
 |0| Disabled| 64036|
 |1| AntiFeed| 65535|
@@ -142,7 +142,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |3| Charge| 65536 - Power value|
 
 |Examples:|     |              |
-|--|---|----------------------|
+|:--|:---|:----------------------|
 |Mode| Power| Register 43103|
 |AntiFeed| N/A| 65535|
 |Discharge| 800 W| 800|
@@ -150,7 +150,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |Disabled| N/A| 64036|
 
 |Write Sequence:|
-|----------------------|
+|:----------------------|
 |the controller writes the registers in the following order:|
 |1. Disable schedule ("43104 = 0")|
 |2. Set active days ("43100 = 127")|
