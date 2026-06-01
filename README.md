@@ -108,23 +108,23 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 \
 \
 |Register| Value| Description|
-|------|-----|-------------------------------|
+|-----|-----|---------------------------------|
 |43100| 127| Active days bitmask (Monday-Sunday)|
 |43101| 0000| Start time (HHMM)|
 |43102| 2359| End time (HHMM)|
 |43103| Mode dependent| Power or control value|
 |43104| 0 / 1| Schedule enable (0 = disabled, 1 = enabled)|
-\
-Day Bitmask (Register 43100)\
-\
-Bit| Value| Day\
-0| 1| Monday\
-1| 2| Tuesday\
-2| 4| Wednesday\
-3| 8| Thursday\
-4| 16| Friday\
-5| 32| Saturday\
-6| 64| Sunday\
+
+|Day| Bitmask (Register 43100)|
+|-----|-----|---------------------------------|
+|Bit| Value| Day|
+0| 1| Monday|
+1| 2| Tuesday|
+2| 4| Wednesday|
+3| 8| Thursday|
+4| 16| Friday|
+5| 32| Saturday|
+6| 64| Sunday|
 \
 Example:\
 \
