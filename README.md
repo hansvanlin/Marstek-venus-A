@@ -125,13 +125,13 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 4| 16| Friday|
 5| 32| Saturday|
 6| 64| Sunday|
-\
+
 Example:\
-\
-Value| Active Days\
-127| Monday-Sunday\
-31| Monday-Friday\
-96| Saturday-Sunday\
+
+|Value| Active Days|
+|127| Monday-Sunday|
+|31| Monday-Friday|
+|96| Saturday-Sunday|
 \
 Mode Values (Register 43103)\
 \
