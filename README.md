@@ -200,7 +200,7 @@ Notes:
 ## ℹ️ Modbus Registers used
 
 | Register | Access | Description |
-|-----------|--------|-------------|
+|:-----------|:--------|:-------------|
 | 30006 | R | Charge / Discharge Power |
 | 32104 | R | Battery SOC |
 | 35000 | R | Internal Temperature |
