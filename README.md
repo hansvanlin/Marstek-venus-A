@@ -67,6 +67,7 @@ Requirements\
 •Raspberry pi or other small pc \
 •Optional domoticz or HomeAssistant installed\
 •Node-red\
+•node: node-red-contrib-modbus\
 •Imported flows\
 •Local network connection\
 •Battery with P1 meter
