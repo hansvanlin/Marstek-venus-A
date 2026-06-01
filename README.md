@@ -105,7 +105,7 @@ Requirements\
 Marstek Mode Controller Schedule Registers
 \
 The Mode Controller creates and activates a schedule by writing the following Modbus registers.
-\
+
 
 |Register|Value|Description|
 |-----|-----|---------------------------------|
