@@ -17,7 +17,7 @@ Node-red script with UI to control the Marstek venus A (Tested up to firmware 14
 \
 (How to use Node-red: https://nodered.org )\
 \
-Simple UI to control the schedule modes (modbus schedule registers 43100-43104) without diging deep into marstek app to toggle the options.
+Simple UI to control the schedule modes (modbus schedule registers 43100-43104) without digging deep into marstek app to toggle the options.
 
 <img width="577" height="1805" alt="Screenshot_20260530_224551_Gallery" src="https://github.com/user-attachments/assets/a4b45200-8de4-4cd4-a87b-0fdbe3b85251" />
 
@@ -64,7 +64,7 @@ https://flows.nodered.org/flow/e23f1387358c45281e10b83a8fc65744
 
 ## ▶️ Quick start
 Requirements\
-•Raspbery pi or other small pc \
+•Raspberry pi or other small pc \
 •Optional domoticz or HomeAssistant installed\
 •Node-red\
 •Imported flows\
@@ -160,7 +160,7 @@ The controller writes the registers in the following order:
 
 ## **Force Mode**
 
-It's also posible to use the more common method via Force mode.
+It's also possible to use the more common method via Force mode.
 
 ## ℹ️ **Rationale: Control Methods**
 
@@ -251,7 +251,7 @@ Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 ### Modbus Leds:
 
 Red: communication error\
-Green: commnunication ok\
+Green: communication ok\
 Pink: communication ok, data not changed\
 Light green: communication ok, data has changed
 
@@ -266,7 +266,7 @@ Yellow: Idle or Solar not high enough.
 
 ### Force Mode:
 First switch on Force Mode\
-Select in the pull down menu one off the options eg:discharge\
+Select in the pull down menu one of the options eg:discharge\
 Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%)
 
 ### Example with exported SOC and Power to domoticz:
