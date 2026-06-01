@@ -1,0 +1,522 @@
+[
+    {
+        "id": "c111b612cbe93b7b",
+        "type": "tab",
+        "label": "ZonnePlan_needs token",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e61cab319110fc8b",
+        "type": "junction",
+        "z": "c111b612cbe93b7b",
+        "x": 710,
+        "y": 230,
+        "wires": [
+            [
+                "ff3963c43cfaea81",
+                "7ec4fa05735849cd"
+            ]
+        ]
+    },
+    {
+        "id": "11db4dbc65d9030f",
+        "type": "function",
+        "z": "c111b612cbe93b7b",
+        "name": "PVSurplusW",
+        "func": "//var solarpwr = Number(global.get(\"SolarPwr\")[0]);\n//var actualuse = Number(global.get(\"ActualUse\")[0]) ;\n//var surplus = solarpwr - actualuse ; //or negative p1 power\n\nvar p1pwr = Number(global.get(\"P1Power\"))\n\nif(p1pwr < 0){\n    p1pwr = Math.abs(p1pwr)\n    global.set(\"PVSurplusW\" ,p1pwr) \n}\n\nelse {\n    p1pwr = 0 \n    global.set(\"PVSurplusW\" ,p1pwr)\n}\nmsg.payload = p1pwr ;\n\nnode.status({fill:'green',shape:'ring',text:'Surplus ' + p1pwr});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 510,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32f4f483d982e3d1",
+        "type": "inject",
+        "z": "c111b612cbe93b7b",
+        "name": "1 sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 510,
+        "wires": [
+            [
+                "11db4dbc65d9030f"
+            ]
+        ]
+    },
+    {
+        "id": "f0b77d05861d1a0c",
+        "type": "json",
+        "z": "c111b612cbe93b7b",
+        "name": "Convert to json",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 610,
+        "y": 230,
+        "wires": [
+            [
+                "e61cab319110fc8b"
+            ]
+        ]
+    },
+    {
+        "id": "ff3963c43cfaea81",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 83",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 745,
+        "y": 270,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "46d10cd1f4c25222",
+        "type": "inject",
+        "z": "c111b612cbe93b7b",
+        "name": "15h",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 15 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 270,
+        "wires": [
+            [
+                "6c5c69f880b57293"
+            ]
+        ]
+    },
+    {
+        "id": "24100d0b63fb9135",
+        "type": "change",
+        "z": "c111b612cbe93b7b",
+        "name": "Global save ZonneplanTijdsloten",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ZonneplanTijdsloten",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22bf255b440943f0",
+        "type": "file in",
+        "z": "c111b612cbe93b7b",
+        "name": "",
+        "filename": "/home/pi/prijs.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 430,
+        "y": 150,
+        "wires": [
+            [
+                "9c5c20a480f9601b",
+                "f0b77d05861d1a0c"
+            ]
+        ]
+    },
+    {
+        "id": "4c58d8bf69c689ff",
+        "type": "inject",
+        "z": "c111b612cbe93b7b",
+        "name": "Reload ",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "20",
+        "topic": "",
+        "x": 190,
+        "y": 150,
+        "wires": [
+            [
+                "22bf255b440943f0"
+            ]
+        ]
+    },
+    {
+        "id": "9c5c20a480f9601b",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 84",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 565,
+        "y": 140,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "8beada5f31037ee8",
+        "type": "inject",
+        "z": "c111b612cbe93b7b",
+        "name": "1 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 390,
+        "wires": [
+            [
+                "87766d1e8265b890"
+            ]
+        ]
+    },
+    {
+        "id": "0525a2a574e18f8b",
+        "type": "change",
+        "z": "c111b612cbe93b7b",
+        "name": "ZonneplanCurrentHour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ZonneplanCurrentHour",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 350,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87766d1e8265b890",
+        "type": "function",
+        "z": "c111b612cbe93b7b",
+        "name": "Price current hour (Zonneplan)",
+        "func": "msg.payload = global.get(\"ZonneplanTijdsloten\") ;\n\n\nvar date = new Date();\n\nvar Chour = date.getHours() ;\n\n\nvar msg = Number(msg.payload.data[Chour].prijsZP) ;\nnode.status({ fill: \"green\", shape: \"ring\", text: \"Current Price: \" + msg });\nmsg.topic = \"CurrentPrice\" ;\nreturn [{payload: msg}];\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 390,
+        "wires": [
+            [
+                "0525a2a574e18f8b",
+                "8b32a92f27381acc"
+            ]
+        ]
+    },
+    {
+        "id": "3acbd3461c5616bb",
+        "type": "comment",
+        "z": "c111b612cbe93b7b",
+        "name": "Version 0.02",
+        "info": "0.01 initial version (obtaine a token at enever.nl)\n0.02 improved save to file ",
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ea29a2f151a97879",
+        "type": "inject",
+        "z": "c111b612cbe93b7b",
+        "name": "7h",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 07 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 230,
+        "wires": [
+            [
+                "6c5c69f880b57293"
+            ]
+        ]
+    },
+    {
+        "id": "8b32a92f27381acc",
+        "type": "function",
+        "z": "c111b612cbe93b7b",
+        "name": "1 if NaN",
+        "func": "var price = msg.payload ;\n\nif (isNaN(price)){\n    msg.payload = 1\n}\nelse{\n    msg.payload = null\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 390,
+        "wires": [
+            [
+                "d85e46aca5aa99cd"
+            ]
+        ]
+    },
+    {
+        "id": "d85e46aca5aa99cd",
+        "type": "rbe",
+        "z": "c111b612cbe93b7b",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 770,
+        "y": 390,
+        "wires": [
+            [
+                "67762eadd9948611",
+                "22bf255b440943f0"
+            ]
+        ]
+    },
+    {
+        "id": "67762eadd9948611",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 85",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 855,
+        "y": 390,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "66e30b96e7f4bc92",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 86",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 975,
+        "y": 220,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "954bf72098e0d15c",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 87",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 975,
+        "y": 270,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "117dc2ba8bf30f97",
+        "type": "debug",
+        "z": "c111b612cbe93b7b",
+        "name": "debug 88",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 975,
+        "y": 160,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "7ec4fa05735849cd",
+        "type": "switch",
+        "z": "c111b612cbe93b7b",
+        "name": "valid?",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 230,
+        "wires": [
+            [
+                "66e30b96e7f4bc92",
+                "24100d0b63fb9135",
+                "ea8bb8839b41804b",
+                "117dc2ba8bf30f97"
+            ],
+            [
+                "954bf72098e0d15c"
+            ]
+        ]
+    },
+    {
+        "id": "ea8bb8839b41804b",
+        "type": "file",
+        "z": "c111b612cbe93b7b",
+        "name": "",
+        "filename": "/home/pi/prijs.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1040,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c5c69f880b57293",
+        "type": "http request",
+        "z": "c111b612cbe93b7b",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://enever.nl/apiv3/stroomprijs_vandaag.php?token=YOUR_TOKEN&resolution=60&price=prijs,prijsZP",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 360,
+        "y": 230,
+        "wires": [
+            [
+                "f0b77d05861d1a0c"
+            ]
+        ]
+    },
+    {
+        "id": "99d92afdc984ce59",
+        "type": "comment",
+        "z": "c111b612cbe93b7b",
+        "name": "insert valid token here",
+        "info": "https://enever.nl/apiv3/stroomprijs_vandaag.php?token=YOUR_TOKEN&resolution=60&price=prijs,prijsZP\n\n\nreplace the YOUR_TOKEN    by your obtained token\n\n\nif you want to use different energy prices then change the last part prijsZP  with the one you want to use \nlook at enever for correct format.",
+        "x": 360,
+        "y": 270,
+        "wires": []
+    }
+]
