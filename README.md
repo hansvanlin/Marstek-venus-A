@@ -108,7 +108,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 \
 \
 |Register| Value| Description|
-|-----------|--------|-------------|
+|------|-----|-------------------------------|
 |43100| 127| Active days bitmask (Monday-Sunday)|
 |43101| 0000| Start time (HHMM)|
 |43102| 2359| End time (HHMM)|
