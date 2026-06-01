@@ -217,6 +217,7 @@ Notes:
 | 44002 | W | Max Charge Power |
 | 44003 | W | Max Discharge Power |
 
+
 ## **Some ScreenShots:**
 
 ### **Flow for reading all the data from the modbus registers**
@@ -273,6 +274,15 @@ Then use the slider to which level it should discharge eg: 20% (For charge use 8
 ### Example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
 .
+### **Battery tooling**
+
+Have access to single modbus registers read or write\
+Read firmware version\
+Reboot the battery\
+Check the cell voltages\
+
+<img width="1177" height="377" alt="image" src="https://github.com/user-attachments/assets/295e26b0-0b69-48a9-a73b-53a2de940796" />
+
 
 > ⚠️ **Use at your own risk**
 >
