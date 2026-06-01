@@ -115,7 +115,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |43103| Mode dependent| Power or control value|
 |43104| 0 / 1| Schedule enable (0 = disabled, 1 = enabled)|
 
-|Day| Bitmask (Register 43100)|
+|Day| Bitmask | (Register 43100)|
 |-----|-----|---------------------------------|
 |Bit| Value| Day|
 0| 1| Monday|
