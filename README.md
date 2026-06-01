@@ -149,7 +149,7 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |Charge| 800 W| 64736|
 |Disabled| N/A| 64036|
 
-|Write Sequence:|    |        |
+|Write Sequence:|
 |----------------------|
 |the controller writes the registers in the following order:|
 |1. Disable schedule ("43104 = 0")|
