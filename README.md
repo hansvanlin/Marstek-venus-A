@@ -272,7 +272,7 @@ Then use the slider to which level it should discharge eg: 20% (For charge use 8
 ### Example with exported SOC and Power to domoticz:
 <img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
 
-### **Battery tooling:**
+## 🔋**Battery tooling:**
 
 Have access to single modbus registers read or write\
 Read firmware version, number of cycles, Soc per battery module\
@@ -287,3 +287,11 @@ Check the cell voltages\
 > Start with low power values and verify correct operation before increasing power.
 >
 > Change the maximum values according to your installation (for example 800 W or 1500 W). Update the limits in both the Slider node and the Marstek Controller node.
+
+
+
+
+
+
+
+
