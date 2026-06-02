@@ -6,6 +6,7 @@
 
 ## **1.00 Release version**
 
+**
 > First public release of the Marstek Venus A controller.\
 >\
 > 🔧 Features:\
@@ -19,7 +20,7 @@
 > Modbus register access\
 > SMA integration examples\
 > Battery tooling\
-> Node-Red UI\
+> Node-Red UI **
 
 0.1.9. added the power slider\
 0.1.8  cleanup unused nodes and bug fix\
