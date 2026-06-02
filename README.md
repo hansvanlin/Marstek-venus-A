@@ -277,7 +277,7 @@ Then use the slider to which level it should discharge eg: 20% (For charge use 8
 Have access to single modbus registers read or write\
 Read firmware version, number of cycles, Soc per battery module\
 Reboot the battery\
-Check the cell voltages\
+Check the cell voltages
 
 <img width="1177" height="377" alt="image" src="https://github.com/user-attachments/assets/295e26b0-0b69-48a9-a73b-53a2de940796" />
 
