@@ -7,13 +7,13 @@
 ## **1.00 Release version**
 
 > First public release of the Marstek Venus A controller.
-
+>
 > 🔧 Features:
-
+>
 > Local control
 > Charge / Discharge
 > AntiFeed
->Price based control
+> Price based control
 > Schedule control
 > Force mode control
 > Modbus register access
