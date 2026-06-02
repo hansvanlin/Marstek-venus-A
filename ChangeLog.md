@@ -2,8 +2,11 @@
 
 
 
-1.01 Stability fix (RBE/Delay removal)\
-  In some cases settings from Mode-engine did not get passed rbe.
+### 1.01 Stability fix\
+
+  • In some cases settings from Mode-engine did not get passed rbe.\
+  • Removed delay and some rbe nodes causing timing issues.\
+
 
 ## **1.00 Release version**
 
