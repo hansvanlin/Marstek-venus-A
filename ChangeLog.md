@@ -11,7 +11,7 @@
 
 ## **1.00 Release version**
 
-  * First public release of the Marstek Venus A controller.
+### First public release of the Marstek Venus A controller.
  
   🔧 Features:
  
