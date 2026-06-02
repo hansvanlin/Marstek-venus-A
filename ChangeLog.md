@@ -6,6 +6,21 @@
 
 ## **1.00 Release version**
 
+> First public release of the Marstek Venus A controller.
+
+> 🔧 Features:
+
+> Local control
+> Charge / Discharge
+> AntiFeed
+>Price based control
+> Schedule control
+> Force mode control
+> Modbus register access
+> SMA integration examples
+> Battery tooling
+> Node-Red UI
+
 0.1.9. added the power slider\
 0.1.8  cleanup unused nodes and bug fix\
 0.1.7  due to the discharging fw bug I found a new way to contol the battery using the schedule scheme.\
