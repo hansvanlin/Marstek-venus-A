@@ -4,7 +4,7 @@
 
 1.01 Stability fix (RBE/Delay removal)\
 
-# **1.00 Release version**\
+## **1.00 Release version**
 
 0.1.9. added the power slider\
 0.1.8  cleanup unused nodes and bug fix\
