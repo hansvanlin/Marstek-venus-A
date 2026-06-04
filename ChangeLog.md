@@ -1,5 +1,27 @@
 
 
+## **1.10 Release version**
+
+🔧 Features:
+
+* Support for up to 3 Venus batteries
+* Charge / Discharge / PV charging modes
+* AntiFeed mode
+* Dynamic electricity price control
+* Day-ahead price analysis
+* Temperature monitoring
+* Schedule-based battery control
+* Force mode control
+* Direct Modbus register access
+* Battery diagnostics and tooling (set max pwr limit)
+* Optional SMA Tripower integration (dynamic export limiting and   power control)
+* Node-RED Dashboard UI
+
+## **Improvements**
+
+* Improved dynamic pricing validation
+* Improved prices table storage and reloading
+* Improved schedule control stability (bug fixes)
 
 
 ### 1.01 Stability fix
