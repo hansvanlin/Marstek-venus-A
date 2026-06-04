@@ -1,29 +1,44 @@
 # Marstek Venus A Controller
 
-Node-RED dashboard and Modbus control flow
-for local control of the Marstek Venus A battery.
+Node-RED dashboard and Modbus control flow for fully local control of the Marstek Venus A battery system.
 
-🔧 Features:
-- Local control
-- Charge / Discharge
-- AntiFeed
-- Price based control
-- Schedule control
-- Force mode control
-- Modbus register access
+Tested with Marstek Venus A firmware up to version 149.
+
+## 🔧 Features:
+* Local battery control (no cloud dependency)
+* Support for up to 3 Venus batteries
+* Charge / Discharge / PV charging modes
+* AntiFeed mode
+* Dynamic electricity price control
+* Day-ahead price analysis
+* Temperature monitoring
+* Schedule-based battery control
+* Force mode control
+* Direct Modbus register access
+* Battery diagnostics and tooling
+* Optional SMA Tripower integration (dynamic export limiting and   power control)
+* Node-RED Dashboard UI
+
+## Why this project?
+Unlike many Modbus implementations that continuously write individual control registers, this project uses the Marstek internal schedule registers (43100–43104) to control battery behaviour.
+Benefits:
+* Faster communication
+* More reliable operation
+* Simultaneous switching of multiple batteries
+* No need to manually enable/disable RS485 mode
+* Reduced dependency on firmware-specific behaviour
+From version 0.1.7 onwards, schedule control is the recommended and default control method.
+
 
 ## Dashboard
-Node-red script with UI to control the Marstek venus A (Tested up to firmware 149)
-\
-(How to use Node-red: https://nodered.org )\
-\
-Simple UI to control the schedule modes (modbus schedule registers 43100-43104) without digging deep into marstek app to toggle the options.
+Node-red script with UI to control the Marstek venus A (Tested up to firmware 149).
+All without digging deep into marstek app to toggle the options.
 
-<img width="577" height="1805" alt="Screenshot_20260530_224551_Gallery" src="https://github.com/user-attachments/assets/a4b45200-8de4-4cd4-a87b-0fdbe3b85251" />
+![alt text](images/Dashboard.png)
 
 
 ## **The UI has 4 modes:**
-***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, NOM) and keep the SOC within min and max set value's.
+***1. Antifeed (soft limits):*** using the Marstek own antifeed routine which keeps the P1 at zero (zero feedback, NOM) and keep the SOC within min and max set values.
 
 ***2. Price based mode:*** Using enever (zonneplan) day ahead prices looking for the cheap and expensive hours. Default is 4 cheapest hours to charge and 1 hour for the expensive hours to discharge max power and save some capacity for antifeed mode. Other hours are standby or antifeed mode.
 
@@ -31,12 +46,10 @@ Simple UI to control the schedule modes (modbus schedule registers 43100-43104) 
 
 ***4. Force mode:*** Control the batteries with the special registers where rs485 must be enabled.
 
-The flow makes use of the "node-red-contrib-modbus" nodes.
-Adapt the marstek Ip number to your "your Ip number" with port ":502"
+
 \
 \
-Due to the discharge bug I changed to different way of controlling the batteries. 
-From version 0.1.7 I'm using one of the Marstek schedule's and dynamically configure it via Modbus registers 43100-43104. These registers are written in one command thru the "Marstek Mode controller" node.
+Due to a discharge-related firmware issue, version 0.1.7 introduced a new control method based on the internal Marstek schedule registers (43100–43104). This method has proven to be more reliable across firmware versions and is now the recommended control approach. These registers are written in one command thru the "Marstek Mode controller" node.
 \
 Marstek simple fast schedule write sequence:
 <img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
@@ -47,14 +60,14 @@ Dis/Charge Power setting can be set in the UI. The power can be set from 100W to
 
 > [!IMPORTANT]
 > **Firmware Update Workaround (Discharge Issue, not needed from v0.1.7):**
-> If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly.
+> If discharging at 1500W via Modbus does not start, create a 24-hour discharge schedule set to 1500W in the official Marstek app, but leave the schedule **Disabled** (do not turn it on). This forces the firmware to keep the necessary registers open, allowing this Node-RED script to control the battery correctly. Check also the Battery-tooling flow there is an option to write to the max discharge register and you can automate it by enableling the inject set node.
 
 
 ## Related Projects
 
 ### SMA Active Power Control
 
-For active PV power limiting and dynamic export control:
+Optional active PV power limiting and dynamic export control:
 
 https://github.com/hansvanlin/SMA-Tripower-5.0---Active-Power-Control
 
@@ -79,6 +92,8 @@ Requirements\
 
 3. Install the missing nodes
    Not every node is included by default in Node-RED.
+   The flow makes use of the "node-red-contrib-modbus" nodes.
+   Adapt the marstek Ip number to your "your Ip number" with port ":502"
 
 4. Import the flow files
 
@@ -240,11 +255,11 @@ Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 
 ### Pulldown menu items:
 
-<img width="318" height="325" alt="image" src="https://github.com/user-attachments/assets/ef70cf06-a297-4bc6-b18c-2057ae50c545" />
+![alt text](images/image-1.png)
 
 ### Added Modbus " still alive " and scheduled auto reset/reboot function:
 
-<img width="265" height="1032" alt="image" src="https://github.com/user-attachments/assets/e6ce0539-3815-4147-8b77-e092493f9ac5" />
+![alt text](images/image-2.png)
 
 
 
@@ -257,7 +272,7 @@ Light green: communication ok, data has changed
 
 
 ### Added status Leds:
-<img width="429" height="1027" alt="image" src="https://github.com/user-attachments/assets/49de9165-c74c-4516-97c2-1f3690b7762e" />
+![alt text](images/image-4.png)
 
 Red: Disabled\
 Pink: Enabled\
@@ -269,29 +284,26 @@ First switch on Force Mode\
 Select in the pull down menu one of the options eg:discharge\
 Then use the slider to which level it should discharge eg: 20% (For charge use 80-100%)
 
-### Example with exported SOC and Power to domoticz:
-<img width="1752" height="686" alt="image" src="https://github.com/user-attachments/assets/afc33b4d-bdce-44ed-a5cf-fdf765726842" />
 
 ## 🔋**Battery tooling:**
 
 Have access to single modbus registers read or write\
-Read firmware version, number of cycles, Soc per battery module\
+Read firmware version also bms version from stacked batteries, number of cycles, Soc in 0.1% accuracy per battery module\
 Reboot the battery\
 Check the cell voltages
 
-<img width="1177" height="377" alt="image" src="https://github.com/user-attachments/assets/295e26b0-0b69-48a9-a73b-53a2de940796" />
+![alt text](images/tools.png)
 
 
-> ⚠️ **Use at your own risk**
+
+
+> [!WARNING]
+> Start with low charge and discharge power limits and verify correct operation before increasing power.
 >
-> Start with low power values and verify correct operation before increasing power.
+> Always configure the maximum power limits according to your installation (e.g. 800 W or 1500 W) in both:
+> - The Slider node
+> - The Marstek Controller node
 >
-> Change the maximum values according to your installation (for example 800 W or 1500 W). Update the limits in both the Slider node and the Marstek Controller node.
-
-
-
-
-
-
+> Use this project at your own risk.
 
 
