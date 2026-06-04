@@ -21,6 +21,7 @@ Tested with Marstek Venus A firmware up to version 149.
 
 ## Why this project?
 Unlike many Modbus implementations that continuously write individual control registers, this project uses the Marstek internal schedule registers (43100–43104) to control battery behaviour.\
+\
 Benefits:
 * Faster communication
 * More reliable operation
