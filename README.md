@@ -1,4 +1,7 @@
-
+![Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
+![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
+![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)
+![Smart Polling](https://img.shields.io/badge/-Smart%20Polling-orange)
 
 # Marstek Venus A Controller
 
