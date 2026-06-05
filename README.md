@@ -50,7 +50,7 @@ All without digging deep into marstek app to toggle the options.
 
 \
 \
-Due to a discharge-related firmware issue, version 0.1.7 introduced a new control method based on the internal Marstek schedule registers (43100–43104). This method has proven to be more reliable across firmware versions and is now the recommended control approach. These registers are written in one command thru the "Marstek Mode controller" node.
+Due to a discharge-related firmware issue, version 0.1.7 introduced a new control method based on the internal Marstek schedule registers (43100–43104). This method has proven to be more reliable across firmware versions and is now the recommended control approach. These registers are written in one smart command thru the "Marstek Mode controller" node.
 \
 Marstek simple fast schedule write sequence:
 <img width="1319" height="203" alt="image" src="https://github.com/user-attachments/assets/d1f9779c-742d-4a94-9180-ab7d28449826" />
