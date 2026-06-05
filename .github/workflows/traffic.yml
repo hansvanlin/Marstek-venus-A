@@ -1,0 +1,23 @@
+name: GitHub Traffic Analytics Export
+
+on:
+  schedule:
+    # Dit zorgt ervoor dat de actie elke dag om 23:00 uur UTC draait
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Hiermee kun je de actie ook handmatig starten
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch and Store GitHub Traffic Data
+        uses: sangonzal/repository-traffic-action@v0.1.7
+        env:
+          # GitHub genereert dit token automatisch om data op te slaan
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # De data wordt opgeslagen in een aparte branch genaamd 'traffic'
+          branch: 'traffic'
