@@ -3,6 +3,7 @@
 ![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)
 ![Smart Polling](https://img.shields.io/badge/-Smart%20Read/Write-orange)
 
+![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-A?color=blue&label=Release)
 # Marstek Venus A Controller
 
 Node-RED dashboard and Modbus control flow for fully local control of the Marstek Venus A battery system.
