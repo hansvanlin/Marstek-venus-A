@@ -236,11 +236,11 @@ Notes:
 
 ### **Flow for reading all the data from the modbus registers**
 
-<img width="1319" height="763" alt="image" src="https://github.com/user-attachments/assets/d1367478-e9c4-4314-bc10-193fab94c35a" />
+![alt text](images/ReadModbus.png)
 
 ### **Flow for processing and controlling the batteries**
 
-<img width="909" height="779" alt="image" src="https://github.com/user-attachments/assets/7834c48e-a141-48d7-948e-f5056c33d18c" />
+![alt text](images/BatteryControl.png)
 
 ### **Modbus configuration**
 Set IP adress and port number. (double click on the node).
