@@ -1,6 +1,6 @@
 ![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-A?color=blue&label=Release)![Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
 ![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
-![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)
+![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)![Smart Read/Write](https://img.shields.io/badge/-Smart%20Polling-orange)
 
 # Marstek Venus A Controller
 
