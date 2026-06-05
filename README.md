@@ -1,4 +1,4 @@
-[Release(https://img.shields.io/badge/release-v1.1.0-blue)![Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
+![Release](https://img.shields.io/badge/release-v1.1.0-blue)[Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
 ![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
 ![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)![Smart Read/Write](https://img.shields.io/badge/-Smart%20Read/Write-orange)
 
