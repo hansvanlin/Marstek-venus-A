@@ -1,3 +1,5 @@
+![Release](https://img.shields.io/badge/release-v1.1.0-blue)
+
 # Marstek Venus A Controller
 
 Node-RED dashboard and Modbus control flow for fully local control of the Marstek Venus A battery system.
