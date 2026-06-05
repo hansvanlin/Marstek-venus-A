@@ -1,5 +1,4 @@
-![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-A?color=blue&label=Release)
-(https://img.shields.io/badge/-Force%20Mode-red)
+![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-A?color=blue&label=Release)![Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
 ![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
 ![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)
 
