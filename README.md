@@ -1,4 +1,4 @@
-![Release](https://img.shields.io/badge/release-v1.1.0-blue)
+![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-A?color=blue&label=Release)
 
 # Marstek Venus A Controller
 
