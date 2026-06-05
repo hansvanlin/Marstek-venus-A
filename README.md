@@ -246,6 +246,7 @@ Notes:
 <img width="1080" height="1589" alt="Screenshot_20260605_040708_Firefox" src="https://github.com/user-attachments/assets/2b5c5ed9-45fd-4cd8-8ff1-14a6562fc73c" />
 
 ### **Read sequence in one call**
+eg: read the 13 contiguous cell voltages registers in one poll.
 <img width="1080" height="1422" alt="Screenshot_20260605_040624_Firefox" src="https://github.com/user-attachments/assets/a46592d1-18f8-44d9-91d7-f5da46d9fa98" />
 
 
