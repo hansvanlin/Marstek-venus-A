@@ -270,7 +270,7 @@ Battery state in charging during cheap hours:
 <img width="874" height="1775" alt="Screenshot_20260604_114708_Firefox" src="https://github.com/user-attachments/assets/59a67d01-b276-4558-b6f3-9c3fd4477e41" />
 
 
-### Pulldown menu items:
+### "Schedule Mode" Pulldown menu items:
 
 ![alt text](images/image-1.png)
 
