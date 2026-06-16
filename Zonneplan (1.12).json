@@ -87,7 +87,7 @@
         ]
     },
     {
-        "id": "c111b612cbe93b7b",
+        "id": "7b46570054ca0f78",
         "type": "tab",
         "label": "ZonnePlan_needs token",
         "disabled": false,
@@ -95,9 +95,9 @@
         "env": []
     },
     {
-        "id": "57f4d4821cd96244",
+        "id": "775c9ea48e68a32f",
         "type": "group",
-        "z": "c111b612cbe93b7b",
+        "z": "7b46570054ca0f78",
         "name": "Get price data from enever (zonneplan or other)",
         "style": {
             "stroke": "#000000",
@@ -106,32 +106,32 @@
             "color": "#000000"
         },
         "nodes": [
-            "5303680f06c94772",
-            "428749cd2e03e7d0",
-            "b21fcae985c68f9d",
-            "cde83f739d8bd099",
-            "912cec2e295be143",
-            "e368a86c7450c2f4",
-            "ff4cc6b5ee26df73",
-            "a6c944e38507b0cc",
-            "59a8b3ab21c62399",
-            "9ff1ec37e41bb490",
-            "bae67811e2a048ef",
-            "736ccf3c9f2b4118",
-            "c23bbd22309cb74f",
-            "1033014349a4f229",
-            "98baeddb2c291230",
-            "b1c9711297f4298a",
-            "8af1a97a62de0881",
-            "ef79ffcb5f728225",
-            "6acfbaa03fb16e9a",
-            "f9c55d7c291207de",
-            "99263661869b92b3",
-            "9b643a2e6fafd6ee",
-            "caba8745de0cb40f",
-            "a74ee28c00e4f746",
-            "fc019936f6cf0003",
-            "a92961bcf72de20a"
+            "f18f9ed8ad90afbb",
+            "e19e6183713fdafe",
+            "34163764b242717a",
+            "81cae5d8a32eef2b",
+            "641157da74839f3c",
+            "e06985c9be1e6733",
+            "7ba1ea2ea2020fa9",
+            "17f264c52224b605",
+            "3cc5a142cf280343",
+            "1b8f58f075ec4ebc",
+            "69b3df0a8436930d",
+            "851cb38f98a2eece",
+            "069d17a17d33b296",
+            "336f8ba82706e7df",
+            "d1fc2cd1b79c8bee",
+            "af069a530cffbd30",
+            "9659da28c07e4542",
+            "6a80d9ba8af7eb0c",
+            "74fea05b95c6400e",
+            "90931e3316aa71ea",
+            "44c0c6ddc9af11ce",
+            "d46e0f96f1507243",
+            "38561f3f037314a7",
+            "d68042f43455fd80",
+            "45993aa9b2c42566",
+            "bf6af78438d67a29"
         ],
         "x": 164,
         "y": 79,
@@ -139,9 +139,9 @@
         "h": 522
     },
     {
-        "id": "80859e629faeabdf",
+        "id": "3c320e2649352ec7",
         "type": "group",
-        "z": "c111b612cbe93b7b",
+        "z": "7b46570054ca0f78",
         "name": "UI selection",
         "style": {
             "stroke": "#000000",
@@ -150,45 +150,45 @@
             "color": "#000000"
         },
         "nodes": [
-            "d659e14220741d22",
-            "4b89cab551559bb1",
-            "d8c1bae87457e94d",
-            "597118728588d64e",
-            "5f51d8405e1faf0c",
-            "bbeb165a6a4c69f9",
-            "5ab51355b149a4d9",
-            "d61e823aa20eceb1",
-            "0f9d66dcd964fd90",
-            "c7f289bec011b3f9",
-            "f8844b0cef7ad4cd",
-            "5bf25cb21e593ebd",
-            "138a11734a5b6616",
-            "0d74c7551bf56e25",
-            "4b8320f13525530b",
-            "8a7faa8b3eb4186e",
-            "a09cc7ba713dfb2e",
-            "0d6bc24a82f220d5",
-            "0fe59a4fbfccb337",
-            "8fc5b90573d910d6",
-            "ad1b356291f4cf72",
-            "0a252a83d04a6f58",
-            "b6492504de5c6257",
-            "b3222d8a0b1486f9",
-            "c62f3c0492307a7a",
-            "151093263a7a84d5",
-            "0beb4b09fb4f1772",
-            "338d643593b124e0",
-            "77f47496b3992898",
-            "73abdefa244db9b4",
-            "76d8689db24d936c",
-            "abde86cd1b35d2bb",
-            "043e2b4297a9fa13",
-            "e569f6576d49575b",
-            "4a67c8123d79897e",
-            "6f0b8b0e08827582",
-            "133018e6a29e9053",
-            "f7102303c4e7387d",
-            "06bbe1ab6c4a125e"
+            "c32a4ca4ff138579",
+            "d8cf101068262a2d",
+            "d03bba26d00b7f6b",
+            "ca5b07d5bbc761c1",
+            "cca186f5b824b2ac",
+            "2426379a6bf87dd5",
+            "cb3e8ff052a928d3",
+            "3237894302478b68",
+            "2ddb1c4691e2f799",
+            "6f17999539e027cd",
+            "ed418aa75f76e305",
+            "acfb3abca5f39700",
+            "0faaa7a9ac4e1111",
+            "58a8a3aff213bd55",
+            "d4035c6747f106f5",
+            "f1ef54770a1d7ef8",
+            "c0149a2a51baf2f9",
+            "0942848501175b6d",
+            "d0c057d586546034",
+            "57b4f091452449e2",
+            "7ffd605d7b9ef981",
+            "838d109b899bcbd4",
+            "176879f808cd9523",
+            "05369daacf8575dd",
+            "45e399ea8e10f044",
+            "116e7f7d6363d779",
+            "d744ce8dda050994",
+            "4da0efeb9860e694",
+            "d483ea52d71f47f1",
+            "ee41599737c79d26",
+            "8040ea874f99b41d",
+            "29ae01f1a10ab18b",
+            "4df87dcb06311ab7",
+            "4e0d07c391660014",
+            "8cb3de778c26aee5",
+            "bba42c54921e3b45",
+            "295692e0de013320",
+            "21f7a838fecdc388",
+            "9ab0b5d2f6a6fbe1"
         ],
         "x": 164,
         "y": 759,
@@ -196,52 +196,52 @@
         "h": 1012
     },
     {
-        "id": "fc019936f6cf0003",
+        "id": "45993aa9b2c42566",
         "type": "junction",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "x": 960,
         "y": 210,
         "wires": [
             [
-                "428749cd2e03e7d0",
-                "ef79ffcb5f728225"
+                "e19e6183713fdafe",
+                "6a80d9ba8af7eb0c"
             ]
         ]
     },
     {
-        "id": "f4e67e9a78bce741",
+        "id": "ebf402767923b9dc",
         "type": "junction",
-        "z": "c111b612cbe93b7b",
+        "z": "7b46570054ca0f78",
         "x": 960,
         "y": 710,
         "wires": [
             [
-                "9ff1ec37e41bb490"
+                "1b8f58f075ec4ebc"
             ]
         ]
     },
     {
-        "id": "e569f6576d49575b",
+        "id": "4e0d07c391660014",
         "type": "junction",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "x": 310,
         "y": 1560,
         "wires": [
             [
-                "c62f3c0492307a7a",
-                "338d643593b124e0",
-                "77f47496b3992898",
-                "4a67c8123d79897e"
+                "45e399ea8e10f044",
+                "4da0efeb9860e694",
+                "d483ea52d71f47f1",
+                "8cb3de778c26aee5"
             ]
         ]
     },
     {
-        "id": "5303680f06c94772",
+        "id": "f18f9ed8ad90afbb",
         "type": "json",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "Convert to json",
         "property": "payload",
         "action": "",
@@ -250,15 +250,15 @@
         "y": 210,
         "wires": [
             [
-                "fc019936f6cf0003"
+                "45993aa9b2c42566"
             ]
         ]
     },
     {
-        "id": "428749cd2e03e7d0",
+        "id": "e19e6183713fdafe",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 62",
         "active": false,
         "tosidebar": true,
@@ -274,10 +274,10 @@
         "l": false
     },
     {
-        "id": "b21fcae985c68f9d",
+        "id": "34163764b242717a",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "15h",
         "props": [
             {
@@ -299,15 +299,15 @@
         "y": 240,
         "wires": [
             [
-                "a92961bcf72de20a"
+                "bf6af78438d67a29"
             ]
         ]
     },
     {
-        "id": "cde83f739d8bd099",
+        "id": "81cae5d8a32eef2b",
         "type": "change",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "Global save ZonneplanTijdsloten",
         "rules": [
             {
@@ -330,10 +330,10 @@
         ]
     },
     {
-        "id": "912cec2e295be143",
+        "id": "641157da74839f3c",
         "type": "file in",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
         "filename": "/home/pi/prijs.txt",
         "filenameType": "str",
@@ -346,16 +346,16 @@
         "y": 410,
         "wires": [
             [
-                "ff4cc6b5ee26df73",
-                "5303680f06c94772"
+                "7ba1ea2ea2020fa9",
+                "f18f9ed8ad90afbb"
             ]
         ]
     },
     {
-        "id": "e368a86c7450c2f4",
+        "id": "e06985c9be1e6733",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "Reload ",
         "props": [],
         "repeat": "",
@@ -367,15 +367,15 @@
         "y": 370,
         "wires": [
             [
-                "912cec2e295be143"
+                "641157da74839f3c"
             ]
         ]
     },
     {
-        "id": "ff4cc6b5ee26df73",
+        "id": "7ba1ea2ea2020fa9",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 63",
         "active": true,
         "tosidebar": false,
@@ -391,21 +391,21 @@
         "l": false
     },
     {
-        "id": "a6c944e38507b0cc",
+        "id": "17f264c52224b605",
         "type": "comment",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
-        "name": "Version 1.11",
-        "info": "0.01 initial version (obtaine a token at enever.nl)\n0.02 improved save to file\n0.03 added Forecast price info\n1.11 added the missing HA solar Forecast",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
+        "name": "Version 1.12",
+        "info": "0.01 initial version (obtaine a token at enever.nl)\n0.02 improved save to file\n0.03 added Forecast price info\n1.11 added the missing HA solar Forecast\n1.12 fixed expensive hours not displaying\n",
         "x": 1430,
         "y": 120,
         "wires": []
     },
     {
-        "id": "59a8b3ab21c62399",
+        "id": "3cc5a142cf280343",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "3h",
         "props": [
             {
@@ -427,15 +427,15 @@
         "y": 190,
         "wires": [
             [
-                "a92961bcf72de20a"
+                "bf6af78438d67a29"
             ]
         ]
     },
     {
-        "id": "9ff1ec37e41bb490",
+        "id": "1b8f58f075ec4ebc",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "1 if NaN",
         "func": "var price = msg.payload ;\n\nif (isNaN(price)){\n    msg.payload = 1\n}\nelse{\n    msg.payload = null\n}\nreturn msg;",
         "outputs": 1,
@@ -448,15 +448,15 @@
         "y": 560,
         "wires": [
             [
-                "736ccf3c9f2b4118"
+                "851cb38f98a2eece"
             ]
         ]
     },
     {
-        "id": "bae67811e2a048ef",
+        "id": "69b3df0a8436930d",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
         "props": [
             {
@@ -474,15 +474,15 @@
         "y": 440,
         "wires": [
             [
-                "912cec2e295be143"
+                "641157da74839f3c"
             ]
         ]
     },
     {
-        "id": "736ccf3c9f2b4118",
+        "id": "851cb38f98a2eece",
         "type": "rbe",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -495,16 +495,16 @@
         "y": 560,
         "wires": [
             [
-                "c23bbd22309cb74f",
-                "912cec2e295be143"
+                "069d17a17d33b296",
+                "641157da74839f3c"
             ]
         ]
     },
     {
-        "id": "c23bbd22309cb74f",
+        "id": "069d17a17d33b296",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 64",
         "active": false,
         "tosidebar": false,
@@ -520,10 +520,10 @@
         "l": false
     },
     {
-        "id": "1033014349a4f229",
+        "id": "336f8ba82706e7df",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 65",
         "active": false,
         "tosidebar": false,
@@ -539,10 +539,10 @@
         "l": false
     },
     {
-        "id": "98baeddb2c291230",
+        "id": "d1fc2cd1b79c8bee",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 66",
         "active": false,
         "tosidebar": false,
@@ -558,10 +558,10 @@
         "l": false
     },
     {
-        "id": "b1c9711297f4298a",
+        "id": "af069a530cffbd30",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 67",
         "active": true,
         "tosidebar": false,
@@ -577,10 +577,10 @@
         "l": false
     },
     {
-        "id": "8af1a97a62de0881",
+        "id": "9659da28c07e4542",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "debug 68",
         "active": true,
         "tosidebar": false,
@@ -596,10 +596,10 @@
         "l": false
     },
     {
-        "id": "ef79ffcb5f728225",
+        "id": "6a80d9ba8af7eb0c",
         "type": "switch",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "valid?",
         "property": "payload.code",
         "propertyType": "msg",
@@ -622,21 +622,21 @@
         "y": 210,
         "wires": [
             [
-                "1033014349a4f229",
-                "cde83f739d8bd099",
-                "f9c55d7c291207de",
-                "b1c9711297f4298a"
+                "336f8ba82706e7df",
+                "81cae5d8a32eef2b",
+                "90931e3316aa71ea",
+                "af069a530cffbd30"
             ],
             [
-                "98baeddb2c291230"
+                "d1fc2cd1b79c8bee"
             ]
         ]
     },
     {
-        "id": "6acfbaa03fb16e9a",
+        "id": "74fea05b95c6400e",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
         "props": [
             {
@@ -653,15 +653,15 @@
         "y": 410,
         "wires": [
             [
-                "912cec2e295be143"
+                "641157da74839f3c"
             ]
         ]
     },
     {
-        "id": "f9c55d7c291207de",
+        "id": "90931e3316aa71ea",
         "type": "file",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
         "filename": "/home/pi/prijs.txt",
         "filenameType": "str",
@@ -676,12 +676,12 @@
         ]
     },
     {
-        "id": "99263661869b92b3",
+        "id": "44c0c6ddc9af11ce",
         "type": "ui_button",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "",
-        "group": "78f49ffbd11e559b",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 12,
         "width": "6",
         "height": "1",
@@ -700,15 +700,15 @@
         "y": 330,
         "wires": [
             [
-                "912cec2e295be143"
+                "641157da74839f3c"
             ]
         ]
     },
     {
-        "id": "9b643a2e6fafd6ee",
+        "id": "d46e0f96f1507243",
         "type": "comment",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "Reload",
         "info": "",
         "x": 630,
@@ -716,10 +716,10 @@
         "wires": []
     },
     {
-        "id": "caba8745de0cb40f",
+        "id": "38561f3f037314a7",
         "type": "comment",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "Storage",
         "info": "",
         "x": 1470,
@@ -727,10 +727,10 @@
         "wires": []
     },
     {
-        "id": "a74ee28c00e4f746",
+        "id": "d68042f43455fd80",
         "type": "comment",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "fault?",
         "info": "",
         "x": 240,
@@ -738,10 +738,10 @@
         "wires": []
     },
     {
-        "id": "a92961bcf72de20a",
+        "id": "bf6af78438d67a29",
         "type": "http request",
-        "z": "c111b612cbe93b7b",
-        "g": "57f4d4821cd96244",
+        "z": "7b46570054ca0f78",
+        "g": "775c9ea48e68a32f",
         "name": "http request | Provide valid token",
         "method": "GET",
         "ret": "txt",
@@ -758,16 +758,16 @@
         "y": 210,
         "wires": [
             [
-                "5303680f06c94772",
-                "8af1a97a62de0881"
+                "f18f9ed8ad90afbb",
+                "9659da28c07e4542"
             ]
         ]
     },
     {
-        "id": "d659e14220741d22",
+        "id": "c32a4ca4ff138579",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Build cheap/expensive hour lists",
         "func": "let raw = global.get('ZonneplanTijdsloten');\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 24) {\n    node.status({fill:'red',shape:'ring',text:'no ZonneplanTijdsloten'});\n    return null;\n}\n\nconst cheapCount = 4;\nconst expensiveMaxCount = 8;\nconst minSpread = 0.08;   // 8 cent boven goedkoopste uur\n\nlet uren = raw.data.map((item, index) => ({\n    uur: index,\n    prijs: Number(item.prijsZP)\n})).filter(x => !isNaN(x.prijs));\n\nif (uren.length === 0) {\n    node.status({fill:'red',shape:'ring',text:'no valid prices'});\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...uren.map(x => x.prijs));\n\nlet cheapHours = [...uren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\nlet expensiveHours = [...uren]\n    .filter(x => x.prijs >= (goedkoopstePrijs + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\nfunction mergeHoursToSlots(hours) {\n    if (!hours.length) return [];\n    let slots = [];\n    let start = hours[0];\n    let end = hours[0];\n    for (let i = 1; i < hours.length; i++) {\n        if (hours[i] === end + 1) {\n            end = hours[i];\n        } else {\n            slots.push({\n                starttijd: start.toString().padStart(2, '0') + ':00',\n                eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n            });\n            start = hours[i];\n            end = hours[i];\n        }\n    }\n    slots.push({\n        starttijd: start.toString().padStart(2, '0') + ':00',\n        eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n    });\n    return slots;\n}\n\nlet cheapSlots = mergeHoursToSlots(cheapHours);\nlet expensiveSlots = mergeHoursToSlots(expensiveHours);\n\nglobal.set('ZonneplanCheapHours', cheapHours);\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanExpensiveHours', expensiveHours);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\n\nmsg.payload = {\n    cheapHours,\n    cheapSlots,\n    expensiveHours,\n    expensiveSlots,\n    goedkoopstePrijs\n};\n\nnode.status({fill:'green',shape:'dot',text:'cheap ' + cheapHours.join(',') + ' | exp ' + expensiveHours.join(',')});\nreturn msg;",
         "outputs": 1,
@@ -779,10 +779,10 @@
         ]
     },
     {
-        "id": "4b89cab551559bb1",
+        "id": "d8cf101068262a2d",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "PVSurplusW",
         "func": "//var solarpwr = Number(global.get(\"SolarPwr\")[0]);\n//var actualuse = Number(global.get(\"ActualUse\")[0]) ;\n//var surplus = solarpwr - actualuse ; //or negative p1 power\n\nvar p1pwr = Number(global.get(\"P1Power\"))\n\nif(p1pwr < 0){\n    p1pwr = Math.abs(p1pwr)\n    global.set(\"PVSurplusW\" ,p1pwr) \n}\n\nelse {\n    p1pwr = 0 \n    global.set(\"PVSurplusW\" ,p1pwr)\n}\nmsg.payload = p1pwr ;\n\nnode.status({fill:'green',shape:'ring',text:'Surplus ' + p1pwr});\n\nreturn msg;",
         "outputs": 1,
@@ -792,18 +792,18 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 1280,
+        "y": 1310,
         "wires": [
             [
-                "d61e823aa20eceb1"
+                "3237894302478b68"
             ]
         ]
     },
     {
-        "id": "d8c1bae87457e94d",
+        "id": "d03bba26d00b7f6b",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "1 sec",
         "props": [
             {
@@ -821,16 +821,16 @@
         "y": 1280,
         "wires": [
             [
-                "4b89cab551559bb1",
-                "ad1b356291f4cf72"
+                "d8cf101068262a2d",
+                "7ffd605d7b9ef981"
             ]
         ]
     },
     {
-        "id": "597118728588d64e",
+        "id": "ca5b07d5bbc761c1",
         "type": "inject",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "1 min",
         "props": [
             {
@@ -848,22 +848,23 @@
         "y": 1210,
         "wires": [
             [
-                "bbeb165a6a4c69f9",
-                "c7f289bec011b3f9",
-                "f8844b0cef7ad4cd",
-                "138a11734a5b6616",
-                "a09cc7ba713dfb2e",
-                "0fe59a4fbfccb337",
-                "e569f6576d49575b",
-                "f7102303c4e7387d"
+                "2426379a6bf87dd5",
+                "6f17999539e027cd",
+                "ed418aa75f76e305",
+                "0faaa7a9ac4e1111",
+                "c0149a2a51baf2f9",
+                "d0c057d586546034",
+                "4e0d07c391660014",
+                "21f7a838fecdc388",
+                "f1ef54770a1d7ef8"
             ]
         ]
     },
     {
-        "id": "5f51d8405e1faf0c",
+        "id": "cca186f5b824b2ac",
         "type": "change",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "ZonneplanCurrentHour",
         "rules": [
             {
@@ -886,10 +887,10 @@
         ]
     },
     {
-        "id": "bbeb165a6a4c69f9",
+        "id": "2426379a6bf87dd5",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Price current hour (Zonneplan)",
         "func": "msg.payload = global.get(\"ZonneplanTijdsloten\") ;\n\n\nvar date = new Date();\n\nvar Chour = date.getHours() ;\n\n\nvar msg = Number(msg.payload.data[Chour].prijsZP) ;\nnode.status({ fill: \"green\", shape: \"ring\", text: \"Current Price: \" + msg });\nmsg.topic = \"CurrentPrice\" ;\nreturn [{payload: msg}];\n\n\n",
         "outputs": 1,
@@ -902,18 +903,18 @@
         "y": 820,
         "wires": [
             [
-                "5f51d8405e1faf0c",
-                "5ab51355b149a4d9",
-                "f4e67e9a78bce741"
+                "cca186f5b824b2ac",
+                "cb3e8ff052a928d3",
+                "ebf402767923b9dc"
             ]
         ]
     },
     {
-        "id": "5ab51355b149a4d9",
+        "id": "cb3e8ff052a928d3",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 13,
         "width": 6,
         "height": 1,
@@ -931,11 +932,11 @@
         "wires": []
     },
     {
-        "id": "d61e823aa20eceb1",
+        "id": "3237894302478b68",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 7,
         "width": 6,
         "height": 1,
@@ -949,15 +950,15 @@
         "fontSize": "16",
         "color": "#fafafa",
         "x": 1110,
-        "y": 1280,
+        "y": 1310,
         "wires": []
     },
     {
-        "id": "0f9d66dcd964fd90",
+        "id": "2ddb1c4691e2f799",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 2,
         "width": 6,
         "height": 1,
@@ -975,10 +976,10 @@
         "wires": []
     },
     {
-        "id": "c7f289bec011b3f9",
+        "id": "6f17999539e027cd",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Cheap hours",
         "func": "msg.payload = global.get(\"EnergyModePayload.cheapHours\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\nmsg.payload = msg.payload.join(', ');\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -991,15 +992,15 @@
         "y": 1120,
         "wires": [
             [
-                "0f9d66dcd964fd90"
+                "2ddb1c4691e2f799"
             ]
         ]
     },
     {
-        "id": "f8844b0cef7ad4cd",
+        "id": "ed418aa75f76e305",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Expensive hours",
         "func": "msg.payload = global.get(\"EnergyModePayload.expensiveHours\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\nmsg.payload = msg.payload.join(', ');\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -1012,16 +1013,16 @@
         "y": 1160,
         "wires": [
             [
-                "5bf25cb21e593ebd"
+                "acfb3abca5f39700"
             ]
         ]
     },
     {
-        "id": "5bf25cb21e593ebd",
+        "id": "acfb3abca5f39700",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 4,
         "width": 6,
         "height": 1,
@@ -1039,10 +1040,10 @@
         "wires": []
     },
     {
-        "id": "138a11734a5b6616",
+        "id": "0faaa7a9ac4e1111",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Cheap avg",
         "func": "msg.payload = global.get(\"EnergyModePayload.cheapAvg\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -1055,16 +1056,16 @@
         "y": 1210,
         "wires": [
             [
-                "0d74c7551bf56e25"
+                "58a8a3aff213bd55"
             ]
         ]
     },
     {
-        "id": "0d74c7551bf56e25",
+        "id": "58a8a3aff213bd55",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 3,
         "width": 6,
         "height": 1,
@@ -1082,27 +1083,27 @@
         "wires": []
     },
     {
-        "id": "4b8320f13525530b",
+        "id": "d4035c6747f106f5",
         "type": "debug",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "debug 69",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1220,
-        "y": 1390,
+        "x": 1090,
+        "y": 1260,
         "wires": []
     },
     {
-        "id": "8a7faa8b3eb4186e",
+        "id": "f1ef54770a1d7ef8",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Build cheap/expensive hour lists V2",
         "func": "let raw = global.get('ZonneplanTijdsloten');\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 24) {\n    node.status({fill:'red',shape:'ring',text:'no ZonneplanTijdsloten'});\n    return null;\n}\n\nconst cheapCount = 4;\nconst expensiveMaxCount = 1; // aantal dure uren voor max ontladen\nconst minSpread = 0.08;      // 8 cent boven gemiddelde goedkope uren\n\nlet uren = raw.data.map((item, index) => ({\n    uur: index,\n    prijs: Number(item.prijsZP)\n})).filter(x => !isNaN(x.prijs));\n\nif (uren.length === 0) {\n    node.status({fill:'red',shape:'ring',text:'no valid prices'});\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...uren.map(x => x.prijs));\n\nlet cheapHours = [...uren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\n// Gemiddelde prijs van de gekozen goedkope uren berekenen\nlet cheapPrices = uren\n    .filter(x => cheapHours.includes(x.uur))\n    .map(x => x.prijs);\n\nlet cheapAvg = cheapPrices.length\n    ? cheapPrices.reduce((a, b) => a + b, 0) / cheapPrices.length\n    : goedkoopstePrijs;\n\n// Duurste uur berekenen\nlet duurste = [...uren].sort((a, b) => b.prijs - a.prijs)[0];\n\nlet duursteUur = duurste.uur;\nlet duurstePrijs = duurste.prijs;\nlet spreadDuursteVsCheapAvg = duurstePrijs - cheapAvg;\nlet spreadDuursteVsGoedkoopste = duurstePrijs - goedkoopstePrijs;\nlet dischargeAllowed = spreadDuursteVsCheapAvg >= minSpread;\n\n// Alleen het duurste uur kiezen als het genoeg boven cheapAvg ligt\nlet expensiveHours = [...uren]\n    .filter(x => x.prijs >= (cheapAvg + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\nfunction mergeHoursToSlots(hours) {\n    if (!hours.length) return [];\n    let slots = [];\n    let start = hours[0];\n    let end = hours[0];\n\n    for (let i = 1; i < hours.length; i++) {\n        if (hours[i] === end + 1) {\n            end = hours[i];\n        } else {\n            slots.push({\n                starttijd: start.toString().padStart(2, '0') + ':00',\n                eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n            });\n            start = hours[i];\n            end = hours[i];\n        }\n    }\n\n    slots.push({\n        starttijd: start.toString().padStart(2, '0') + ':00',\n        eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n    });\n\n    return slots;\n}\n\nlet cheapSlots = mergeHoursToSlots(cheapHours);\nlet expensiveSlots = mergeHoursToSlots(expensiveHours);\n\nglobal.set('ZonneplanCheapHours', cheapHours);\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanExpensiveHours', expensiveHours);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\nglobal.set('ZonneplanCheapAvg', cheapAvg);\n\nglobal.set('ZonneplanDuursteUur', duursteUur);\nglobal.set('ZonneplanDuurstePrijs', duurstePrijs);\nglobal.set('ZonneplanSpreadDuursteVsCheapAvg', spreadDuursteVsCheapAvg);\nglobal.set('ZonneplanDischargeAllowed', dischargeAllowed);\n\nmsg.payload = {\n    cheapHours,\n    cheapSlots,\n    expensiveHours,\n    expensiveSlots,\n    goedkoopstePrijs,\n    cheapAvg,\n    duursteUur,\n    duurstePrijs,\n    spreadDuursteVsCheapAvg,\n    spreadDuursteVsGoedkoopste,\n    dischargeAllowed\n};\n\nnode.status({\n    fill: dischargeAllowed ? 'green' : 'yellow',\n    shape: 'dot',\n    text:\n        'cheap ' + cheapHours.join(',') +\n        ' | duurste ' + duursteUur +\n        ' €' + duurstePrijs.toFixed(3) +\n        ' spread ' + spreadDuursteVsCheapAvg.toFixed(3)\n});\n\nreturn msg;",
         "outputs": 1,
@@ -1111,19 +1112,19 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 940,
-        "y": 1400,
+        "x": 780,
+        "y": 1260,
         "wires": [
             [
-                "4b8320f13525530b"
+                "d4035c6747f106f5"
             ]
         ]
     },
     {
-        "id": "a09cc7ba713dfb2e",
+        "id": "c0149a2a51baf2f9",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "duurste uur prijs",
         "func": "\nmsg.payload = global.get(\"ZonneplanDuurstePrijs\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;",
         "outputs": 1,
@@ -1136,16 +1137,16 @@
         "y": 1070,
         "wires": [
             [
-                "0d6bc24a82f220d5"
+                "0942848501175b6d"
             ]
         ]
     },
     {
-        "id": "0d6bc24a82f220d5",
+        "id": "0942848501175b6d",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 5,
         "width": 6,
         "height": 1,
@@ -1163,10 +1164,10 @@
         "wires": []
     },
     {
-        "id": "0fe59a4fbfccb337",
+        "id": "d0c057d586546034",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "duurste uur prijs",
         "func": "\nmsg.payload = global.get(\"ZonneplanSpreadDuursteVsCheapAvg\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;",
         "outputs": 1,
@@ -1179,16 +1180,16 @@
         "y": 1000,
         "wires": [
             [
-                "8fc5b90573d910d6"
+                "57b4f091452449e2"
             ]
         ]
     },
     {
-        "id": "8fc5b90573d910d6",
+        "id": "57b4f091452449e2",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 1,
         "width": 6,
         "height": 1,
@@ -1206,10 +1207,10 @@
         "wires": []
     },
     {
-        "id": "ad1b356291f4cf72",
+        "id": "7ffd605d7b9ef981",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "EnergyMode",
         "func": "msg.payload = global.get(\"EnergyMode\") ;\n\n\n\nreturn msg;",
         "outputs": 1,
@@ -1219,19 +1220,19 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 1340,
+        "y": 1370,
         "wires": [
             [
-                "0a252a83d04a6f58"
+                "838d109b899bcbd4"
             ]
         ]
     },
     {
-        "id": "0a252a83d04a6f58",
+        "id": "838d109b899bcbd4",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 8,
         "width": 6,
         "height": 1,
@@ -1244,16 +1245,16 @@
         "font": "",
         "fontSize": "16",
         "color": "#fafafa",
-        "x": 1100,
-        "y": 1340,
+        "x": 1090,
+        "y": 1370,
         "wires": []
     },
     {
-        "id": "b6492504de5c6257",
+        "id": "176879f808cd9523",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 10,
         "width": 6,
         "height": 1,
@@ -1271,24 +1272,24 @@
         "wires": []
     },
     {
-        "id": "b3222d8a0b1486f9",
+        "id": "05369daacf8575dd",
         "type": "subflow:3f235640b7cb44a9",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "x": 910,
         "y": 1670,
         "wires": [
             [
-                "b6492504de5c6257"
+                "176879f808cd9523"
             ]
         ]
     },
     {
-        "id": "c62f3c0492307a7a",
+        "id": "45e399ea8e10f044",
         "type": "api-current-state",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "server": "6ad6bd245c78b95a",
         "version": 3,
@@ -1325,16 +1326,16 @@
         "y": 1670,
         "wires": [
             [
-                "b3222d8a0b1486f9"
+                "05369daacf8575dd"
             ]
         ]
     },
     {
-        "id": "151093263a7a84d5",
+        "id": "116e7f7d6363d779",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 9,
         "width": 6,
         "height": 1,
@@ -1352,10 +1353,10 @@
         "wires": []
     },
     {
-        "id": "0beb4b09fb4f1772",
+        "id": "d744ce8dda050994",
         "type": "comment",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Import some HA solar forcast",
         "info": "",
         "x": 530,
@@ -1363,10 +1364,10 @@
         "wires": []
     },
     {
-        "id": "338d643593b124e0",
+        "id": "4da0efeb9860e694",
         "type": "api-current-state",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "server": "6ad6bd245c78b95a",
         "version": 3,
@@ -1403,15 +1404,15 @@
         "y": 1560,
         "wires": [
             [
-                "73abdefa244db9b4"
+                "ee41599737c79d26"
             ]
         ]
     },
     {
-        "id": "77f47496b3992898",
+        "id": "d483ea52d71f47f1",
         "type": "api-current-state",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "server": "6ad6bd245c78b95a",
         "version": 3,
@@ -1448,15 +1449,15 @@
         "y": 1610,
         "wires": [
             [
-                "76d8689db24d936c"
+                "8040ea874f99b41d"
             ]
         ]
     },
     {
-        "id": "73abdefa244db9b4",
+        "id": "ee41599737c79d26",
         "type": "change",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "rules": [
             {
@@ -1476,15 +1477,15 @@
         "y": 1560,
         "wires": [
             [
-                "abde86cd1b35d2bb"
+                "29ae01f1a10ab18b"
             ]
         ]
     },
     {
-        "id": "76d8689db24d936c",
+        "id": "8040ea874f99b41d",
         "type": "change",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "rules": [
             {
@@ -1504,15 +1505,15 @@
         "y": 1610,
         "wires": [
             [
-                "abde86cd1b35d2bb"
+                "29ae01f1a10ab18b"
             ]
         ]
     },
     {
-        "id": "abde86cd1b35d2bb",
+        "id": "29ae01f1a10ab18b",
         "type": "SumUltimate",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Math",
         "property": "payload",
         "math": "sum",
@@ -1521,29 +1522,29 @@
         "y": 1590,
         "wires": [
             [
-                "043e2b4297a9fa13"
+                "4df87dcb06311ab7"
             ]
         ]
     },
     {
-        "id": "043e2b4297a9fa13",
+        "id": "4df87dcb06311ab7",
         "type": "subflow:3f235640b7cb44a9",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "x": 1130,
         "y": 1590,
         "wires": [
             [
-                "151093263a7a84d5"
+                "116e7f7d6363d779"
             ]
         ]
     },
     {
-        "id": "4a67c8123d79897e",
+        "id": "8cb3de778c26aee5",
         "type": "api-current-state",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "server": "6ad6bd245c78b95a",
         "version": 3,
@@ -1580,31 +1581,31 @@
         "y": 1730,
         "wires": [
             [
-                "6f0b8b0e08827582"
+                "bba42c54921e3b45"
             ]
         ]
     },
     {
-        "id": "6f0b8b0e08827582",
+        "id": "bba42c54921e3b45",
         "type": "subflow:3f235640b7cb44a9",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
         "x": 910,
         "y": 1730,
         "wires": [
             [
-                "06bbe1ab6c4a125e"
+                "9ab0b5d2f6a6fbe1"
             ]
         ]
     },
     {
-        "id": "133018e6a29e9053",
+        "id": "295692e0de013320",
         "type": "ui_chart",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "",
-        "group": "78f49ffbd11e559b",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 14,
         "width": "6",
         "height": "5",
@@ -1644,10 +1645,10 @@
         ]
     },
     {
-        "id": "f7102303c4e7387d",
+        "id": "21f7a838fecdc388",
         "type": "function",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
         "name": "Prep graph",
         "func": "var invoerData = global.get(\"ZonneplanTijdsloten.data\") || [];\n\nvar lijnPrijs = [];\nvar lijnPrijsZP = [];\nvar markerNu = [];\n\nvar nu = new Date();\nnu.setMinutes(0, 0, 0);\nvar huidigUur = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\nfor (var i = 0; i < invoerData.length; i++) {\n    var item = invoerData[i];\n\n    var datum = new Date(item.datum);\n    var timestamp = datum.getTime();\n\n    var datumUur = new Date(item.datum);\n    datumUur.setMinutes(0, 0, 0);\n    var timestampUur = datumUur.getTime();\n\n    var prijs = Number(item.prijs);\n    var prijsZP = Number(item.prijsZP);\n\n    lijnPrijs.push({ x: timestamp, y: prijs });\n    lijnPrijsZP.push({ x: timestamp, y: prijsZP });\n\n    if (!isNaN(prijs)) {\n        minPrijs = Math.min(minPrijs, prijs);\n        maxPrijs = Math.max(maxPrijs, prijs);\n    }\n\n    if (!isNaN(prijsZP)) {\n        minPrijs = Math.min(minPrijs, prijsZP);\n        maxPrijs = Math.max(maxPrijs, prijsZP);\n    }\n\n    if (timestampUur === huidigUur) {\n        huidigePrijs = prijs;\n    }\n}\n\n// verticale marker maken\nif (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n    markerNu.push({ x: huidigUur, y: minPrijs });\n    markerNu.push({ x: huidigUur, y: maxPrijs });\n}\n\nmsg.payload = [{\n    series: [\"Price\", \"Price All in\", \"Now\"],\n    data: [lijnPrijs, lijnPrijsZP, markerNu]\n}];\n\nif (huidigePrijs !== null && !isNaN(huidigePrijs)) {\n    msg.ui_control = {\n        options: {\n            title: \"Huidige prijs: \" + Number(huidigePrijs).toFixed(2) + \" ct/kWh\"\n        }\n    };\n}\n\nreturn msg;",
         "outputs": 1,
@@ -1660,16 +1661,16 @@
         "y": 930,
         "wires": [
             [
-                "133018e6a29e9053"
+                "295692e0de013320"
             ]
         ]
     },
     {
-        "id": "06bbe1ab6c4a125e",
+        "id": "9ab0b5d2f6a6fbe1",
         "type": "ui_text",
-        "z": "c111b612cbe93b7b",
-        "g": "80859e629faeabdf",
-        "group": "78f49ffbd11e559b",
+        "z": "7b46570054ca0f78",
+        "g": "3c320e2649352ec7",
+        "group": "4e7ad7ec0d30e9a8",
         "order": 11,
         "width": 6,
         "height": 1,
@@ -1687,7 +1688,7 @@
         "wires": []
     },
     {
-        "id": "78f49ffbd11e559b",
+        "id": "4e7ad7ec0d30e9a8",
         "type": "ui_group",
         "name": "Forecast",
         "tab": "cccf47e4.857ec8",
@@ -1700,6 +1701,7 @@
     {
         "id": "6ad6bd245c78b95a",
         "type": "server",
+        "d": true,
         "name": "Home Assistant",
         "version": 6,
         "addon": false,
@@ -1732,12 +1734,12 @@
         "type": "ui_tab",
         "name": "Energy",
         "icon": "battery_charging_60",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
     {
-        "id": "a1a187d7a4feb168",
+        "id": "4047d1ccc5dfd28b",
         "type": "global-config",
         "env": [],
         "modules": {
