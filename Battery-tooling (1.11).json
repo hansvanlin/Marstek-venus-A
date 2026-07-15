@@ -1,0 +1,6721 @@
+[
+    {
+        "id": "a01a6ad43ae20262",
+        "type": "tab",
+        "label": "Battery Tooling",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5d69c190c353e51a",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "M1",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "182d4d960b405847",
+            "5086b6eae1ccacc4",
+            "b6a8eccaf337f147",
+            "29a01819eceaa285",
+            "95b4acecc6e9cff9",
+            "b7d0091b14c7ded2",
+            "733d3778f5c99241",
+            "765415e47a1224e7",
+            "878dccbe61442ac8",
+            "09463f2c9c288b44"
+        ],
+        "x": 94,
+        "y": 99,
+        "w": 952,
+        "h": 308
+    },
+    {
+        "id": "718de6ecef9b5913",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "M2",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b135b4f2e365efde",
+            "d892c482c668b03b",
+            "6ec88f5851ef4936",
+            "3a8f42f974406599",
+            "eee0b0503e3fdd61",
+            "732e04067bdd364e",
+            "f04a3ea99aaf3365",
+            "cff3516646823e42",
+            "4628e546ccc63a18"
+        ],
+        "x": 94,
+        "y": 429,
+        "w": 932,
+        "h": 308
+    },
+    {
+        "id": "239956c7c2d8d669",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "M3",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a505e24b96af8838",
+            "f119ae5377172698",
+            "83bdae9d8f2a6b5b",
+            "8ec8e96db83ee170",
+            "195cc89363ce5051",
+            "c0343fce4d628dea",
+            "9a844a883ca245f5",
+            "e0541c74ad29b168",
+            "d0bb375e75984094"
+        ],
+        "x": 94,
+        "y": 769,
+        "w": 932,
+        "h": 308
+    },
+    {
+        "id": "25597664dd01656b",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "Read firmware version",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "0f755ec9da96ab70",
+            "d649eedb20aeb086",
+            "1de232ccbe3a6627",
+            "0ac1595261c51afa",
+            "202cab74b518d38a",
+            "6167071492062968",
+            "d37af88dd8ec16f2",
+            "aa00c90ccb176f5d",
+            "67bee90ddeb0f4a4",
+            "5fe0ef8fc4c7d450",
+            "a0d8656c076c2422",
+            "992114ad79077f70",
+            "2fff406a8905552a",
+            "709034dbded7c2be",
+            "82f1c89b722c078e",
+            "db3d2a06a14520e0",
+            "5f459c871d95390f",
+            "3ea88af4079e09a9",
+            "a74af26ca7a60e87",
+            "cba5c726762c50c5",
+            "39ba6f8a494210f6",
+            "3c68c75972d93292",
+            "d0768457cc978fe8",
+            "541af38619cfd07f",
+            "ec92d6bcfd4b9619",
+            "db74a1d79fe51325",
+            "4a93fa4dd86378f5",
+            "a2da300966ea1380",
+            "5b840baca598e956",
+            "a113aca7532c0993",
+            "9c69a636b7019cbd",
+            "8d18fa5935b63114",
+            "832aed0a4f1c2a19",
+            "50970ddb03e5a656",
+            "a43c07b59668ac93",
+            "8b244b31194d11b4",
+            "dc902ad0fd1874a3",
+            "97856053edb863e5",
+            "da7f34c115b6b48e",
+            "12092995d2c4f607",
+            "c1c6bbde6d19056f",
+            "b7839c6e7c80d323",
+            "49363eeaf329ed3a",
+            "5ee076375ea86668",
+            "9ebefb6987c62bf4",
+            "d33153c8c097c7f5",
+            "a0725d28af3077c7",
+            "2c1de1c18425a5cb",
+            "5827a0d56eeaa790",
+            "7d658bcb7a645f45",
+            "e672af815cda7de8",
+            "9783eb1f7f9cf587",
+            "e63d6a489bdd3178",
+            "95bbd3c8dcceda56",
+            "94f89d12a0ab1713",
+            "ccd76a923ac21bad",
+            "115f97a71be00914",
+            "fdb6d85914019023",
+            "5cfa30a643df612b",
+            "97c406cf3acd28d4",
+            "3c9d33728be02518",
+            "9c5b6913cb1a7854",
+            "3c7d0fd1ba13e493",
+            "4ad1eccbd0fa8370",
+            "2fa5cab86ba215b4",
+            "9dfad7c439d9d3f7",
+            "97a0b2bf301ef971",
+            "01dbe4499445a127",
+            "770933408f57ae21",
+            "e91ec2c199eb532e",
+            "053c74bea37a33d2",
+            "a9fbda2c2b5ab124",
+            "c383b01062086a22",
+            "5d72ed6086f557de",
+            "1ad6a04efa27da88",
+            "8f979f127b57e703",
+            "815bbefe8d68bdde",
+            "9861f2e679d3ac65",
+            "fc4bce7d37e6f5a6",
+            "f9f9a9d12d90eb4c",
+            "3a7fc77680da6f98",
+            "9d65e45ebde918e7",
+            "4d3c952533dfe37c",
+            "ab07b151f6500a23",
+            "11d4e7ad1c982d72",
+            "3df9ffe86f336569",
+            "9204a3c4a6f4c260",
+            "ab7a472960513bc6",
+            "684a91a8afcdca4b",
+            "dcd22486fe7d6c9a",
+            "a31e94ca45800ecf",
+            "4a7afb3b6f854e13",
+            "5017ecb7e2cda6bd",
+            "964cc769b4b658e3",
+            "242d5020b9168c54",
+            "8d64c50fa3fd2897",
+            "a74c79e1a58ba9e3",
+            "d16b185a2def5bad",
+            "e4ca3c3578e9c39a",
+            "76716adb95949e85",
+            "4d74ea64cc3f3b09",
+            "82669e996b023c94",
+            "e3074abbe14cf0a8",
+            "5619487134c0888d",
+            "e48a4627d77c8406",
+            "97ad53cfdc5e620f",
+            "c91d48985710e771",
+            "6eea9902870857c1",
+            "20816099100ada28",
+            "f3f91777df9da40c",
+            "e0ba881fc8cc29f6",
+            "8fa32c0a4cc7bde4",
+            "1b7317c51c9cc53b",
+            "4953c300af6618bd",
+            "4af1c3776f3ac906",
+            "34c286ce9a934f01",
+            "603470ba285fd7ee",
+            "f074d13a80b78446",
+            "41d0f516a22b0468"
+        ],
+        "x": 34,
+        "y": 1139,
+        "w": 2098,
+        "h": 2842
+    },
+    {
+        "id": "49899ceb8de2b9cf",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "Toggle Lan Switch to reset modbus",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000",
+            "fill": "#ffC000"
+        },
+        "nodes": [
+            "51297deab6c3defd",
+            "607843ec48028f5e",
+            "1b0380988bf0e44a",
+            "771b2d3b4cac2a88",
+            "650b3ff1b3d769b9",
+            "69a406ac75910f63"
+        ],
+        "x": 1104,
+        "y": 909,
+        "w": 842,
+        "h": 192
+    },
+    {
+        "id": "15a071569744a046",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "Workarround max discharge",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6394935bf3156509",
+            "1115f5fbf659055a",
+            "a349f17fcc963dd9",
+            "36456f0912bf41a1",
+            "ee9f4a03497e2482",
+            "6cb3d0341bea4737",
+            "ae37212bb48c9120",
+            "6a440a0225e44ff7",
+            "b9173903c5b35b15",
+            "a0aae931f8690ba0",
+            "20b329116c55b5a6",
+            "891e10699ac66943",
+            "b28abded5955833b",
+            "1e016be7d987cded",
+            "c19f57e46d99df8a",
+            "7b4290e3a3dde7a5",
+            "a34d59670364084d"
+        ],
+        "x": 1084,
+        "y": 99,
+        "w": 982,
+        "h": 372
+    },
+    {
+        "id": "2c4c1574f8d2ab82",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "name": "Workarround max discharge",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "cc5c39b71056aa35",
+            "dff69faa4af76439",
+            "64329fb3344c886f",
+            "bc83ec7bf0bf5247",
+            "714a3dbec4d86a86",
+            "8a446137218e6bdf",
+            "af386a37e6fdae0e",
+            "b683048452b32d4c",
+            "ec085beaf369da5b",
+            "c9d6d31670ef2956",
+            "64593a2934365365",
+            "5929ea63a5e52cd8",
+            "529c78364c404109",
+            "9a43335932a660ba",
+            "7fe586ed3e3ec018",
+            "3f34798df0bbc81a",
+            "4bcad38e1acd5f48"
+        ],
+        "x": 1084,
+        "y": 509,
+        "w": 982,
+        "h": 372
+    },
+    {
+        "id": "878dccbe61442ac8",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "0dd7041848a984bc",
+            "6d226c2b34164c7d",
+            "90707b2196df987a"
+        ],
+        "x": 534,
+        "y": 169,
+        "w": 252,
+        "h": 212
+    },
+    {
+        "id": "4628e546ccc63a18",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "351beeb8be151fd0",
+            "75fb991b1ba710d4",
+            "2a623b0763cd3bfc"
+        ],
+        "x": 534,
+        "y": 499,
+        "w": 252,
+        "h": 212
+    },
+    {
+        "id": "d0bb375e75984094",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "2447f58a2ce79df4",
+            "7aa9a5e1227e3f25",
+            "e7101213d52639bb"
+        ],
+        "x": 534,
+        "y": 839,
+        "w": 252,
+        "h": 212
+    },
+    {
+        "id": "e4ca3c3578e9c39a",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M1",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "47f3449094f8c168",
+            "01b78e74e7fe83d7",
+            "56eeb127a670993a",
+            "d68248f6aabf58ba",
+            "da9dd12fd49ed84b",
+            "893ea7b7dd9b9698",
+            "45c1c519c2dc955a",
+            "b2b591a4790215c8",
+            "bb8b6e49edca8134",
+            "0ced21d4cb6479d0",
+            "9b500ebc394c7e0b",
+            "edfd9ae79f449768"
+        ],
+        "x": 1284,
+        "y": 1199,
+        "w": 232,
+        "h": 2152
+    },
+    {
+        "id": "76716adb95949e85",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M2",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ede2f2acea56c368",
+            "ab1e250734ab2f2e",
+            "b74d5be9e7643aa4",
+            "8da3c29bf8507238",
+            "d4ceb50ad3105e2c",
+            "2a190b9e9654cc1e",
+            "3cf6e3414440ea2f",
+            "05e117056b64c76e",
+            "6bdbbe91ae10ccaf",
+            "060e554cc0121fae",
+            "288cb6976ea679cb",
+            "5bf789346c925780",
+            "e50ec99d56dbef1f"
+        ],
+        "x": 1574,
+        "y": 1249,
+        "w": 222,
+        "h": 2272
+    },
+    {
+        "id": "4d74ea64cc3f3b09",
+        "type": "group",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M3",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "2fbf309c66d6c705",
+            "16df6246f4ccfac8",
+            "bf3b7efb72ababa2",
+            "cdf8377ba83be575",
+            "e5d59e82bfc1cdf5",
+            "61ebad602871c258",
+            "d13245fb0ce4d0d6",
+            "c42cd4d9dae797c9",
+            "dbaeca0590ef63ff",
+            "a58fe5a5c71cd94d",
+            "c4aabc94c668b92a",
+            "844d35a8e3beb928"
+        ],
+        "x": 1884,
+        "y": 1299,
+        "w": 222,
+        "h": 2422
+    },
+    {
+        "id": "b28abded5955833b",
+        "type": "junction",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "x": 1330,
+        "y": 270,
+        "wires": [
+            [
+                "a349f17fcc963dd9",
+                "6394935bf3156509"
+            ]
+        ]
+    },
+    {
+        "id": "529c78364c404109",
+        "type": "junction",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "x": 1330,
+        "y": 680,
+        "wires": [
+            [
+                "64329fb3344c886f",
+                "cc5c39b71056aa35"
+            ]
+        ]
+    },
+    {
+        "id": "182d4d960b405847",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "store values",
+        "func": "flow.set(\"Address\",msg.payload.address) ;\nflow.set(\"Value\",msg.payload.value) ;\nflow.set(\"Unitid\",msg.payload.unitid) ;\nflow.set(\"Quantity\",msg.payload.quantity) ;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5086b6eae1ccacc4",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "prepare read",
+        "func": "var Address = flow.get(\"Address\") ;\nvar Unitid = flow.get(\"Unitid\") ;\nvar Quantity = flow.get(\"Quantity\") ;\nvar fc = 3 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\n\nmsg1.payload = { \"fc\": fc, \"unitid\": Unitid, \"address\": Address, \"quantity\": Quantity } //read\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "0dd7041848a984bc"
+            ]
+        ]
+    },
+    {
+        "id": "b7d0091b14c7ded2",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "prepare write",
+        "func": "var Address = flow.get(\"Address\") ;\nvar Value = flow.get(\"Value\") ;\nvar Unitid = flow.get(\"Unitid\") ;\nvar Quantity = flow.get(\"Quantity\") ;\nvar fc = 6 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\nmsg1.payload = {\"value\": Value, \"fc\": fc, \"unitid\": Unitid, \"address\": Address, \"quantity\": Quantity } //write\n\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 340,
+        "wires": [
+            [
+                "6d226c2b34164c7d"
+            ]
+        ]
+    },
+    {
+        "id": "765415e47a1224e7",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "last",
+        "rules": [
+            {
+                "t": "set",
+                "p": "form",
+                "pt": "flow",
+                "to": "payload.form",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 170,
+        "wires": [
+            [
+                "b6a8eccaf337f147"
+            ]
+        ]
+    },
+    {
+        "id": "90707b2196df987a",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "878dccbe61442ac8",
+        "name": "readme",
+        "info": "Select a modbus server:\nip nummer of the device and add port number 502\nexample: 192.168.178.55:502\n\nDo this for the modbus read node and for the \nmodbus write node.\n\nAlso change in the prepare nodes if necessary\nthe fc value for special registers.",
+        "x": 640,
+        "y": 210,
+        "wires": []
+    },
+    {
+        "id": "b135b4f2e365efde",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "store values",
+        "func": "flow.set(\"Address2\",msg.payload.address) ;\nflow.set(\"Value2\",msg.payload.value) ;\nflow.set(\"Unitid2\",msg.payload.unitid) ;\nflow.set(\"Quantity2\",msg.payload.quantity) ;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 470,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d892c482c668b03b",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "prepare read",
+        "func": "var Address2 = flow.get(\"Address2\") ;\nvar Unitid2 = flow.get(\"Unitid2\") ;\nvar Quantity2 = flow.get(\"Quantity2\") ;\nvar fc = 3 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\n\nmsg1.payload = { \"fc\": fc, \"unitid\": Unitid2, \"address\": Address2, \"quantity\": Quantity2 } //read\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 590,
+        "wires": [
+            [
+                "351beeb8be151fd0"
+            ]
+        ]
+    },
+    {
+        "id": "732e04067bdd364e",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "prepare write",
+        "func": "var Address2 = flow.get(\"Address2\") ;\nvar Value2 = flow.get(\"Value2\") ;\nvar Unitid2 = flow.get(\"Unitid2\") ;\nvar Quantity2 = flow.get(\"Quantity2\") ;\nvar fc = 6 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\nmsg1.payload = {\"value\": Value2, \"fc\": fc, \"unitid\": Unitid2, \"address\": Address2, \"quantity\": Quantity2 } //write\n\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 670,
+        "wires": [
+            [
+                "75fb991b1ba710d4"
+            ]
+        ]
+    },
+    {
+        "id": "cff3516646823e42",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "last",
+        "rules": [
+            {
+                "t": "set",
+                "p": "form2",
+                "pt": "flow",
+                "to": "payload.form2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "6ec88f5851ef4936"
+            ]
+        ]
+    },
+    {
+        "id": "2a623b0763cd3bfc",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "4628e546ccc63a18",
+        "name": "readme",
+        "info": "Select a modbus server:\nip nummer of the device and add port number 502\nexample: 192.168.178.55:502\n\nDo this for the modbus read node and for the \nmodbus write node.\n\nAlso change in the prepare nodes if necessary\nthe fc value for special registers.",
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "a505e24b96af8838",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "store values",
+        "func": "flow.set(\"Address1b\",msg.payload.address) ;\nflow.set(\"Value1b\",msg.payload.value) ;\nflow.set(\"Unitid1b\",msg.payload.unitid) ;\nflow.set(\"Quantity1b\",msg.payload.quantity) ;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 810,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f119ae5377172698",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "prepare read",
+        "func": "var Address1b = flow.get(\"Address1b\") ;\nvar Unitid1b = flow.get(\"Unitid1b\") ;\nvar Quantity1b = flow.get(\"Quantity1b\") ;\nvar fc = 3 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\n\nmsg1.payload = { \"fc\": fc, \"unitid\": Unitid1b, \"address\": Address1b, \"quantity\": Quantity1b } //read\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 930,
+        "wires": [
+            [
+                "2447f58a2ce79df4"
+            ]
+        ]
+    },
+    {
+        "id": "c0343fce4d628dea",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "prepare write",
+        "func": "var Address1b = flow.get(\"Address1b\") ;\nvar Value1b = flow.get(\"Value1b\") ;\nvar Unitid1b = flow.get(\"Unitid1b\") ;\nvar Quantity1b = flow.get(\"Quantity1b\") ;\nvar fc = 6 ; //read =3 write is 6 \n\n\n\nvar msg1 = {};\nmsg1.payload = {\"value\": Value1b, \"fc\": fc, \"unitid\": Unitid1b, \"address\": Address1b, \"quantity\": Quantity1b } //write\n\n\n\nreturn [[msg1]];\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1010,
+        "wires": [
+            [
+                "7aa9a5e1227e3f25"
+            ]
+        ]
+    },
+    {
+        "id": "e0541c74ad29b168",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "last",
+        "rules": [
+            {
+                "t": "set",
+                "p": "form1b",
+                "pt": "flow",
+                "to": "payload.form1b",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "83bdae9d8f2a6b5b"
+            ]
+        ]
+    },
+    {
+        "id": "e7101213d52639bb",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "d0bb375e75984094",
+        "name": "readme",
+        "info": "Select a modbus server:\nip nummer of the device and add port number 502\nexample: 192.168.178.55:502\n\nDo this for the modbus read node and for the \nmodbus write node.\n\nAlso change in the prepare nodes if necessary\nthe fc value for special registers.",
+        "x": 640,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "0f755ec9da96ab70",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1310,
+        "wires": [
+            [
+                "c1c6bbde6d19056f",
+                "49363eeaf329ed3a",
+                "9ebefb6987c62bf4",
+                "a113aca7532c0993",
+                "a43c07b59668ac93",
+                "95bbd3c8dcceda56"
+            ]
+        ]
+    },
+    {
+        "id": "1b0380988bf0e44a",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "g": "49899ceb8de2b9cf",
+        "name": "init",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "45",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1220,
+        "y": 1000,
+        "wires": [
+            [
+                "607843ec48028f5e"
+            ]
+        ]
+    },
+    {
+        "id": "aa00c90ccb176f5d",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 2060,
+        "wires": [
+            [
+                "d37af88dd8ec16f2",
+                "a31e94ca45800ecf"
+            ]
+        ]
+    },
+    {
+        "id": "67bee90ddeb0f4a4",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms1 = msg.payload ;\n\n\nreturn [{ payload: bms1 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2060,
+        "wires": [
+            [
+                "47f3449094f8c168"
+            ]
+        ]
+    },
+    {
+        "id": "5fe0ef8fc4c7d450",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 2240,
+        "wires": [
+            [
+                "6167071492062968",
+                "3df9ffe86f336569"
+            ]
+        ]
+    },
+    {
+        "id": "a0d8656c076c2422",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2240,
+        "wires": [
+            [
+                "ab1e250734ab2f2e"
+            ]
+        ]
+    },
+    {
+        "id": "771b2d3b4cac2a88",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "g": "49899ceb8de2b9cf",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "trigger",
+        "x": 1200,
+        "y": 1060,
+        "wires": [
+            [
+                "650b3ff1b3d769b9"
+            ]
+        ]
+    },
+    {
+        "id": "650b3ff1b3d769b9",
+        "type": "trigger",
+        "z": "a01a6ad43ae20262",
+        "g": "49899ceb8de2b9cf",
+        "name": "",
+        "op1": "0",
+        "op2": "1",
+        "op1type": "num",
+        "op2type": "num",
+        "duration": "25",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1370,
+        "y": 1060,
+        "wires": [
+            [
+                "607843ec48028f5e"
+            ]
+        ]
+    },
+    {
+        "id": "69a406ac75910f63",
+        "type": "link in",
+        "z": "a01a6ad43ae20262",
+        "g": "49899ceb8de2b9cf",
+        "name": "Modbus alive?",
+        "links": [
+            "76b15d133b5a1acc"
+        ],
+        "x": 1435,
+        "y": 950,
+        "wires": [
+            [
+                "607843ec48028f5e"
+            ]
+        ]
+    },
+    {
+        "id": "709034dbded7c2be",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 2620,
+        "wires": [
+            [
+                "82f1c89b722c078e",
+                "2fff406a8905552a"
+            ]
+        ]
+    },
+    {
+        "id": "82f1c89b722c078e",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 2670,
+        "wires": [
+            [
+                "3ea88af4079e09a9",
+                "6eea9902870857c1"
+            ]
+        ]
+    },
+    {
+        "id": "db3d2a06a14520e0",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2810,
+        "wires": [
+            [
+                "5f459c871d95390f",
+                "a74af26ca7a60e87"
+            ]
+        ]
+    },
+    {
+        "id": "5f459c871d95390f",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 2860,
+        "wires": [
+            [
+                "cba5c726762c50c5",
+                "fdb6d85914019023"
+            ]
+        ]
+    },
+    {
+        "id": "39ba6f8a494210f6",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 3220,
+        "wires": [
+            [
+                "992114ad79077f70",
+                "d0768457cc978fe8"
+            ]
+        ]
+    },
+    {
+        "id": "d0768457cc978fe8",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 3270,
+        "wires": [
+            [
+                "3c68c75972d93292",
+                "603470ba285fd7ee"
+            ]
+        ]
+    },
+    {
+        "id": "541af38619cfd07f",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 3390,
+        "wires": [
+            [
+                "ec92d6bcfd4b9619",
+                "db74a1d79fe51325"
+            ]
+        ]
+    },
+    {
+        "id": "ec92d6bcfd4b9619",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 3440,
+        "wires": [
+            [
+                "4a93fa4dd86378f5",
+                "9dfad7c439d9d3f7"
+            ]
+        ]
+    },
+    {
+        "id": "09463f2c9c288b44",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "Version 1.11",
+        "info": "1.00 expanded tooling, for 3th battery just copy nodes\n1.01 added soc and fw version per stacked battery, soc is in 0.1% accuracy\n1.10 Cleaned up for new release\n1.11 Added 3th battery fields, combined fw readout\n",
+        "x": 950,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "a113aca7532c0993",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 1490,
+        "wires": [
+            [
+                "5b840baca598e956",
+                "832aed0a4f1c2a19"
+            ]
+        ]
+    },
+    {
+        "id": "9c69a636b7019cbd",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms1 = msg.payload ;\n\n\nreturn [{ payload: bms1 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1490,
+        "wires": [
+            [
+                "893ea7b7dd9b9698"
+            ]
+        ]
+    },
+    {
+        "id": "832aed0a4f1c2a19",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 1540,
+        "wires": [
+            [
+                "8d18fa5935b63114",
+                "5619487134c0888d"
+            ]
+        ]
+    },
+    {
+        "id": "50970ddb03e5a656",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms1 = msg.payload ;\n\n\nreturn [{ payload: bms1 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1540,
+        "wires": [
+            [
+                "45c1c519c2dc955a"
+            ]
+        ]
+    },
+    {
+        "id": "a43c07b59668ac93",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 1640,
+        "wires": [
+            [
+                "a2da300966ea1380",
+                "97856053edb863e5"
+            ]
+        ]
+    },
+    {
+        "id": "8b244b31194d11b4",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1640,
+        "wires": [
+            [
+                "3cf6e3414440ea2f"
+            ]
+        ]
+    },
+    {
+        "id": "97856053edb863e5",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 1690,
+        "wires": [
+            [
+                "dc902ad0fd1874a3",
+                "4ad1eccbd0fa8370"
+            ]
+        ]
+    },
+    {
+        "id": "da7f34c115b6b48e",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1690,
+        "wires": [
+            [
+                "05e117056b64c76e"
+            ]
+        ]
+    },
+    {
+        "id": "12092995d2c4f607",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms version per battery stacked",
+        "info": "",
+        "x": 1080,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "6394935bf3156509",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 330,
+        "wires": [
+            [
+                "20b329116c55b5a6",
+                "891e10699ac66943"
+            ]
+        ]
+    },
+    {
+        "id": "a349f17fcc963dd9",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "trigger rs485",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "21930",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1500,
+        "y": 270,
+        "wires": [
+            [
+                "1115f5fbf659055a",
+                "7b4290e3a3dde7a5"
+            ]
+        ]
+    },
+    {
+        "id": "36456f0912bf41a1",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "Force Mode M1",
+        "info": "Schrijf 21930 naar 42000.\nSchrijf 95% naar 42011.\nSchrijf 1 naar 43000 (Zet in Self-Consumption modus)",
+        "x": 1190,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "ee9f4a03497e2482",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "trigger rs485",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "21947",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1480,
+        "y": 430,
+        "wires": [
+            [
+                "ae37212bb48c9120",
+                "7b4290e3a3dde7a5"
+            ]
+        ]
+    },
+    {
+        "id": "6cb3d0341bea4737",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1280,
+        "y": 430,
+        "wires": [
+            [
+                "ee9f4a03497e2482"
+            ]
+        ]
+    },
+    {
+        "id": "a0aae931f8690ba0",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "marstek_power",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "marstek_power",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1500,
+        "y": 380,
+        "wires": [
+            [
+                "6a440a0225e44ff7",
+                "7b4290e3a3dde7a5"
+            ]
+        ]
+    },
+    {
+        "id": "20b329116c55b5a6",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "1500",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1500",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1460,
+        "y": 330,
+        "wires": [
+            [
+                "b9173903c5b35b15",
+                "7b4290e3a3dde7a5"
+            ]
+        ]
+    },
+    {
+        "id": "891e10699ac66943",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1290,
+        "y": 380,
+        "wires": [
+            [
+                "6cb3d0341bea4737",
+                "a0aae931f8690ba0"
+            ]
+        ]
+    },
+    {
+        "id": "c19f57e46d99df8a",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "g": "15a071569744a046",
+        "name": "set",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1560,
+        "y": 140,
+        "wires": [
+            [
+                "b28abded5955833b"
+            ]
+        ]
+    },
+    {
+        "id": "7b4290e3a3dde7a5",
+        "type": "debug",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "debug 59",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a34d59670364084d",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "work arround for max 1500W discharge issue | Enable Set",
+        "info": "this flow sets the power selected with the \nslider in the UI to the max discharge register\n\n\nI have 2 venus A sets and one has this problem caused by \nsomething in the firmware.",
+        "x": 1550,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "cc5c39b71056aa35",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 740,
+        "wires": [
+            [
+                "64593a2934365365",
+                "5929ea63a5e52cd8"
+            ]
+        ]
+    },
+    {
+        "id": "64329fb3344c886f",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "trigger rs485",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "21930",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1500,
+        "y": 680,
+        "wires": [
+            [
+                "dff69faa4af76439",
+                "3f34798df0bbc81a"
+            ]
+        ]
+    },
+    {
+        "id": "bc83ec7bf0bf5247",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "Force Mode M2",
+        "info": "Schrijf 21930 naar 42000.\nSchrijf 95% naar 42011.\nSchrijf 1 naar 43000 (Zet in Self-Consumption modus)",
+        "x": 1190,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "714a3dbec4d86a86",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "trigger rs485",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "21947",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1480,
+        "y": 840,
+        "wires": [
+            [
+                "af386a37e6fdae0e",
+                "3f34798df0bbc81a"
+            ]
+        ]
+    },
+    {
+        "id": "8a446137218e6bdf",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1280,
+        "y": 840,
+        "wires": [
+            [
+                "714a3dbec4d86a86"
+            ]
+        ]
+    },
+    {
+        "id": "c9d6d31670ef2956",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "marstek_power",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "marstek_power",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1500,
+        "y": 790,
+        "wires": [
+            [
+                "b683048452b32d4c",
+                "3f34798df0bbc81a"
+            ]
+        ]
+    },
+    {
+        "id": "64593a2934365365",
+        "type": "change",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "1500",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1500",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1460,
+        "y": 740,
+        "wires": [
+            [
+                "ec085beaf369da5b",
+                "3f34798df0bbc81a"
+            ]
+        ]
+    },
+    {
+        "id": "5929ea63a5e52cd8",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1290,
+        "y": 790,
+        "wires": [
+            [
+                "8a446137218e6bdf",
+                "c9d6d31670ef2956"
+            ]
+        ]
+    },
+    {
+        "id": "7fe586ed3e3ec018",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "g": "2c4c1574f8d2ab82",
+        "name": "set",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1560,
+        "y": 550,
+        "wires": [
+            [
+                "529c78364c404109"
+            ]
+        ]
+    },
+    {
+        "id": "3f34798df0bbc81a",
+        "type": "debug",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "debug 70",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1690,
+        "y": 650,
+        "wires": []
+    },
+    {
+        "id": "4bcad38e1acd5f48",
+        "type": "comment",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "work arround for max 1500W discharge issue | Enable Set",
+        "info": "this flow sets the power selected with the \nslider in the UI to the max discharge register\n\n\nI have 2 venus A sets and one has this problem caused by \nsomething in the firmware.",
+        "x": 1550,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "5ee076375ea86668",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Fw",
+        "func": "var Fw = [msg.payload [0],msg.payload[1], msg.payload [2], msg.payload[4]];\n\n\nreturn [{ payload: Fw}]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1240,
+        "wires": [
+            [
+                "b2b591a4790215c8"
+            ]
+        ]
+    },
+    {
+        "id": "d33153c8c097c7f5",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2620,
+        "wires": [
+            [
+                "01b78e74e7fe83d7"
+            ]
+        ]
+    },
+    {
+        "id": "a0725d28af3077c7",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2670,
+        "wires": [
+            [
+                "56eeb127a670993a"
+            ]
+        ]
+    },
+    {
+        "id": "2c1de1c18425a5cb",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2810,
+        "wires": [
+            [
+                "b74d5be9e7643aa4"
+            ]
+        ]
+    },
+    {
+        "id": "5827a0d56eeaa790",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2860,
+        "wires": [
+            [
+                "8da3c29bf8507238"
+            ]
+        ]
+    },
+    {
+        "id": "9783eb1f7f9cf587",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1810,
+        "wires": [
+            [
+                "16df6246f4ccfac8"
+            ]
+        ]
+    },
+    {
+        "id": "e63d6a489bdd3178",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1860,
+        "wires": [
+            [
+                "bf3b7efb72ababa2"
+            ]
+        ]
+    },
+    {
+        "id": "95bbd3c8dcceda56",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 1810,
+        "wires": [
+            [
+                "7d658bcb7a645f45",
+                "94f89d12a0ab1713"
+            ]
+        ]
+    },
+    {
+        "id": "94f89d12a0ab1713",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 1860,
+        "wires": [
+            [
+                "e672af815cda7de8",
+                "c91d48985710e771"
+            ]
+        ]
+    },
+    {
+        "id": "115f97a71be00914",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2910,
+        "wires": [
+            [
+                "6bdbbe91ae10ccaf"
+            ]
+        ]
+    },
+    {
+        "id": "fdb6d85914019023",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 2910,
+        "wires": [
+            [
+                "ccd76a923ac21bad",
+                "541af38619cfd07f"
+            ]
+        ]
+    },
+    {
+        "id": "97c406cf3acd28d4",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2390,
+        "wires": [
+            [
+                "cdf8377ba83be575"
+            ]
+        ]
+    },
+    {
+        "id": "3c9d33728be02518",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 2390,
+        "wires": [
+            [
+                "5cfa30a643df612b",
+                "a74c79e1a58ba9e3"
+            ]
+        ]
+    },
+    {
+        "id": "3c7d0fd1ba13e493",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1740,
+        "wires": [
+            [
+                "060e554cc0121fae"
+            ]
+        ]
+    },
+    {
+        "id": "4ad1eccbd0fa8370",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1740,
+        "wires": [
+            [
+                "9c5b6913cb1a7854",
+                "5fe0ef8fc4c7d450"
+            ]
+        ]
+    },
+    {
+        "id": "9dfad7c439d9d3f7",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 3490,
+        "wires": [
+            [
+                "2fa5cab86ba215b4"
+            ]
+        ]
+    },
+    {
+        "id": "97a0b2bf301ef971",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Fw",
+        "func": "var Fw = [msg.payload [0],msg.payload[1], msg.payload [2], msg.payload[4]];\n\n\nreturn [{ payload: Fw}]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1340,
+        "wires": [
+            [
+                "2fbf309c66d6c705"
+            ]
+        ]
+    },
+    {
+        "id": "01dbe4499445a127",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Fw",
+        "func": "var Fw = [msg.payload [0],msg.payload[1], msg.payload [2], msg.payload[4]];\n\n\nreturn [{ payload: Fw}]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1290,
+        "wires": [
+            [
+                "ede2f2acea56c368"
+            ]
+        ]
+    },
+    {
+        "id": "770933408f57ae21",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 2980,
+        "wires": [
+            [
+                "e91ec2c199eb532e",
+                "a9fbda2c2b5ab124"
+            ]
+        ]
+    },
+    {
+        "id": "053c74bea37a33d2",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2980,
+        "wires": [
+            [
+                "e5d59e82bfc1cdf5"
+            ]
+        ]
+    },
+    {
+        "id": "a9fbda2c2b5ab124",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 430,
+        "y": 3030,
+        "wires": [
+            [
+                "c383b01062086a22",
+                "4af1c3776f3ac906"
+            ]
+        ]
+    },
+    {
+        "id": "5d72ed6086f557de",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 3030,
+        "wires": [
+            [
+                "61ebad602871c258"
+            ]
+        ]
+    },
+    {
+        "id": "9861f2e679d3ac65",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 3590,
+        "wires": [
+            [
+                "815bbefe8d68bdde",
+                "f9f9a9d12d90eb4c"
+            ]
+        ]
+    },
+    {
+        "id": "f9f9a9d12d90eb4c",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 470,
+        "y": 3640,
+        "wires": [
+            [
+                "fc4bce7d37e6f5a6",
+                "41d0f516a22b0468"
+            ]
+        ]
+    },
+    {
+        "id": "9d65e45ebde918e7",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2290,
+        "wires": [
+            [
+                "5bf789346c925780"
+            ]
+        ]
+    },
+    {
+        "id": "4d3c952533dfe37c",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2340,
+        "wires": [
+            [
+                "e50ec99d56dbef1f"
+            ]
+        ]
+    },
+    {
+        "id": "3df9ffe86f336569",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 2290,
+        "wires": [
+            [
+                "11d4e7ad1c982d72",
+                "3a7fc77680da6f98"
+            ]
+        ]
+    },
+    {
+        "id": "11d4e7ad1c982d72",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2340,
+        "wires": [
+            [
+                "db3d2a06a14520e0",
+                "ab07b151f6500a23"
+            ]
+        ]
+    },
+    {
+        "id": "57a99b8294020f38",
+        "type": "debug",
+        "z": "a01a6ad43ae20262",
+        "name": "debug 72",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2810,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "61ad5cafd568a9c4",
+        "type": "inject",
+        "z": "a01a6ad43ae20262",
+        "name": "Test",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2240,
+        "y": 290,
+        "wires": [
+            [
+                "7a53e423be2636e9"
+            ]
+        ]
+    },
+    {
+        "id": "95b284e6d6620ba5",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "name": "function 17",
+        "func": "let registers = msg.payload; // Dit is jouw array [22094, 21313, ...]\nlet buffer = Buffer.alloc(registers.length * 2);\n\nfor (let i = 0; i < registers.length; i++) {\n    buffer.writeUInt16BE(registers[i], i * 2);\n}\n\nmsg.payload = buffer.toString('ascii').replace(/\\0/g, '').trim();\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2620,
+        "y": 410,
+        "wires": [
+            [
+                "57a99b8294020f38"
+            ]
+        ]
+    },
+    {
+        "id": "c116f0846a386966",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "name": "function 18",
+        "func": "// 1. Haal de array met 10 getallen op uit de Modbus-node\nlet registers = msg.payload; \n\nif (!Array.isArray(registers) || registers.length < 10) {\n    node.error(\"Modbus gaf geen 10 registers terug. Controleer Quantity/Aantal.\");\n    return null;\n}\n\n        // 2. Maak een lege buffer aan van 20 bytes (10 registers * 2 bytes)\nlet buffer = Buffer.alloc(20);\n\n        // 3. Schrijf de getallen weg als Big-Endian (High byte, Low byte)\nfor (let i = 0; i < 10; i++) {\n    buffer.writeUInt16BE(registers[i], i * 2);\n}\n\n            // 4. Zet de buffer om naar een ASCII-tekst\nlet rawString = buffer.toString('ascii');\n\n            // 5. Filter onzichtbare systeemtekens (zoals \\u0000 of nullen) eruit\n            // en vervang ze door spaties, zodat je '567' of het serienummer wél ziet\nlet cleanString = rawString.replace(/[\\x00-\\x1F\\x7F-\\x9F]/g, ' ').trim();\n\n            // 6. Stuur de schone tekst door naar je dashboard of debug-venster\nmsg.payload = cleanString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2620,
+        "y": 370,
+        "wires": [
+            [
+                "57a99b8294020f38"
+            ]
+        ]
+    },
+    {
+        "id": "ab7a472960513bc6",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2110,
+        "wires": [
+            [
+                "bb8b6e49edca8134"
+            ]
+        ]
+    },
+    {
+        "id": "684a91a8afcdca4b",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2160,
+        "wires": [
+            [
+                "0ced21d4cb6479d0"
+            ]
+        ]
+    },
+    {
+        "id": "a31e94ca45800ecf",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 2110,
+        "wires": [
+            [
+                "4a7afb3b6f854e13",
+                "9204a3c4a6f4c260"
+            ]
+        ]
+    },
+    {
+        "id": "4a7afb3b6f854e13",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2160,
+        "wires": [
+            [
+                "dcd22486fe7d6c9a",
+                "709034dbded7c2be"
+            ]
+        ]
+    },
+    {
+        "id": "964cc769b4b658e3",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2440,
+        "wires": [
+            [
+                "dbaeca0590ef63ff"
+            ]
+        ]
+    },
+    {
+        "id": "242d5020b9168c54",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "#",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2490,
+        "wires": [
+            [
+                "a58fe5a5c71cd94d"
+            ]
+        ]
+    },
+    {
+        "id": "a74c79e1a58ba9e3",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 2430,
+        "wires": [
+            [
+                "d16b185a2def5bad",
+                "5017ecb7e2cda6bd"
+            ]
+        ]
+    },
+    {
+        "id": "d16b185a2def5bad",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 2490,
+        "wires": [
+            [
+                "8d64c50fa3fd2897",
+                "770933408f57ae21"
+            ]
+        ]
+    },
+    {
+        "id": "e3074abbe14cf0a8",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms1 = msg.payload ;\n\n\nreturn [{ payload: bms1 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 1590,
+        "wires": [
+            [
+                "9b500ebc394c7e0b"
+            ]
+        ]
+    },
+    {
+        "id": "5619487134c0888d",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 1590,
+        "wires": [
+            [
+                "82669e996b023c94",
+                "aa00c90ccb176f5d"
+            ]
+        ]
+    },
+    {
+        "id": "97ad53cfdc5e620f",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "bms",
+        "func": "var bms2 = msg.payload ;\n\n\nreturn [{ payload: bms2 }]\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1910,
+        "wires": [
+            [
+                "c4aabc94c668b92a"
+            ]
+        ]
+    },
+    {
+        "id": "c91d48985710e771",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 1910,
+        "wires": [
+            [
+                "e48a4627d77c8406",
+                "3c9d33728be02518"
+            ]
+        ]
+    },
+    {
+        "id": "6eea9902870857c1",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 2720,
+        "wires": [
+            [
+                "20816099100ada28",
+                "39ba6f8a494210f6"
+            ]
+        ]
+    },
+    {
+        "id": "e0ba881fc8cc29f6",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2720,
+        "wires": [
+            [
+                "f3f91777df9da40c"
+            ]
+        ]
+    },
+    {
+        "id": "4953c300af6618bd",
+        "type": "function",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "soc /10%",
+        "func": "var s = msg.payload[0] / 10;\n\n\nreturn [{ payload: s }]",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 3080,
+        "wires": [
+            [
+                "1b7317c51c9cc53b"
+            ]
+        ]
+    },
+    {
+        "id": "4af1c3776f3ac906",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 520,
+        "y": 3080,
+        "wires": [
+            [
+                "8fa32c0a4cc7bde4",
+                "9861f2e679d3ac65"
+            ]
+        ]
+    },
+    {
+        "id": "603470ba285fd7ee",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 3320,
+        "wires": [
+            [
+                "34c286ce9a934f01"
+            ]
+        ]
+    },
+    {
+        "id": "41d0f516a22b0468",
+        "type": "delay",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 3690,
+        "wires": [
+            [
+                "f074d13a80b78446"
+            ]
+        ]
+    },
+    {
+        "id": "95b4acecc6e9cff9",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "",
+        "group": "bbc7c21fa70f301e",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Read register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "5086b6eae1ccacc4"
+            ]
+        ]
+    },
+    {
+        "id": "733d3778f5c99241",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "",
+        "group": "bbc7c21fa70f301e",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Write register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "b7d0091b14c7ded2"
+            ]
+        ]
+    },
+    {
+        "id": "eee0b0503e3fdd61",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "",
+        "group": "7667c6660a73ce8b",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Read register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 590,
+        "wires": [
+            [
+                "d892c482c668b03b"
+            ]
+        ]
+    },
+    {
+        "id": "f04a3ea99aaf3365",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "",
+        "group": "7667c6660a73ce8b",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Write register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 670,
+        "wires": [
+            [
+                "732e04067bdd364e"
+            ]
+        ]
+    },
+    {
+        "id": "195cc89363ce5051",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "",
+        "group": "03b65d071c6d10e4",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Read register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 930,
+        "wires": [
+            [
+                "f119ae5377172698"
+            ]
+        ]
+    },
+    {
+        "id": "9a844a883ca245f5",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "",
+        "group": "03b65d071c6d10e4",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Write register",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 1010,
+        "wires": [
+            [
+                "c0343fce4d628dea"
+            ]
+        ]
+    },
+    {
+        "id": "1de232ccbe3a6627",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 13,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reboot M1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "21930",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 3800,
+        "wires": [
+            [
+                "d649eedb20aeb086"
+            ]
+        ]
+    },
+    {
+        "id": "0ac1595261c51afa",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 14,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reboot M2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "21930",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 3870,
+        "wires": [
+            [
+                "202cab74b518d38a"
+            ]
+        ]
+    },
+    {
+        "id": "1e016be7d987cded",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "g": "15a071569744a046",
+        "name": "",
+        "group": "f9c1960d77c3951b",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "max pwr M1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1210,
+        "y": 270,
+        "wires": [
+            [
+                "b28abded5955833b"
+            ]
+        ]
+    },
+    {
+        "id": "9a43335932a660ba",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "g": "2c4c1574f8d2ab82",
+        "name": "",
+        "group": "f9c1960d77c3951b",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "max pwr M2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1210,
+        "y": 680,
+        "wires": [
+            [
+                "529c78364c404109"
+            ]
+        ]
+    },
+    {
+        "id": "1ad6a04efa27da88",
+        "type": "ui_button",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 15,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reboot M3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "21930",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 3940,
+        "wires": [
+            [
+                "8f979f127b57e703"
+            ]
+        ]
+    },
+    {
+        "id": "607843ec48028f5e",
+        "type": "ui_switch",
+        "z": "a01a6ad43ae20262",
+        "g": "49899ceb8de2b9cf",
+        "name": "Network Switch",
+        "label": "Network Switch",
+        "tooltip": "reset modbus",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 17,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1590,
+        "y": 1000,
+        "wires": [
+            [
+                "51297deab6c3defd"
+            ]
+        ]
+    },
+    {
+        "id": "b6a8eccaf337f147",
+        "type": "ui_form",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "name": "",
+        "label": "",
+        "group": "bbc7c21fa70f301e",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "options": [
+            {
+                "label": "address",
+                "value": "address",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "quantity",
+                "value": "quantity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "unitid",
+                "value": "unitid",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "value",
+                "value": "value",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "address": "",
+            "quantity": "",
+            "unitid": "",
+            "value": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "182d4d960b405847",
+                "765415e47a1224e7"
+            ]
+        ]
+    },
+    {
+        "id": "6ec88f5851ef4936",
+        "type": "ui_form",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "name": "",
+        "label": "",
+        "group": "7667c6660a73ce8b",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "options": [
+            {
+                "label": "address",
+                "value": "address",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "quantity",
+                "value": "quantity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "unitid",
+                "value": "unitid",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "value",
+                "value": "value",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "address": "",
+            "quantity": "",
+            "unitid": "",
+            "value": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 370,
+        "y": 470,
+        "wires": [
+            [
+                "b135b4f2e365efde",
+                "cff3516646823e42"
+            ]
+        ]
+    },
+    {
+        "id": "83bdae9d8f2a6b5b",
+        "type": "ui_form",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "name": "",
+        "label": "",
+        "group": "03b65d071c6d10e4",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "options": [
+            {
+                "label": "address",
+                "value": "address",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "quantity",
+                "value": "quantity",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "unitid",
+                "value": "unitid",
+                "type": "number",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "value",
+                "value": "value",
+                "type": "number",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "address": "",
+            "quantity": "",
+            "unitid": "",
+            "value": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 370,
+        "y": 810,
+        "wires": [
+            [
+                "a505e24b96af8838",
+                "e0541c74ad29b168"
+            ]
+        ]
+    },
+    {
+        "id": "29a01819eceaa285",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "5d69c190c353e51a",
+        "group": "bbc7c21fa70f301e",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Register value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3a8f42f974406599",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "718de6ecef9b5913",
+        "group": "7667c6660a73ce8b",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Register value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "8ec8e96db83ee170",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "239956c7c2d8d669",
+        "group": "03b65d071c6d10e4",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Register value",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "ede2f2acea56c368",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "FW m2",
+        "label": "Firmware version m2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#64c832",
+        "x": 1670,
+        "y": 1290,
+        "wires": []
+    },
+    {
+        "id": "47f3449094f8c168",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 1",
+        "label": "# Cycles M1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1380,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "ab1e250734ab2f2e",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 2",
+        "label": "# Cycles M2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1660,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "01b78e74e7fe83d7",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "Soc1.1",
+        "label": "SocM1 pack1",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1410,
+        "y": 2620,
+        "wires": []
+    },
+    {
+        "id": "56eeb127a670993a",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "Soc1.2",
+        "label": "SocM1 pack2",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1410,
+        "y": 2670,
+        "wires": []
+    },
+    {
+        "id": "b74d5be9e7643aa4",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 12,
+        "width": 6,
+        "height": 1,
+        "name": "Soc2.1",
+        "label": "SocM2 pack1",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1700,
+        "y": 2810,
+        "wires": []
+    },
+    {
+        "id": "8da3c29bf8507238",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "name": "Soc2.2",
+        "label": "SocM2 pack2",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1700,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "d68248f6aabf58ba",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 17,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 1.1",
+        "label": "Cell Voltage M1.1",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1390,
+        "y": 3210,
+        "wires": []
+    },
+    {
+        "id": "da9dd12fd49ed84b",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 18,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 1.2",
+        "label": "Cell Voltage M1.2",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1390,
+        "y": 3260,
+        "wires": []
+    },
+    {
+        "id": "d4ceb50ad3105e2c",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 19,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 2.1",
+        "label": "Cell Voltage M2.1",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1690,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "2a190b9e9654cc1e",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 20,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 2.2",
+        "label": "Cell Voltage M2.2",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1690,
+        "y": 3430,
+        "wires": []
+    },
+    {
+        "id": "893ea7b7dd9b9698",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "bms1.1",
+        "label": "bms m1 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1380,
+        "y": 1490,
+        "wires": []
+    },
+    {
+        "id": "45c1c519c2dc955a",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "name": "bms1.2",
+        "label": "bms m1 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1380,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "3cf6e3414440ea2f",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "bms2.1",
+        "label": "bms m2 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1670,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "05e117056b64c76e",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "name": "bms2.2",
+        "label": "bms m2 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1670,
+        "y": 1690,
+        "wires": []
+    },
+    {
+        "id": "b7839c6e7c80d323",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "ems --- vns --- bms",
+        "label": "ems, sub,   vns,   bms",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#64c832",
+        "x": 1650,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "b2b591a4790215c8",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "FW m1",
+        "label": "Firmware version m1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#64c832",
+        "x": 1370,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2fbf309c66d6c705",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "FW m3",
+        "label": "Firmware version m3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "15",
+        "color": "#64c832",
+        "x": 1970,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "16df6246f4ccfac8",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "bms3.1",
+        "label": "bms m3 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 1810,
+        "wires": []
+    },
+    {
+        "id": "bf3b7efb72ababa2",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "bms3.2",
+        "label": "bms m3 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "6bdbbe91ae10ccaf",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 14,
+        "width": 6,
+        "height": 1,
+        "name": "Soc2.3",
+        "label": "SocM2 pack3",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1700,
+        "y": 2910,
+        "wires": []
+    },
+    {
+        "id": "cdf8377ba83be575",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 3",
+        "label": "# Cycles M3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1970,
+        "y": 2390,
+        "wires": []
+    },
+    {
+        "id": "060e554cc0121fae",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "name": "bms2.3",
+        "label": "bms m2 pack3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1670,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "288cb6976ea679cb",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 21,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 2.3",
+        "label": "Cell Voltage M2.3",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1690,
+        "y": 3480,
+        "wires": []
+    },
+    {
+        "id": "e5d59e82bfc1cdf5",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 15,
+        "width": 6,
+        "height": 1,
+        "name": "Soc3.1",
+        "label": "SocM3 pack1",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1990,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "61ebad602871c258",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "name": "Soc3.2",
+        "label": "SocM3 pack2",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1990,
+        "y": 3030,
+        "wires": []
+    },
+    {
+        "id": "d13245fb0ce4d0d6",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 22,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 3.1",
+        "label": "Cell Voltage M3.1",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 3580,
+        "wires": []
+    },
+    {
+        "id": "c42cd4d9dae797c9",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 23,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 3.2",
+        "label": "Cell Voltage M3.2",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 3630,
+        "wires": []
+    },
+    {
+        "id": "5bf789346c925780",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 2.1",
+        "label": "# Cycles M2 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1700,
+        "y": 2290,
+        "wires": []
+    },
+    {
+        "id": "e50ec99d56dbef1f",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "76716adb95949e85",
+        "group": "3a87a93282fd4450",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 2.2",
+        "label": "# Cycles M2 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1700,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "bb8b6e49edca8134",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 1.1",
+        "label": "# Cycles M1 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1420,
+        "y": 2110,
+        "wires": []
+    },
+    {
+        "id": "0ced21d4cb6479d0",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 1.2",
+        "label": "# Cycles M1 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1420,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "dbaeca0590ef63ff",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 3.1",
+        "label": "# Cycles M3 pack1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 2010,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "a58fe5a5c71cd94d",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "name": "# cycles 3.2",
+        "label": "# Cycles M3 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 2010,
+        "y": 2490,
+        "wires": []
+    },
+    {
+        "id": "9b500ebc394c7e0b",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "name": "bms1.3",
+        "label": "bms m1 pack3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1380,
+        "y": 1590,
+        "wires": []
+    },
+    {
+        "id": "c4aabc94c668b92a",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "bms3.2",
+        "label": "bms m3 pack2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 1910,
+        "wires": []
+    },
+    {
+        "id": "f3f91777df9da40c",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "group": "3a87a93282fd4450",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "Soc1.3",
+        "label": "SocM1 pack3",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1410,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "1b7317c51c9cc53b",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "group": "3a87a93282fd4450",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "name": "Soc3.3",
+        "label": "SocM3 pack3",
+        "format": "{{msg.payload}} %",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "12",
+        "color": "#64c832",
+        "x": 1990,
+        "y": 3080,
+        "wires": []
+    },
+    {
+        "id": "edfd9ae79f449768",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "e4ca3c3578e9c39a",
+        "group": "3a87a93282fd4450",
+        "order": 18,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 1.3",
+        "label": "Cell Voltage M1.3",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1390,
+        "y": 3310,
+        "wires": []
+    },
+    {
+        "id": "844d35a8e3beb928",
+        "type": "ui_text",
+        "z": "a01a6ad43ae20262",
+        "g": "4d74ea64cc3f3b09",
+        "group": "3a87a93282fd4450",
+        "order": 23,
+        "width": 6,
+        "height": 1,
+        "name": "Cell 3.3",
+        "label": "Cell Voltage M3.3",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "10",
+        "color": "#64c832",
+        "x": 1980,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "d37af88dd8ec16f2",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 cycle counter 34003",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34003",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2060,
+        "wires": [
+            [
+                "67bee90ddeb0f4a4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6167071492062968",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 cycle counter 34003",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34003",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2240,
+        "wires": [
+            [
+                "a0d8656c076c2422"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2fff406a8905552a",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 SOC_p1 34002",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34002",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2620,
+        "wires": [
+            [
+                "d33153c8c097c7f5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3ea88af4079e09a9",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 SOC_p2 34102",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34102",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2670,
+        "wires": [
+            [
+                "a0725d28af3077c7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a74af26ca7a60e87",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 SOC_p1 34002",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34002",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2810,
+        "wires": [
+            [
+                "2c1de1c18425a5cb"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cba5c726762c50c5",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 SOC_p2 34102",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34102",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2860,
+        "wires": [
+            [
+                "5827a0d56eeaa790"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5b840baca598e956",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1.1  bms 34010",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34010",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1490,
+        "wires": [
+            [
+                "9c69a636b7019cbd"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8d18fa5935b63114",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1.2  bms 34110",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34110",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1540,
+        "wires": [
+            [
+                "50970ddb03e5a656"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a2da300966ea1380",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2.1  bms 34010",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34010",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1640,
+        "wires": [
+            [
+                "8b244b31194d11b4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dc902ad0fd1874a3",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2.2  bms 34110",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "34110",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1690,
+        "wires": [
+            [
+                "da7f34c115b6b48e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7d658bcb7a645f45",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3.1  bms 34010",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34010",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1810,
+        "wires": [
+            [
+                "9783eb1f7f9cf587"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e672af815cda7de8",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3.2  bms 34110",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "34110",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1860,
+        "wires": [
+            [
+                "e63d6a489bdd3178"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ccd76a923ac21bad",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 SOC_p3 34202",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34202",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2910,
+        "wires": [
+            [
+                "115f97a71be00914"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5cfa30a643df612b",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 cycle counter 34003",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34003",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2390,
+        "wires": [
+            [
+                "97c406cf3acd28d4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9c5b6913cb1a7854",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2.3  bms 34210",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34210",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1740,
+        "wires": [
+            [
+                "3c7d0fd1ba13e493"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e91ec2c199eb532e",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 SOC_p1 34002",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34002",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2980,
+        "wires": [
+            [
+                "053c74bea37a33d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c383b01062086a22",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 SOC_p2 34102",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34102",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 3030,
+        "wires": [
+            [
+                "5d72ed6086f557de"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3a7fc77680da6f98",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 cycle counter 34103",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34103",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2290,
+        "wires": [
+            [
+                "9d65e45ebde918e7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ab07b151f6500a23",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 2 cycle counter 34203",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34203",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2340,
+        "wires": [
+            [
+                "4d3c952533dfe37c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9204a3c4a6f4c260",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 cycle counter 34103",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34103",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2110,
+        "wires": [
+            [
+                "ab7a472960513bc6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dcd22486fe7d6c9a",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 cycle counter 34203",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34203",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2160,
+        "wires": [
+            [
+                "684a91a8afcdca4b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5017ecb7e2cda6bd",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 cycle counter 34103",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34103",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2440,
+        "wires": [
+            [
+                "964cc769b4b658e3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8d64c50fa3fd2897",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 cycle counter 34203",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34203",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 860,
+        "y": 2490,
+        "wires": [
+            [
+                "242d5020b9168c54"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "82669e996b023c94",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1.3  bms 34210",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34210",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1590,
+        "wires": [
+            [
+                "e3074abbe14cf0a8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e48a4627d77c8406",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3.3  bms 34210",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "2",
+        "dataType": "HoldingRegister",
+        "adr": "34210",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 1910,
+        "wires": [
+            [
+                "97ad53cfdc5e620f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "20816099100ada28",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 1 SOC_p3 34202",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34202",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 2720,
+        "wires": [
+            [
+                "e0ba881fc8cc29f6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8fa32c0a4cc7bde4",
+        "type": "modbus-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Marstek 3 SOC_p3 34202",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "34202",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 840,
+        "y": 3080,
+        "wires": [
+            [
+                "4953c300af6618bd"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0dd7041848a984bc",
+        "type": "modbus-flex-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "878dccbe61442ac8",
+        "name": "Read modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "67aa8a7899544f4d",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "29a01819eceaa285"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "351beeb8be151fd0",
+        "type": "modbus-flex-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "4628e546ccc63a18",
+        "name": "Read modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "f821200b3de634c4",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 590,
+        "wires": [
+            [
+                "3a8f42f974406599"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2447f58a2ce79df4",
+        "type": "modbus-flex-getter",
+        "z": "a01a6ad43ae20262",
+        "g": "d0bb375e75984094",
+        "name": "Read modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "server": "b97d617ade918f2a",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 930,
+        "wires": [
+            [
+                "8ec8e96db83ee170"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d649eedb20aeb086",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Modbus Write 41000 ( reboot, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "41000",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 3800,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "202cab74b518d38a",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Modbus Write 41000 ( reboot, M2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "41000",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 3870,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1115f5fbf659055a",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "Modbus Write 42000 ( RS485, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42000",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1810,
+        "y": 270,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ae37212bb48c9120",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "Modbus Write 42000 ( RS485, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42000",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1810,
+        "y": 430,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6a440a0225e44ff7",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "Modbus Write 42021 ( DisCh pwr, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42021",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1830,
+        "y": 380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b9173903c5b35b15",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "15a071569744a046",
+        "name": "Modbus Write 44003 (MAX DisCh pwr, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "44003",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1870,
+        "y": 330,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "dff69faa4af76439",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "Modbus Write 42000 ( RS485, M2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42000",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1810,
+        "y": 680,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "af386a37e6fdae0e",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "Modbus Write 42000 ( RS485, M2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42000",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1810,
+        "y": 840,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b683048452b32d4c",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "Modbus Write 42021 ( DisCh pwr, M2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42021",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1830,
+        "y": 790,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ec085beaf369da5b",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "2c4c1574f8d2ab82",
+        "name": "Modbus Write 44003 (MAX DisCh pwr, M2)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "44003",
+        "quantity": "1",
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1870,
+        "y": 740,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1bc3ce10c50da785",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "name": "Modbus Write 44002 (MAX Ch pwr, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "44002",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2260,
+        "y": 680,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "74e0f45bc805628e",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "d": true,
+        "name": "Modbus Write 42022( Ch pwr, M1)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "42022",
+        "quantity": "1",
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2240,
+        "y": 760,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8f979f127b57e703",
+        "type": "modbus-write",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "Modbus Write 41000 ( reboot, M3)",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "41000",
+        "quantity": "1",
+        "server": "b97d617ade918f2a",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 870,
+        "y": 3940,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6d226c2b34164c7d",
+        "type": "modbus-flex-write",
+        "z": "a01a6ad43ae20262",
+        "g": "878dccbe61442ac8",
+        "name": "Write modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "67aa8a7899544f4d",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "75fb991b1ba710d4",
+        "type": "modbus-flex-write",
+        "z": "a01a6ad43ae20262",
+        "g": "4628e546ccc63a18",
+        "name": "Write modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "f821200b3de634c4",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 670,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7aa9a5e1227e3f25",
+        "type": "modbus-flex-write",
+        "z": "a01a6ad43ae20262",
+        "g": "d0bb375e75984094",
+        "name": "Write modbus register",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "b97d617ade918f2a",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 1010,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "992114ad79077f70",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M1.1",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34018",
+                "quantity": "13"
+            }
+        ],
+        "server": "67aa8a7899544f4d",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3220,
+        "wires": [
+            [
+                "d68248f6aabf58ba"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3c68c75972d93292",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M1.2",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34118",
+                "quantity": "13"
+            }
+        ],
+        "server": "67aa8a7899544f4d",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3270,
+        "wires": [
+            [
+                "da9dd12fd49ed84b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "db74a1d79fe51325",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M2.1",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34018",
+                "quantity": "13"
+            }
+        ],
+        "server": "f821200b3de634c4",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3390,
+        "wires": [
+            [
+                "d4ceb50ad3105e2c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4a93fa4dd86378f5",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M2.2",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34118",
+                "quantity": "13"
+            }
+        ],
+        "server": "f821200b3de634c4",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3440,
+        "wires": [
+            [
+                "2a190b9e9654cc1e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c1c6bbde6d19056f",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M2-30200-30204",
+        "sequences": [
+            {
+                "name": "FW-version",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "30200",
+                "quantity": "5"
+            }
+        ],
+        "server": "f821200b3de634c4",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 680,
+        "y": 1290,
+        "wires": [
+            [
+                "01dbe4499445a127"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "49363eeaf329ed3a",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M1-30200-30204",
+        "sequences": [
+            {
+                "name": "FW-version",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "30200",
+                "quantity": "5"
+            }
+        ],
+        "server": "67aa8a7899544f4d",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 680,
+        "y": 1240,
+        "wires": [
+            [
+                "5ee076375ea86668"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9ebefb6987c62bf4",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "M3-30200-30204",
+        "sequences": [
+            {
+                "name": "FW-version",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "30200",
+                "quantity": "5"
+            }
+        ],
+        "server": "b97d617ade918f2a",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 680,
+        "y": 1340,
+        "wires": [
+            [
+                "97a0b2bf301ef971"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2fa5cab86ba215b4",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M2.3",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34218",
+                "quantity": "13"
+            }
+        ],
+        "server": "f821200b3de634c4",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3490,
+        "wires": [
+            [
+                "288cb6976ea679cb"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "815bbefe8d68bdde",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M3.1",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34018",
+                "quantity": "13"
+            }
+        ],
+        "server": "b97d617ade918f2a",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3590,
+        "wires": [
+            [
+                "d13245fb0ce4d0d6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fc4bce7d37e6f5a6",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M3.2",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34118",
+                "quantity": "13"
+            }
+        ],
+        "server": "b97d617ade918f2a",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3640,
+        "wires": [
+            [
+                "c42cd4d9dae797c9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7a53e423be2636e9",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "name": "M2-test",
+        "sequences": [
+            {
+                "name": "FW-version",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "30350",
+                "quantity": "6"
+            }
+        ],
+        "server": "f821200b3de634c4",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2420,
+        "y": 290,
+        "wires": [
+            [
+                "57a99b8294020f38",
+                "95b284e6d6620ba5",
+                "c116f0846a386966"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "34c286ce9a934f01",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M1.3",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34218",
+                "quantity": "13"
+            }
+        ],
+        "server": "67aa8a7899544f4d",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3320,
+        "wires": [
+            [
+                "edfd9ae79f449768"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f074d13a80b78446",
+        "type": "modbus-flex-sequencer",
+        "z": "a01a6ad43ae20262",
+        "g": "25597664dd01656b",
+        "name": "cel voltage M3.3",
+        "sequences": [
+            {
+                "name": "cel voltage",
+                "unitid": "1",
+                "fc": "FC3",
+                "address": "34218",
+                "quantity": "13"
+            }
+        ],
+        "server": "b97d617ade918f2a",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "logIOActivities": false,
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 850,
+        "y": 3690,
+        "wires": [
+            [
+                "844d35a8e3beb928"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "51297deab6c3defd",
+        "type": "api-call-service",
+        "z": "a01a6ad43ae20262",
+        "g": "49899ceb8de2b9cf",
+        "name": "Network Marstek",
+        "server": "6ad6bd245c78b95a",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.toggle",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [
+            "bd64baf2c09c8856d7b9fbfee5161b2f"
+        ],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "switch",
+        "service": "toggle",
+        "x": 1830,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a6732d7b7733c33a",
+        "type": "ui_spacer",
+        "z": "a01a6ad43ae20262",
+        "name": "spacer",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "cad25d685c939795",
+        "type": "ui_spacer",
+        "z": "a01a6ad43ae20262",
+        "name": "spacer",
+        "group": "fdfbcd5b55b1a3c1",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "bbc7c21fa70f301e",
+        "type": "ui_group",
+        "name": "Modbus test tool M1",
+        "tab": "ba2cf45331ca6172",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "7667c6660a73ce8b",
+        "type": "ui_group",
+        "name": "Modbus test tool M2",
+        "tab": "ba2cf45331ca6172",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "03b65d071c6d10e4",
+        "type": "ui_group",
+        "name": "Modbus test tool M3",
+        "tab": "ba2cf45331ca6172",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "fdfbcd5b55b1a3c1",
+        "type": "ui_group",
+        "name": "Firmware info",
+        "tab": "ba2cf45331ca6172",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f9c1960d77c3951b",
+        "type": "ui_group",
+        "name": "Group",
+        "tab": "1fb137134ebd7216",
+        "order": null,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "3a87a93282fd4450",
+        "type": "ui_group",
+        "name": "other",
+        "tab": "ba2cf45331ca6172",
+        "order": 7,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "67aa8a7899544f4d",
+        "type": "modbus-client",
+        "name": "Marstek 1",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.178.7",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 3,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "f821200b3de634c4",
+        "type": "modbus-client",
+        "name": "Marstek 2",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.178.8",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "b97d617ade918f2a",
+        "type": "modbus-client",
+        "name": "Marstek 3",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.178.9",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "6ad6bd245c78b95a",
+        "type": "server",
+        "name": "Home Assistant",
+        "version": 6,
+        "addon": false,
+        "rejectUnauthorizedCerts": true,
+        "ha_boolean": [
+            "y",
+            "yes",
+            "true",
+            "on",
+            "home",
+            "open"
+        ],
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": 30,
+        "areaSelector": "friendlyName",
+        "deviceSelector": "friendlyName",
+        "entitySelector": "friendlyName",
+        "statusSeparator": ": ",
+        "statusYear": "hidden",
+        "statusMonth": "short",
+        "statusDay": "numeric",
+        "statusHourCycle": "default",
+        "statusTimeFormat": "h:m",
+        "enableGlobalContextStore": false
+    },
+    {
+        "id": "ba2cf45331ca6172",
+        "type": "ui_tab",
+        "name": "Tools",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1fb137134ebd7216",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "power_settings_new",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9a3957cdd9f7127a",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-modbus": "5.45.2",
+            "node-red-contrib-home-assistant-websocket": "0.80.3"
+        }
+    }
+]
