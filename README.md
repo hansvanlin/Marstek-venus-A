@@ -21,7 +21,8 @@ Tested with Marstek Venus A firmware up to version 149.
 * Direct Modbus register access
 * Battery diagnostics and tooling
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
-* Node-RED Dashboard UI
+* Node-RED Dashboard UI and Dashboard 2.0 support
+* 15min time interval price control
 
 ## Why this project?
 Unlike many Modbus implementations that continuously write individual control registers, this project uses the Marstek internal schedule registers (43100–43104) to control battery behaviour.\
