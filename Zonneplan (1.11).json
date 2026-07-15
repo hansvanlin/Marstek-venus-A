@@ -1,0 +1,2758 @@
+[
+    {
+        "id": "3f235640b7cb44a9",
+        "type": "subflow",
+        "name": "0.xx",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 75,
+                "wires": [
+                    {
+                        "id": "87ed2ab53564d859"
+                    },
+                    {
+                        "id": "57918fca3037144d"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 315,
+                "y": 75,
+                "wires": [
+                    {
+                        "id": "57918fca3037144d",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "87ed2ab53564d859",
+        "type": "function",
+        "z": "3f235640b7cb44a9",
+        "d": true,
+        "name": "0.xx",
+        "func": "msg.payload = msg.payload.toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 185,
+        "y": 75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57918fca3037144d",
+        "type": "change",
+        "z": "3f235640b7cb44a9",
+        "name": "Convert to 0.xx",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)\t\t",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.payload, 2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31f49f61237bfcaa",
+        "type": "tab",
+        "label": "ZonneplanNew",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2d2c3f5424649f1d",
+        "type": "group",
+        "z": "31f49f61237bfcaa",
+        "name": "Get price data from enever (zonneplan or other)",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "060f718c3033129e",
+            "3a2c5fcc7c8b7ce7",
+            "45a4bbad87114461",
+            "d6487a35e77817b3",
+            "c24d076a76d629bf",
+            "32889c3c215d849b",
+            "92bfe3d86fb0faed",
+            "e6058f68670e0902",
+            "cefc75f068103074",
+            "e1545f1e4ce28e1f",
+            "4fb21c513f287873",
+            "f4c6d4f3e84ff7c1",
+            "887b20e67cf136a4",
+            "67f1d7af4f40a0ca",
+            "c5919df7a24639e9",
+            "b8a7551e31327206",
+            "fa49ce0839c2f997",
+            "f15581c62164b1df",
+            "1cb37ce1ce0b03a0",
+            "aa278ab987c6e22f",
+            "91d2c3b57997dcb7",
+            "8329ec83cdc1bb6f",
+            "8001014287c66208",
+            "f54a6709b3e76f4b",
+            "8a5694b71561a15a",
+            "f0671343864074fd",
+            "35dfdefe2a5053be",
+            "fa21afcf5b12cea2",
+            "14c47ec808042cfe"
+        ],
+        "x": 24,
+        "y": 109,
+        "w": 1442,
+        "h": 522
+    },
+    {
+        "id": "0df27e9c54ae115a",
+        "type": "group",
+        "z": "31f49f61237bfcaa",
+        "name": "UI selection",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "55fef1c1f68f9d35",
+            "73c2aef41e21eb1b",
+            "0ee171ef38d2bd68",
+            "7b917c054cf5de9f",
+            "533e28b7975b5b76",
+            "5228a660703b5794",
+            "16de0e58f7d0b8c6",
+            "7b024c25a2c2d988",
+            "3652f07640a3247a",
+            "927d8e80949b7acb",
+            "1cdc54087c1286a6",
+            "9da1fe24b456c07f",
+            "0620dffe25afd42f",
+            "def23ce58d6fb806",
+            "de423aa5c78a6d2c",
+            "11e43433f73ffc80",
+            "4097d032a866dd56",
+            "bc87a83f8d284ade",
+            "207e720261738e06",
+            "f96fc6e7a82829a7",
+            "b04ca591484f9f84",
+            "3392d5852634ccd7",
+            "54ceb51968a8f922",
+            "b570171a7ab58c87",
+            "3a215694c20acd7d",
+            "3c0865cc8e9b44c3",
+            "baa8fda30aa62983",
+            "0d5864a8e71b108e",
+            "0d03b306340c38e6",
+            "d5f355b729e5a334",
+            "569b3940b84e33f3",
+            "42269b00f6f0ea6b",
+            "16c5a7f57961b343",
+            "c90b61b86469158c",
+            "e4cf870b9cfac10a",
+            "ebacb47cb36727eb",
+            "5444806da2225c8f",
+            "f05a27679fffcc96",
+            "2f25cf10cc342178",
+            "c9b2eae95a3540d3",
+            "edb4224af4664766",
+            "b95ff7208b1cb16b",
+            "a43be8d321dcc1a0",
+            "ed76769baddb46e1",
+            "d325d4c827d53445",
+            "e1e6916ea7b3bd0b",
+            "853662b47d3132e2",
+            "e117c253b5359630",
+            "79c35e93d8c5d689",
+            "951e091d50a228ac",
+            "a1a3f2f845df8c6c",
+            "be2c098e9d63db7c",
+            "6e94cf2ee380d0da",
+            "07213407936afad7",
+            "d96a6ceece72cd52",
+            "fbe05f5059c851fe",
+            "b4a54fa7497b70ca",
+            "a876b6fdfc91ea97",
+            "168e3509b68513d8",
+            "a91265938301c31f",
+            "e021cf3519bc3679",
+            "c99c0257040ff8c1",
+            "f59b676c78b17c78",
+            "3fcf918b9cdf2a88",
+            "dcf19114b7349589",
+            "42cba3692b24e187",
+            "49bc325283927dbd",
+            "018eb005fd13ba4e",
+            "5aa4506c9d618e0b",
+            "9bb9e547f1ad1fea"
+        ],
+        "x": 24,
+        "y": 679,
+        "w": 1382,
+        "h": 1342
+    },
+    {
+        "id": "f9972972dabc7d0f",
+        "type": "group",
+        "z": "31f49f61237bfcaa",
+        "name": "Hide forecast",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff0000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "1cb71761ae98c5bc"
+        ],
+        "x": 34,
+        "y": 4,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "8a5694b71561a15a",
+        "type": "junction",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "x": 880,
+        "y": 240,
+        "wires": [
+            [
+                "3a2c5fcc7c8b7ce7",
+                "f15581c62164b1df"
+            ]
+        ]
+    },
+    {
+        "id": "42269b00f6f0ea6b",
+        "type": "junction",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "x": 170,
+        "y": 1810,
+        "wires": [
+            [
+                "54ceb51968a8f922",
+                "3c0865cc8e9b44c3",
+                "baa8fda30aa62983",
+                "16c5a7f57961b343"
+            ]
+        ]
+    },
+    {
+        "id": "977fa04fbf0b2359",
+        "type": "junction",
+        "z": "31f49f61237bfcaa",
+        "x": 760,
+        "y": 660,
+        "wires": [
+            [
+                "e1545f1e4ce28e1f"
+            ]
+        ]
+    },
+    {
+        "id": "35dfdefe2a5053be",
+        "type": "junction",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "x": 255,
+        "y": 240,
+        "wires": [
+            [
+                "14c47ec808042cfe"
+            ]
+        ]
+    },
+    {
+        "id": "fa21afcf5b12cea2",
+        "type": "junction",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "x": 600,
+        "y": 240,
+        "wires": [
+            [
+                "060f718c3033129e",
+                "fa49ce0839c2f997"
+            ]
+        ]
+    },
+    {
+        "id": "060f718c3033129e",
+        "type": "json",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Convert to json",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 775,
+        "y": 240,
+        "wires": [
+            [
+                "8a5694b71561a15a"
+            ]
+        ]
+    },
+    {
+        "id": "3a2c5fcc7c8b7ce7",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 60",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 915,
+        "y": 290,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "45a4bbad87114461",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "15h",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 15 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 175,
+        "y": 240,
+        "wires": [
+            [
+                "35dfdefe2a5053be"
+            ]
+        ]
+    },
+    {
+        "id": "d6487a35e77817b3",
+        "type": "change",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Global save ZonneplanTijdsloten",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ZonneplanTijdsloten",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 230,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55fef1c1f68f9d35",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "PVSurplusW",
+        "func": "//var solarpwr = Number(global.get(\"SolarPwr\")[0]);\n//var actualuse = Number(global.get(\"ActualUse\")[0]) ;\n//var surplus = solarpwr - actualuse ; //or negative p1 power\n\nvar p1pwr = Number(global.get(\"P1Power\"))\n\nif(p1pwr < 0){\n    p1pwr = Math.abs(p1pwr)\n    global.set(\"PVSurplusW\" ,p1pwr) \n}\n\nelse {\n    p1pwr = 0 \n    global.set(\"PVSurplusW\" ,p1pwr)\n}\nmsg.payload = p1pwr ;\n\nnode.status({fill:'green',shape:'ring',text:'Surplus ' + p1pwr});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1480,
+        "wires": [
+            [
+                "16de0e58f7d0b8c6",
+                "6e94cf2ee380d0da"
+            ]
+        ]
+    },
+    {
+        "id": "73c2aef41e21eb1b",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "1 sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1330,
+        "wires": [
+            [
+                "55fef1c1f68f9d35",
+                "207e720261738e06"
+            ]
+        ]
+    },
+    {
+        "id": "c24d076a76d629bf",
+        "type": "file in",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "filename": "/home/pi/prijs.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "92bfe3d86fb0faed",
+                "060f718c3033129e"
+            ]
+        ]
+    },
+    {
+        "id": "32889c3c215d849b",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Reload ",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "20",
+        "topic": "",
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "92bfe3d86fb0faed",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 56",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 655,
+        "y": 440,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "0ee171ef38d2bd68",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "1 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 1240,
+        "wires": [
+            [
+                "533e28b7975b5b76",
+                "3652f07640a3247a",
+                "927d8e80949b7acb",
+                "9da1fe24b456c07f",
+                "de423aa5c78a6d2c",
+                "4097d032a866dd56",
+                "42269b00f6f0ea6b",
+                "ebacb47cb36727eb",
+                "def23ce58d6fb806",
+                "2f25cf10cc342178",
+                "c9b2eae95a3540d3",
+                "b95ff7208b1cb16b",
+                "ed76769baddb46e1",
+                "49bc325283927dbd",
+                "9bb9e547f1ad1fea"
+            ]
+        ]
+    },
+    {
+        "id": "7b917c054cf5de9f",
+        "type": "change",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "ZonneplanCurrentHour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ZonneplanCurrentHour",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "533e28b7975b5b76",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Price current hour (Zonneplan)",
+        "func": "msg.payload = global.get(\"ZonneplanTijdsloten\") ;\n\n\nvar date = new Date();\n\nvar Chour = date.getHours() ;\n\n\nvar msg = Number(msg.payload.data[Chour].prijsZP) ;\nnode.status({ fill: \"green\", shape: \"ring\", text: \"Current Price: \" + msg });\nmsg.topic = \"CurrentPrice\" ;\nreturn [{payload: msg}];\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "7b917c054cf5de9f"
+            ]
+        ]
+    },
+    {
+        "id": "e6058f68670e0902",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Version 1.11",
+        "info": "0.01 initial version (obtaine a token at enever.nl)\n0.02 improved save to file\n0.03 added Forecast price info\n1.11 added the missing HA solar Forecast , dashboard2.0 support, 15min price zonneplan",
+        "x": 1350,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "cefc75f068103074",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "3h",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 03 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 175,
+        "y": 195,
+        "wires": [
+            [
+                "35dfdefe2a5053be"
+            ]
+        ]
+    },
+    {
+        "id": "e1545f1e4ce28e1f",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "1 if NaN",
+        "func": "var price = msg.payload ;\n\nif (isNaN(price)){\n    msg.payload = 1\n}\nelse{\n    msg.payload = null\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 590,
+        "wires": [
+            [
+                "f4c6d4f3e84ff7c1"
+            ]
+        ]
+    },
+    {
+        "id": "4fb21c513f287873",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 300,
+        "y": 470,
+        "wires": [
+            [
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "f4c6d4f3e84ff7c1",
+        "type": "rbe",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 360,
+        "y": 590,
+        "wires": [
+            [
+                "887b20e67cf136a4",
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "887b20e67cf136a4",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 60",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 465,
+        "y": 590,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "3652f07640a3247a",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Cheap hours",
+        "func": "msg.payload = global.get(\"ZonneplanCheapSlotTexts\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\nmsg.payload = msg.payload.join(', ');\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1160,
+        "wires": [
+            [
+                "7b024c25a2c2d988",
+                "853662b47d3132e2"
+            ]
+        ]
+    },
+    {
+        "id": "927d8e80949b7acb",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Expensive hours",
+        "func": "msg.payload = global.get(\"ZonneplanExpensiveSlotTexts\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\nmsg.payload = msg.payload.join(', ');\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1200,
+        "wires": [
+            [
+                "1cdc54087c1286a6",
+                "951e091d50a228ac"
+            ]
+        ]
+    },
+    {
+        "id": "9da1fe24b456c07f",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Cheap avg",
+        "func": "msg.payload = global.get(\"ZonneplanCheapAvg\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 575,
+        "y": 1245,
+        "wires": [
+            [
+                "0620dffe25afd42f",
+                "79c35e93d8c5d689"
+            ]
+        ]
+    },
+    {
+        "id": "67f1d7af4f40a0ca",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 60",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1185,
+        "y": 290,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "c5919df7a24639e9",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 60",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1165,
+        "y": 350,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "b8a7551e31327206",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 56",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1185,
+        "y": 230,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "fa49ce0839c2f997",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "debug 56",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 630,
+        "y": 240,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f15581c62164b1df",
+        "type": "switch",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "valid?",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1000,
+        "y": 240,
+        "wires": [
+            [
+                "67f1d7af4f40a0ca",
+                "d6487a35e77817b3",
+                "aa278ab987c6e22f",
+                "b8a7551e31327206"
+            ],
+            [
+                "c5919df7a24639e9"
+            ]
+        ]
+    },
+    {
+        "id": "1cb37ce1ce0b03a0",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "{\"status\":\"true\",\"data\":[{\"datum\":\"2026-05-28T00:00:00+02:00\",\"prijs\":\"0.125170\",\"prijsZP\":\"0.282306\"},{\"datum\":\"2026-05-28T01:00:00+02:00\",\"prijs\":\"0.116502\",\"prijsZP\":\"0.271818\"},{\"datum\":\"2026-05-28T02:00:00+02:00\",\"prijs\":\"0.115085\",\"prijsZP\":\"0.270103\"},{\"datum\":\"2026-05-07T03:00:00+02:00\",\"prijs\":\"0.115572\",\"prijsZP\":\"0.270693\"},{\"datum\":\"2026-05-07T04:00:00+02:00\",\"prijs\":\"0.117032\",\"prijsZP\":\"0.272459\"},{\"datum\":\"2026-05-07T05:00:00+02:00\",\"prijs\":\"0.124398\",\"prijsZP\":\"0.281371\"},{\"datum\":\"2026-05-07T06:00:00+02:00\",\"prijs\":\"0.147220\",\"prijsZP\":\"0.308986\"},{\"datum\":\"2026-05-07T07:00:00+02:00\",\"prijs\":\"0.162728\",\"prijsZP\":\"0.327750\"},{\"datum\":\"2026-05-07T08:00:00+02:00\",\"prijs\":\"0.154252\",\"prijsZP\":\"0.317496\"},{\"datum\":\"2026-05-07T09:00:00+02:00\",\"prijs\":\"0.123778\",\"prijsZP\":\"0.280621\"},{\"datum\":\"2026-05-07T10:00:00+02:00\",\"prijs\":\"0.107025\",\"prijsZP\":\"0.260350\"},{\"datum\":\"2026-05-07T11:00:00+02:00\",\"prijs\":\"0.097332\",\"prijsZP\":\"0.248622\"},{\"datum\":\"2026-05-07T12:00:00+02:00\",\"p...",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "aa278ab987c6e22f",
+        "type": "file",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "filename": "/home/pi/prijs.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1250,
+        "y": 290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8329ec83cdc1bb6f",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Reload",
+        "info": "",
+        "x": 265,
+        "y": 315,
+        "wires": []
+    },
+    {
+        "id": "8001014287c66208",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "Storage",
+        "info": "",
+        "x": 1390,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "f54a6709b3e76f4b",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "fault?",
+        "info": "",
+        "x": 100,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "def23ce58d6fb806",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "name": "Build cheap/expensive hour lists V2",
+        "func": "let raw = global.get('ZonneplanTijdsloten');\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 24) {\n    node.status({fill:'red',shape:'ring',text:'no ZonneplanTijdsloten'});\n    return null;\n}\n\nconst cheapCount = 4;\nconst expensiveMaxCount = 1; // aantal dure uren voor max ontladen\nconst minSpread = 0.08;      // 8 cent boven gemiddelde goedkope uren\n\nlet uren = raw.data.map((item, index) => ({\n    uur: index,\n    prijs: Number(item.prijsZP)\n})).filter(x => !isNaN(x.prijs));\n\nif (uren.length === 0) {\n    node.status({fill:'red',shape:'ring',text:'no valid prices'});\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...uren.map(x => x.prijs));\n\nlet cheapHours = [...uren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\n// Gemiddelde prijs van de gekozen goedkope uren berekenen\nlet cheapPrices = uren\n    .filter(x => cheapHours.includes(x.uur))\n    .map(x => x.prijs);\n\nlet cheapAvg = cheapPrices.length\n    ? cheapPrices.reduce((a, b) => a + b, 0) / cheapPrices.length\n    : goedkoopstePrijs;\n\n// Duurste uur berekenen\nlet duurste = [...uren].sort((a, b) => b.prijs - a.prijs)[0];\n\nlet duursteUur = duurste.uur;\nlet duurstePrijs = duurste.prijs;\nlet spreadDuursteVsCheapAvg = duurstePrijs - cheapAvg;\nlet spreadDuursteVsGoedkoopste = duurstePrijs - goedkoopstePrijs;\nlet dischargeAllowed = spreadDuursteVsCheapAvg >= minSpread;\n\n// Alleen het duurste uur kiezen als het genoeg boven cheapAvg ligt\nlet expensiveHours = [...uren]\n    .filter(x => x.prijs >= (cheapAvg + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.uur - b.uur)\n    .map(x => x.uur);\n\nfunction mergeHoursToSlots(hours) {\n    if (!hours.length) return [];\n    let slots = [];\n    let start = hours[0];\n    let end = hours[0];\n\n    for (let i = 1; i < hours.length; i++) {\n        if (hours[i] === end + 1) {\n            end = hours[i];\n        } else {\n            slots.push({\n                starttijd: start.toString().padStart(2, '0') + ':00',\n                eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n            });\n            start = hours[i];\n            end = hours[i];\n        }\n    }\n\n    slots.push({\n        starttijd: start.toString().padStart(2, '0') + ':00',\n        eindtijd: (end + 1).toString().padStart(2, '0') + ':00'\n    });\n\n    return slots;\n}\n\nlet cheapSlots = mergeHoursToSlots(cheapHours);\nlet expensiveSlots = mergeHoursToSlots(expensiveHours);\n\nglobal.set('ZonneplanCheapHours', cheapHours);\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanExpensiveHours', expensiveHours);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\nglobal.set('ZonneplanCheapAvg', cheapAvg);\n\nglobal.set('ZonneplanDuursteUur', duursteUur);\nglobal.set('ZonneplanDuurstePrijs', duurstePrijs);\nglobal.set('ZonneplanSpreadDuursteVsCheapAvg', spreadDuursteVsCheapAvg);\nglobal.set('ZonneplanDischargeAllowed', dischargeAllowed);\n\nmsg.payload = {\n    cheapHours,\n    cheapSlots,\n    expensiveHours,\n    expensiveSlots,\n    goedkoopstePrijs,\n    cheapAvg,\n    duursteUur,\n    duurstePrijs,\n    spreadDuursteVsCheapAvg,\n    spreadDuursteVsGoedkoopste,\n    dischargeAllowed\n};\n\nnode.status({\n    fill: dischargeAllowed ? 'green' : 'yellow',\n    shape: 'dot',\n    text:\n        'cheap ' + cheapHours.join(',') +\n        ' | duurste ' + duursteUur +\n        ' €' + duurstePrijs.toFixed(3) +\n        ' spread ' + spreadDuursteVsCheapAvg.toFixed(3)\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de423aa5c78a6d2c",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "duurste uur prijs",
+        "func": "\nmsg.payload = global.get(\"ZonneplanDuurstePrijs\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1110,
+        "wires": [
+            [
+                "11e43433f73ffc80",
+                "be2c098e9d63db7c"
+            ]
+        ]
+    },
+    {
+        "id": "4097d032a866dd56",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "duurste uur prijs",
+        "func": "\nmsg.payload = global.get(\"ZonneplanSpreadDuursteVsCheapAvg\") ;\n\n// Zet de array om naar een komma-gescheiden tekst\n// msg.payload = msg.payload.join(', ');\n\nmsg.payload = msg.payload.toFixed(3);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 595,
+        "y": 1065,
+        "wires": [
+            [
+                "bc87a83f8d284ade",
+                "d325d4c827d53445"
+            ]
+        ]
+    },
+    {
+        "id": "207e720261738e06",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "EnergyMode",
+        "func": "msg.payload = global.get(\"EnergyMode\") ;\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1540,
+        "wires": [
+            [
+                "f96fc6e7a82829a7",
+                "d96a6ceece72cd52"
+            ]
+        ]
+    },
+    {
+        "id": "3392d5852634ccd7",
+        "type": "subflow:3f235640b7cb44a9",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "x": 770,
+        "y": 1920,
+        "wires": [
+            [
+                "b04ca591484f9f84",
+                "a876b6fdfc91ea97"
+            ]
+        ]
+    },
+    {
+        "id": "3a215694c20acd7d",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Import some HA solar forcast",
+        "info": "",
+        "x": 390,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "0d5864a8e71b108e",
+        "type": "change",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Est A",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 1810,
+        "wires": [
+            [
+                "d5f355b729e5a334"
+            ]
+        ]
+    },
+    {
+        "id": "0d03b306340c38e6",
+        "type": "change",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Est B",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 1860,
+        "wires": [
+            [
+                "d5f355b729e5a334"
+            ]
+        ]
+    },
+    {
+        "id": "569b3940b84e33f3",
+        "type": "subflow:3f235640b7cb44a9",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "x": 990,
+        "y": 1840,
+        "wires": [
+            [
+                "b570171a7ab58c87",
+                "b4a54fa7497b70ca"
+            ]
+        ]
+    },
+    {
+        "id": "c90b61b86469158c",
+        "type": "subflow:3f235640b7cb44a9",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "x": 770,
+        "y": 1980,
+        "wires": [
+            [
+                "5444806da2225c8f",
+                "a91265938301c31f"
+            ]
+        ]
+    },
+    {
+        "id": "ebacb47cb36727eb",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "name": "Prep graph 60min",
+        "func": "var invoerData = global.get(\"ZonneplanTijdsloten.data\") || [];\n\nvar lijnPrijs = [];\nvar lijnPrijsZP = [];\nvar markerNu = [];\n\nvar nu = new Date();\nnu.setMinutes(0, 0, 0);\nvar huidigUur = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\nfor (var i = 0; i < invoerData.length; i++) {\n    var item = invoerData[i];\n\n    var datum = new Date(item.datum);\n    var timestamp = datum.getTime();\n\n    var datumUur = new Date(item.datum);\n    datumUur.setMinutes(0, 0, 0);\n    var timestampUur = datumUur.getTime();\n\n    var prijs = Number(item.prijs);\n    var prijsZP = Number(item.prijsZP);\n\n    lijnPrijs.push({ x: timestamp, y: prijs });\n    lijnPrijsZP.push({ x: timestamp, y: prijsZP });\n\n    if (!isNaN(prijs)) {\n        minPrijs = Math.min(minPrijs, prijs);\n        maxPrijs = Math.max(maxPrijs, prijs);\n    }\n\n    if (!isNaN(prijsZP)) {\n        minPrijs = Math.min(minPrijs, prijsZP);\n        maxPrijs = Math.max(maxPrijs, prijsZP);\n    }\n\n    if (timestampUur === huidigUur) {\n        huidigePrijs = prijs;\n    }\n}\n\n// verticale marker maken\nif (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n    markerNu.push({ x: huidigUur, y: minPrijs });\n    markerNu.push({ x: huidigUur, y: maxPrijs });\n}\n\nmsg.payload = [{\n    series: [\"Price\", \"Price All in\", \"Now\"],\n    data: [lijnPrijs, lijnPrijsZP, markerNu]\n}];\n\nif (huidigePrijs !== null && !isNaN(huidigePrijs)) {\n    msg.ui_control = {\n        options: {\n            title: \"Huidige prijs: \" + Number(huidigePrijs).toFixed(2) + \" ct/kWh\"\n        }\n    };\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91d2c3b57997dcb7",
+        "type": "ui_button",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "",
+        "group": "78f49ffbd11e559b",
+        "order": 12,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "Reload prices from file",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 380,
+        "y": 345,
+        "wires": [
+            [
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "5228a660703b5794",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "name": "Now",
+        "label": "Now",
+        "format": "{{msg.payload}} euro",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ff8605",
+        "x": 910,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "16de0e58f7d0b8c6",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "name": "SurPlus",
+        "label": "SurPlus",
+        "format": "{{msg.payload}} W",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#fafafa",
+        "x": 930,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7b024c25a2c2d988",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "Cheap Hours",
+        "label": "Cheap Hours:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "13",
+        "color": "#2ec27e",
+        "x": 960,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "1cdc54087c1286a6",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "name": "Expensive Hours",
+        "label": "Expensive Hours:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "13",
+        "color": "#f66151",
+        "x": 940,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "0620dffe25afd42f",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "Cheap avg",
+        "label": "Cheap avg",
+        "format": "{{msg.payload}} euro",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#2ec27e",
+        "x": 925,
+        "y": 1245,
+        "wires": []
+    },
+    {
+        "id": "11e43433f73ffc80",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "Expensive hour price",
+        "label": "Expensive hour price",
+        "format": "{{msg.payload}} euro",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#f66151",
+        "x": 895,
+        "y": 1110,
+        "wires": []
+    },
+    {
+        "id": "bc87a83f8d284ade",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "Delta price",
+        "label": "Delta price",
+        "format": "{{msg.payload}} euro",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#fafafa",
+        "x": 905,
+        "y": 1065,
+        "wires": []
+    },
+    {
+        "id": "f96fc6e7a82829a7",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "name": "EnergyMode",
+        "label": "EnergyMode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#fafafa",
+        "x": 940,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "b04ca591484f9f84",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "Est today ",
+        "label": "Estimated today ",
+        "format": "{{msg.payload}} kWh",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#a8a8a8",
+        "x": 950,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "b570171a7ab58c87",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "name": "Est next hour",
+        "label": "Estimated next hour",
+        "format": "{{msg.payload}} kWh",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#a8a8a8",
+        "x": 1150,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "5444806da2225c8f",
+        "type": "ui_text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "78f49ffbd11e559b",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "Est tomorrow ",
+        "label": "Estimated tomorrow ",
+        "format": "{{msg.payload}} kWh",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#a8a8a8",
+        "x": 940,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "e4cf870b9cfac10a",
+        "type": "ui_chart",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "group": "78f49ffbd11e559b",
+        "order": 14,
+        "width": "6",
+        "height": "5",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 850,
+        "y": 1005,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "54ceb51968a8f922",
+        "type": "api-current-state",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "server": "6ad6bd245c78b95a",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.energy_production_today_2",
+        "state_type": "str",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 460,
+        "y": 1920,
+        "wires": [
+            [
+                "3392d5852634ccd7"
+            ]
+        ]
+    },
+    {
+        "id": "3c0865cc8e9b44c3",
+        "type": "api-current-state",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "server": "6ad6bd245c78b95a",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.energy_next_hour_2",
+        "state_type": "str",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "string",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 430,
+        "y": 1810,
+        "wires": [
+            [
+                "0d5864a8e71b108e"
+            ]
+        ]
+    },
+    {
+        "id": "baa8fda30aa62983",
+        "type": "api-current-state",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "server": "6ad6bd245c78b95a",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.energy_next_hour_3",
+        "state_type": "str",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 430,
+        "y": 1860,
+        "wires": [
+            [
+                "0d03b306340c38e6"
+            ]
+        ]
+    },
+    {
+        "id": "16c5a7f57961b343",
+        "type": "api-current-state",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "",
+        "server": "6ad6bd245c78b95a",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.energy_production_tomorrow_2",
+        "state_type": "str",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "string",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 470,
+        "y": 1980,
+        "wires": [
+            [
+                "c90b61b86469158c"
+            ]
+        ]
+    },
+    {
+        "id": "d5f355b729e5a334",
+        "type": "SumUltimate",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Math",
+        "property": "payload",
+        "math": "sum",
+        "subtractstartfrom": "",
+        "x": 870,
+        "y": 1840,
+        "wires": [
+            [
+                "569b3940b84e33f3"
+            ]
+        ]
+    },
+    {
+        "id": "f05a27679fffcc96",
+        "type": "comment",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "per 1 aug 15min prijzen",
+        "info": "",
+        "x": 390,
+        "y": 1450,
+        "wires": []
+    },
+    {
+        "id": "2f25cf10cc342178",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "name": "Build cheap/expensive hour(15min) lists V3",
+        "func": "let raw = global.get('ZonneplanTijdsloten');\n// Controle aangepast naar 96 datapunten voor een volledige kwartierdag\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 96) {\n    node.status({fill:'red',shape:'ring',text:'geen volledige kwartierdata (96 slots)'});\n    return null;\n}\n\n// Omrekening van uren naar kwartieren (4 kwartieren per uur)\nconst cheapCount = 4 * 4;         // 16 kwartieren (was 4 uur)\nconst expensiveMaxCount = 1 * 4;  // max 4 kwartieren (was 1 uur)\nconst minSpread = 0.08;           // 8 cent boven gemiddelde goedkope kwartieren\n\nlet kwartieren = raw.data.map((item, index) => {\n    let totaalMinuten = index * 15;\n    let u = Math.floor(totaalMinuten / 60);\n    let m = totaalMinuten % 60;\n    \n    // Maak een leesbare tijdstring voor identificatiebv. \"14:15\"\n    let tijdString = u.toString().padStart(2, '0') + ':' + m.toString().padStart(2, '0');\n\n    return {\n        index: index,\n        tijd: tijdString,\n        prijs: Number(item.prijsZP)\n    };\n}).filter(x => !isNaN(x.prijs));\n\nif (kwartieren.length === 0) {\n    node.status({fill:'red',shape:'ring',text:'no valid prices'});\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...kwartieren.map(x => x.prijs));\n\nlet cheapQuarters = [...kwartieren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\n// Gemiddelde prijs van de gekozen goedkope kwartieren berekenen\nlet cheapPrices = kwartieren\n    .filter(x => cheapQuarters.includes(x.index))\n    .map(x => x.prijs);\n\nlet cheapAvg = cheapPrices.length\n    ? cheapPrices.reduce((a, b) => a + b, 0) / cheapPrices.length\n    : goedkoopstePrijs;\n\n// Duurste kwartier berekenen\nlet duurste = [...kwartieren].sort((a, b) => b.prijs - a.prijs)[0];\n\nlet duursteIndex = duurste.index;\nlet duursteTijd = duurste.tijd;\nlet duurstePrijs = duurste.prijs;\nlet spreadDuursteVsCheapAvg = duurstePrijs - cheapAvg;\nlet spreadDuursteVsGoedkoopste = duurstePrijs - goedkoopstePrijs;\nlet dischargeAllowed = spreadDuursteVsCheapAvg >= minSpread;\n\n// Alleen de duurste kwartieren kiezen als ze genoeg boven cheapAvg liggen\nlet expensiveQuarters = [...kwartieren]\n    .filter(x => x.prijs >= (cheapAvg + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\n// Nieuwe slimme merge functie die rekening houdt met kwartieren (:00, :15, :30, :45)\nfunction mergeQuartersToSlots(quarterIndexes) {\n    if (!quarterIndexes.length) return [];\n    let slots = [];\n    let startIdx = quarterIndexes[0];\n    let endIdx = quarterIndexes[0];\n\n    function indexToTime(idx) {\n        let mins = idx * 15;\n        return Math.floor(mins / 60).toString().padStart(2, '0') + ':' + (mins % 60).toString().padStart(2, '0');\n    }\n\n    for (let i = 1; i < quarterIndexes.length; i++) {\n        if (quarterIndexes[i] === endIdx + 1) {\n            endIdx = quarterIndexes[i];\n        } else {\n            slots.push({\n                starttijd: indexToTime(startIdx),\n                eindtijd: indexToTime(endIdx + 1) // +1 kwartier omdat eindtijd exclusief is\n            });\n            startIdx = quarterIndexes[i];\n            endIdx = quarterIndexes[i];\n        }\n    }\n\n    slots.push({\n        starttijd: indexToTime(startIdx),\n        eindtijd: indexToTime(endIdx + 1)\n    });\n\n    return slots;\n}\n\nlet cheapSlots = mergeQuartersToSlots(cheapQuarters);\nlet expensiveSlots = mergeQuartersToSlots(expensiveQuarters);\n\n// Converteer indexen terug naar leesbare tijden voor de notificatie/logging\nlet cheapHoursLabels = kwartieren.filter(x => cheapQuarters.includes(x.index)).map(x => x.tijd);\n\nglobal.set('ZonneplanCheapHours', cheapQuarters); // hernoemd naar indexen voor compatibiliteit in loops\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanExpensiveHours', expensiveQuarters);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\nglobal.set('ZonneplanCheapAvg', cheapAvg);\n\nglobal.set('ZonneplanDuursteUur', duursteTijd); // Slaat nu de tijd \"18:15\" op ipv een getal\nglobal.set('ZonneplanDuurstePrijs', duurstePrijs);\nglobal.set('ZonneplanSpreadDuursteVsCheapAvg', spreadDuursteVsCheapAvg);\nglobal.set('ZonneplanDischargeAllowed', dischargeAllowed);\n\nmsg.payload = {\n    cheapQuarters,\n    cheapSlots,\n    expensiveQuarters,\n    expensiveSlots,\n    goedkoopstePrijs,\n    cheapAvg,\n    duursteTijd,\n    duurstePrijs,\n    spreadDuursteVsCheapAvg,\n    spreadDuursteVsGoedkoopste,\n    dischargeAllowed\n};\n\nnode.status({\n    fill: dischargeAllowed ? 'green' : 'yellow',\n    shape: 'dot',\n    text:\n        'cheap slots: ' + cheapSlots.length +\n        ' | duurste ' + duursteTijd +\n        ' €' + duurstePrijs.toFixed(3) +\n        ' spread ' + spreadDuursteVsCheapAvg.toFixed(3)\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1305,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c9b2eae95a3540d3",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "name": "Build cheap/expensive hour(15min-time) lists V4",
+        "func": "let raw = global.get('ZonneplanTijdsloten');\n\n// Need a full day of 15-minute slots\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 96) {\n    node.status({ fill: 'red', shape: 'ring', text: 'geen volledige kwartierdata (96 slots)' });\n    return null;\n}\n\nconst cheapCount = 4 * 4;        // 16 kwartieren\nconst expensiveMaxCount = 1 * 4;  // max 4 kwartieren\nconst minSpread = 0.08;          // 8 cent boven cheap average\n\nfunction indexToTime(idx) {\n    const mins = idx * 15;\n    const h = Math.floor(mins / 60).toString().padStart(2, '0');\n    const m = (mins % 60).toString().padStart(2, '0');\n    return `${h}:${m}`;\n}\n\nlet kwartieren = raw.data.map((item, index) => ({\n    index,\n    tijd: indexToTime(index),\n    prijs: Number(item.prijsZP)\n})).filter(x => !isNaN(x.prijs));\n\nif (kwartieren.length === 0) {\n    node.status({ fill: 'red', shape: 'ring', text: 'no valid prices' });\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...kwartieren.map(x => x.prijs));\n\nlet cheapQuarters = [...kwartieren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\nlet cheapPrices = kwartieren\n    .filter(x => cheapQuarters.includes(x.index))\n    .map(x => x.prijs);\n\nlet cheapAvg = cheapPrices.length\n    ? cheapPrices.reduce((a, b) => a + b, 0) / cheapPrices.length\n    : goedkoopstePrijs;\n\nlet duurste = [...kwartieren].sort((a, b) => b.prijs - a.prijs)[0];\nlet duursteIndex = duurste.index;\nlet duursteTijd = duurste.tijd;\nlet duurstePrijs = duurste.prijs;\nlet spreadDuursteVsCheapAvg = duurstePrijs - cheapAvg;\nlet spreadDuursteVsGoedkoopste = duurstePrijs - goedkoopstePrijs;\nlet dischargeAllowed = spreadDuursteVsCheapAvg >= minSpread;\n\nlet expensiveQuarters = [...kwartieren]\n    .filter(x => x.prijs >= (cheapAvg + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\nfunction mergeQuartersToSlots(quarterIndexes) {\n    if (!quarterIndexes.length) return [];\n\n    let slots = [];\n    let startIdx = quarterIndexes[0];\n    let endIdx = quarterIndexes[0];\n\n    for (let i = 1; i < quarterIndexes.length; i++) {\n        if (quarterIndexes[i] === endIdx + 1) {\n            endIdx = quarterIndexes[i];\n        } else {\n            slots.push({\n                starttijd: indexToTime(startIdx),\n                eindtijd: indexToTime(endIdx + 1)\n            });\n            startIdx = quarterIndexes[i];\n            endIdx = quarterIndexes[i];\n        }\n    }\n\n    slots.push({\n        starttijd: indexToTime(startIdx),\n        eindtijd: indexToTime(endIdx + 1)\n    });\n\n    return slots;\n}\n\nlet cheapSlots = mergeQuartersToSlots(cheapQuarters);\nlet expensiveSlots = mergeQuartersToSlots(expensiveQuarters);\n\nlet cheapQuarterTexts = cheapQuarters.map(i => kwartieren.find(x => x.index === i)?.tijd).filter(Boolean);\nlet expensiveQuarterTexts = expensiveQuarters.map(i => kwartieren.find(x => x.index === i)?.tijd).filter(Boolean);\nlet cheapSlotTexts = cheapSlots.map(slot => `${slot.starttijd} - ${slot.eindtijd}`);\nlet expensiveSlotTexts = expensiveSlots.map(slot => `${slot.starttijd} - ${slot.eindtijd}`);\n\nglobal.set('ZonneplanCheapHours', cheapQuarters);\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanCheapSlotTexts', cheapSlotTexts);\nglobal.set('ZonneplanExpensiveHours', expensiveQuarters);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\nglobal.set('ZonneplanExpensiveSlotTexts', expensiveSlotTexts);\nglobal.set('ZonneplanCheapAvg', cheapAvg);\nglobal.set('ZonneplanDuursteUur', duursteTijd);\nglobal.set('ZonneplanDuurstePrijs', duurstePrijs);\nglobal.set('ZonneplanSpreadDuursteVsCheapAvg', spreadDuursteVsCheapAvg);\nglobal.set('ZonneplanDischargeAllowed', dischargeAllowed);\n\nmsg.payload = {\n    cheapQuarters,\n    cheapQuarterTexts,\n    cheapSlots,\n    cheapSlotTexts,\n    expensiveQuarters,\n    expensiveQuarterTexts,\n    expensiveSlots,\n    expensiveSlotTexts,\n    goedkoopstePrijs,\n    cheapAvg,\n    duursteIndex,\n    duursteTijd,\n    duurstePrijs,\n    spreadDuursteVsCheapAvg,\n    spreadDuursteVsGoedkoopste,\n    dischargeAllowed\n};\n\nnode.status({\n    fill: dischargeAllowed ? 'green' : 'yellow',\n    shape: 'dot',\n    text: 'cheap slots: ' + cheapSlots.length + ' | duurste ' + duursteTijd + ' €' + duurstePrijs.toFixed(3) + ' spread ' + spreadDuursteVsCheapAvg.toFixed(3)\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1305,
+        "wires": [
+            [
+                "edb4224af4664766"
+            ]
+        ]
+    },
+    {
+        "id": "edb4224af4664766",
+        "type": "debug",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "debug 81",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1095,
+        "y": 1305,
+        "wires": []
+    },
+    {
+        "id": "b95ff7208b1cb16b",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Price current quarter (Zonneplan)",
+        "func": "let data = global.get(\"ZonneplanTijdsloten\");\n\nlet now = new Date();\n\nlet hour = now.getHours();\nlet quarter = Math.floor(now.getMinutes() / 15);\n\nlet index = hour * 4 + quarter;\n\nlet price = Number(data.data[index].prijsZP);\n\nnode.status({\n    fill: \"green\",\n    shape: \"ring\",\n    text: \"Current Price: \" + price\n});\n\nreturn [{\n    topic: \"CurrentPrice\",\n    payload: price\n}];",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 840,
+        "wires": [
+            [
+                "5228a660703b5794",
+                "a43be8d321dcc1a0",
+                "977fa04fbf0b2359",
+                "c99c0257040ff8c1"
+            ]
+        ]
+    },
+    {
+        "id": "a43be8d321dcc1a0",
+        "type": "change",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "ZonneplanNow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ZonneplanNow",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed76769baddb46e1",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Prep graph 15min",
+        "func": "var invoerData = global.get(\"ZonneplanTijdsloten.data\") || [];\n\nvar lijnPrijs = [];\nvar lijnPrijsZP = [];\nvar markerNu = [];\n\n// Huidig kwartier bepalen\nvar nu = new Date();\nnu.setSeconds(0, 0);\nnu.setMinutes(Math.floor(nu.getMinutes() / 15) * 15);\n\nvar huidigKwartier = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\nfor (var i = 0; i < invoerData.length; i++) {\n\n    var item = invoerData[i];\n\n        var datum = new Date(item.datum);\n            datum.setSeconds(0, 0);\n\n                var timestamp = datum.getTime();\n\n                    var prijs = Number(item.prijs);\n                        var prijsZP = Number(item.prijsZP);\n\n                            // Grafieklijnen\n                                lijnPrijs.push({\n                                        x: timestamp,\n                                                y: prijs\n                                                    });\n\n                                                        lijnPrijsZP.push({\n                                                                x: timestamp,\n                                                                        y: prijsZP\n                                                                            });\n\n                                                                                // Min/max bepalen\n                                                                                    if (!isNaN(prijs)) {\n                                                                                            minPrijs = Math.min(minPrijs, prijs);\n                                                                                                    maxPrijs = Math.max(maxPrijs, prijs);\n                                                                                                        }\n\n                                                                                                            if (!isNaN(prijsZP)) {\n                                                                                                                    minPrijs = Math.min(minPrijs, prijsZP);\n                                                                                                                            maxPrijs = Math.max(maxPrijs, prijsZP);\n                                                                                                                                }\n\n                                                                                                                                    // Marker op huidige kwartier\n                                                                                                                                        if (timestamp === huidigKwartier) {\n                                                                                                                                                huidigePrijs = prijs;\n                                                                                                                                                    }\n                                                                                                                                                    }\n\n                                                                                                                                                    // Verticale \"Now\"-lijn\n                                                                                                                                                    if (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n                                                                                                                                                        markerNu.push({\n                                                                                                                                                                x: huidigKwartier,\n                                                                                                                                                                        y: minPrijs\n                                                                                                                                                                            });\n\n                                                                                                                                                                                markerNu.push({\n                                                                                                                                                                                        x: huidigKwartier,\n                                                                                                                                                                                                y: maxPrijs\n                                                                                                                                                                                                    });\n                                                                                                                                                                                                    }\n\n                                                                                                                                                                                                    msg.payload = [{\n                                                                                                                                                                                                        series: [\n                                                                                                                                                                                                                \"Price\",\n                                                                                                                                                                                                                        \"Price All in\",\n                                                                                                                                                                                                                                \"Now\"\n                                                                                                                                                                                                                                    ],\n                                                                                                                                                                                                                                        data: [\n                                                                                                                                                                                                                                                lijnPrijs,\n                                                                                                                                                                                                                                                        lijnPrijsZP,\n                                                                                                                                                                                                                                                                markerNu\n                                                                                                                                                                                                                                                                    ]\n                                                                                                                                                                                                                                                                    }];\n\n                                                                                                                                                                                                                                                                    if (huidigePrijs !== null) {\n                                                                                                                                                                                                                                                                        msg.ui_control = {\n                                                                                                                                                                                                                                                                                options: {\n                                                                                                                                                                                                                                                                                            title: \"Huidige prijs: \" + huidigePrijs.toFixed(2) + \" ct/kWh\"\n                                                                                                                                                                                                                                                                                                    }\n                                                                                                                                                                                                                                                                                                        };\n                                                                                                                                                                                                                                                                                                        }\n\n                                                                                                                                                                                                                                                                                                        return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 615,
+        "y": 1005,
+        "wires": [
+            [
+                "e4cf870b9cfac10a"
+            ]
+        ]
+    },
+    {
+        "id": "d325d4c827d53445",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} euro\n",
+        "output": "str",
+        "x": 1020,
+        "y": 1065,
+        "wires": [
+            [
+                "e1e6916ea7b3bd0b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e1e6916ea7b3bd0b",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "Delta price",
+        "label": "Delta price",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ffffff",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1130,
+        "y": 1065,
+        "wires": []
+    },
+    {
+        "id": "853662b47d3132e2",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 11,
+        "width": "12",
+        "height": "1",
+        "name": "Cheap Hours",
+        "label": "Cheap Hours",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "13",
+        "color": "#2ec27e",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1130,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "e117c253b5359630",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 8,
+        "width": "12",
+        "height": "1",
+        "name": "Cheap avg",
+        "label": "Cheap avg",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#2ec27e",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1135,
+        "y": 1245,
+        "wires": []
+    },
+    {
+        "id": "79c35e93d8c5d689",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} euro\n",
+        "output": "str",
+        "x": 1020,
+        "y": 1245,
+        "wires": [
+            [
+                "e117c253b5359630"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "951e091d50a228ac",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 10,
+        "width": "12",
+        "height": "1",
+        "name": "Expensive Hours",
+        "label": "Expensive Hours",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "13",
+        "color": "#ed333b",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1150,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a1a3f2f845df8c6c",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 7,
+        "width": "12",
+        "height": "1",
+        "name": "Expensive hour price",
+        "label": "Expensive hour price",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ed333b",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1160,
+        "y": 1110,
+        "wires": []
+    },
+    {
+        "id": "be2c098e9d63db7c",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} euro\n",
+        "output": "str",
+        "x": 1020,
+        "y": 1110,
+        "wires": [
+            [
+                "a1a3f2f845df8c6c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6e94cf2ee380d0da",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} W\n",
+        "output": "str",
+        "x": 1025,
+        "y": 1480,
+        "wires": [
+            [
+                "07213407936afad7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "07213407936afad7",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 2,
+        "width": "12",
+        "height": "1",
+        "name": "Sur Plus",
+        "label": "Sur Plus",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ffffff",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1110,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "d96a6ceece72cd52",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "name": "Energy Mode",
+        "label": "Energy Mode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ffffff",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1110,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "fbe05f5059c851fe",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 3,
+        "width": "12",
+        "height": "1",
+        "name": "Est next hour",
+        "label": "Est next hour",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#c0bfbc",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1310,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "b4a54fa7497b70ca",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} kWh\n",
+        "output": "str",
+        "x": 1215,
+        "y": 1840,
+        "wires": [
+            [
+                "fbe05f5059c851fe"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a876b6fdfc91ea97",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} kWh\n",
+        "output": "str",
+        "x": 1055,
+        "y": 1920,
+        "wires": [
+            [
+                "168e3509b68513d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "168e3509b68513d8",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 4,
+        "width": "12",
+        "height": "1",
+        "name": "Est today",
+        "label": "Est today",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#c0bfbc",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1140,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "a91265938301c31f",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} kWh\n",
+        "output": "str",
+        "x": 1055,
+        "y": 1980,
+        "wires": [
+            [
+                "e021cf3519bc3679"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e021cf3519bc3679",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 5,
+        "width": "12",
+        "height": "1",
+        "name": "Est tomorrow",
+        "label": "Est tomorrow",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#c0bfbc",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1150,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "f0671343864074fd",
+        "type": "ui-button",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "group": "5bbb4ae470c26847",
+        "name": "Reload prices from file",
+        "label": "Reload prices from file",
+        "order": 12,
+        "width": "12",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "green",
+        "textColor": "White",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 425,
+        "y": 315,
+        "wires": [
+            [
+                "c24d076a76d629bf"
+            ]
+        ]
+    },
+    {
+        "id": "c99c0257040ff8c1",
+        "type": "template",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Add Suffix",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "{{ payload }} euro\n",
+        "output": "str",
+        "x": 1035,
+        "y": 840,
+        "wires": [
+            [
+                "f59b676c78b17c78"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f59b676c78b17c78",
+        "type": "ui-text",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "name": "Now",
+        "label": "Now",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "16",
+        "color": "#ff7800",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1110,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3fcf918b9cdf2a88",
+        "type": "ui-chart",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "group": "5bbb4ae470c26847",
+        "name": "zonneplan price chart",
+        "label": "",
+        "order": 14,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "timestamp",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "{HH}:{mm}",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": "2",
+        "showLegend": true,
+        "removeOlder": "2",
+        "removeOlderUnit": "86400",
+        "removeOlderPoints": "1000",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": false,
+        "gridColor": [
+            "#5b2067"
+        ],
+        "gridColorDefault": false,
+        "width": "12",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1030,
+        "y": 945,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dcf19114b7349589",
+        "type": "ui-event",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "ui": "ed65cae6cca93de9",
+        "name": "",
+        "x": 270,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42cba3692b24e187",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Prep graph 15min db2 timestamp",
+        "func": "var zonneplanObject = global.get(\"ZonneplanTijdsloten\") || {};\nvar invoerData = zonneplanObject.data || [];\nvar chartData = [];\n\nvar nu = new Date();\nnu.setSeconds(0, 0);\nnu.setMinutes(Math.floor(nu.getMinutes() / 15) * 15);\nvar huidigKwartier = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\n// 1. Loop door de 96 Zonneplan tijdsloten heen en verzamel de datapunten\nfor (var i = 0; i < invoerData.length; i++) {\n    var item = invoerData[i];\n    if (!item) continue;\n    \n    var datum = new Date(item.datum);\n    datum.setSeconds(0, 0);\n    var timestamp = datum.getTime(); \n\n    var prijs = Number(item.prijs);\n    var prijsZP = Number(item.prijsZP);\n\n    if (!isNaN(prijs)) {\n        chartData.push({ timestamp: timestamp, prijs: prijs, topic: \"Price\" });\n        minPrijs = Math.min(minPrijs, prijs);\n        maxPrijs = Math.max(maxPrijs, prijs);\n    }\n    if (!isNaN(prijsZP)) {\n        chartData.push({ timestamp: timestamp, prijs: prijsZP, topic: \"Price All in\" });\n        minPrijs = Math.min(minPrijs, prijsZP);\n        maxPrijs = Math.max(maxPrijs, prijsZP);\n    }\n    if (timestamp === huidigKwartier) {\n        huidigePrijs = prijs;\n    }\n}\n\n// 2. Voeg de verticale \"Now\"-lijn toe op het huidige kwartier\nif (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n    chartData.push({ timestamp: huidigKwartier, prijs: minPrijs, topic: \"Now\" });\n    chartData.push({ timestamp: huidigKwartier, prijs: maxPrijs, topic: \"Now\" });\n}\n\n// 3. Sorteer alle data netjes chronologisch van oud naar nieuw\nchartData.sort(function(a, b) { return a.timestamp - b.timestamp; });\n\n// 4. CRUCIAL: Wis eerst de volledige grafiek-cache op het dashboard\nnode.send({ action: \"replaceAll\", payload: [] });\n\n// 5. Wacht exact 50 milliseconden en schiet DAN pas de data erin\n// Dit geeft de eCharts-engine in Dashboard 2.0 de tijd om de reset te verwerken\nsetTimeout(function() {\n    chartData.forEach(function(punt) {\n        node.send({\n            topic: punt.topic,               // De naam van de lijn (Price, Price All in, Now)\n            payload: punt.prijs,             // De Y-waarde\n            timestamp: punt.timestamp         // De X-waarde\n        });\n    });\n}, 50);\n\n// Zorg dat het standaard return-mechanisme van de node niets dubbel stuurt\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 945,
+        "wires": [
+            [
+                "3fcf918b9cdf2a88"
+            ]
+        ]
+    },
+    {
+        "id": "49bc325283927dbd",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "d": true,
+        "g": "0df27e9c54ae115a",
+        "name": "Prep graph 15min db2",
+        "func": "var invoerData = global.get(\"ZonneplanTijdsloten.data\") || [];\nvar chartData = [];\n\nvar nu = new Date();\nnu.setSeconds(0, 0);\nnu.setMinutes(Math.floor(nu.getMinutes() / 15) * 15);\nvar huidigKwartier = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\nfor (var i = 0; i < invoerData.length; i++) {\n    var item = invoerData[i];\n    var datum = new Date(item.datum);\n    datum.setSeconds(0, 0);\n    var timestamp = datum.getTime(); \n\n    var prijs = Number(item.prijs);\n    var prijsZP = Number(item.prijsZP);\n\n    if (!isNaN(prijs)) {\n        chartData.push({ x: timestamp, y: prijs, serie: \"Price\" });\n        minPrijs = Math.min(minPrijs, prijs);\n        maxPrijs = Math.max(maxPrijs, prijs);\n    }\n    if (!isNaN(prijsZP)) {\n        chartData.push({ x: timestamp, y: prijsZP, serie: \"Price All in\" });\n        minPrijs = Math.min(minPrijs, prijsZP);\n        maxPrijs = Math.max(maxPrijs, prijsZP);\n    }\n    if (timestamp === huidigKwartier) {\n        huidigePrijs = prijs;\n    }\n}\n\n// Verticale \"Now\"-lijn toevoegen\nif (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n    chartData.push({ x: huidigKwartier, y: minPrijs, serie: \"Now\" });\n    chartData.push({ x: huidigKwartier, y: maxPrijs, serie: \"Now\" });\n}\n\n// CRUCIAL VOOR UI 2.0: Sorteer alle data chronologisch (van oud naar nieuw)\nchartData.sort(function(a, b) {\n    return a.x - b.x;\n});\n\n// Pak het bericht in voor de ui-chart\nmsg.payload = chartData;\nmsg.action = \"replaceAll\"; \n\n// Sorteer alle data chronologisch (van oud naar nieuw)\nchartData.sort(function(a, b) {\n    return a.x - b.x;\n});\n\n// Stuur puur de vlakke array door naar de ui-template\nmsg.payload = chartData;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 625,
+        "y": 915,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "018eb005fd13ba4e",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Prep graph 15min db2 timestamp",
+        "func": "var zonneplanObject = global.get(\"ZonneplanTijdsloten\") || {};\nvar invoerData = zonneplanObject.data || [];\nvar chartData = [];\n\nvar nu = new Date();\nnu.setSeconds(0, 0);\nnu.setMinutes(Math.floor(nu.getMinutes() / 15) * 15);\nvar huidigKwartier = nu.getTime();\n\nvar huidigePrijs = null;\nvar minPrijs = Infinity;\nvar maxPrijs = -Infinity;\n\nfor (var i = 0; i < invoerData.length; i++) {\n    var item = invoerData[i];\n    if (!item) continue;\n    \n    var datum = new Date(item.datum);\n    datum.setSeconds(0, 0);\n    var timestamp = datum.getTime(); \n\n    var prijs = Number(item.prijs);\n    var prijsZP = Number(item.prijsZP);\n\n    if (!isNaN(prijs)) {\n        chartData.push({ timestamp: timestamp, prijs: prijs, topic: \"Price\" });\n        minPrijs = Math.min(minPrijs, prijs);\n        maxPrijs = Math.max(maxPrijs, prijs);\n    }\n    if (!isNaN(prijsZP)) {\n        chartData.push({ timestamp: timestamp, prijs: prijsZP, topic: \"Price All in\" });\n        minPrijs = Math.min(minPrijs, prijsZP);\n        maxPrijs = Math.max(maxPrijs, prijsZP);\n    }\n    if (timestamp === huidigKwartier) {\n        huidigePrijs = prijs;\n    }\n}\n\nif (huidigePrijs !== null && minPrijs !== Infinity && maxPrijs !== -Infinity) {\n    chartData.push({ timestamp: huidigKwartier, prijs: minPrijs, topic: \"Now\" });\n    chartData.push({ timestamp: huidigKwartier, prijs: maxPrijs, topic: \"Now\" });\n}\n\n// Sorteer chronologisch\nchartData.sort(function(a, b) { return a.timestamp - b.timestamp; });\n\n// 1. Stuur een leeg bericht met replaceAll om de grafiek te resetten\nnode.send({ action: \"replaceAll\", payload: [] });\n\n// 2. Stuur de punten als losse standaardberichten\nchartData.forEach(function(punt) {\n    node.send({\n        topic: punt.topic,               // De naam van de lijn\n        payload: punt.prijs,             // De Y-waarde\n        timestamp: punt.timestamp         // De X-waarde\n    });\n});\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5aa4506c9d618e0b",
+        "type": "inject",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "1 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "900",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "42cba3692b24e187"
+            ]
+        ]
+    },
+    {
+        "id": "1cb71761ae98c5bc",
+        "type": "ui-template",
+        "z": "31f49f61237bfcaa",
+        "g": "f9972972dabc7d0f",
+        "group": "5bbb4ae470c26847",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n        <Teleport v-if=\"mounted\" :to=\"target\">\n                <div :class=\"positionClass\" @click=\"toggle\" style=\"cursor: pointer;\">\n                            <v-icon aria-hidden=\"false\">{{icon}}</v-icon>\n                                    </div>\n                                        </Teleport>\n                                        </template>\n\n                                        <script>\n                                            export default {\n                                                    data() {           \n                                                                return {\n                                                                                mounted: false,\n                                                                                                target: \"\",\n                                                                                                                position: \"right\",\n                                                                                                                                icon: \"mdi-archive-arrow-down-outline\",\n                                                                                                                                                opened: false\n                                                                                                                                                            }\n                                                                                                                                                                    },\n                                                                                                                                                                            computed: {        \n                                                                                                                                                                                        positionClass: function () {\n                                                                                                                                                                                                        return this.position == \"left\" ? \"v-card-item__prepend\" : \"v-card-item__append\"\n                                                                                                                                                                                                                    },\n                                                                                                                                                                                                                                // Clé unique pour le localStorage basée sur le groupe\n                                                                                                                                                                                                                                            storageKey: function() {\n                                                                                                                                                                                                                                                            return `widget-state-${this.props.group}`\n                                                                                                                                                                                                                                                                        }\n                                                                                                                                                                                                                                                                                },\n                                                                                                                                                                                                                                                                                        mounted(){            \n                                                                                                                                                                                                                                                                                                    this.target = '#nrdb-ui-group-'+this.props.group+' .v-card-item'\n                                                                                                                                                                                                                                                                                                                \n                                                                                                                                                                                                                                                                                                                            // Restaurer l'état depuis le localStorage\n                                                                                                                                                                                                                                                                                                                                        const savedState = localStorage.getItem(this.storageKey)\n                                                                                                                                                                                                                                                                                                                                                    if (savedState !== null) {\n                                                                                                                                                                                                                                                                                                                                                                    this.opened = savedState === 'true'\n                                                                                                                                                                                                                                                                                                                                                                                    this.icon = this.opened \n                                                                                                                                                                                                                                                                                                                                                                                                        ? \"mdi-archive-arrow-up-outline\" \n                                                                                                                                                                                                                                                                                                                                                                                                                            : \"mdi-archive-arrow-down-outline\"\n                                                                                                                                                                                                                                                                                                                                                                                                                                        }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                    \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                this.mounted = true            \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                        },\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                methods: {\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            toggle(e) {\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            this.opened = !this.opened\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            this.icon = this.opened \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ? \"mdi-archive-arrow-up-outline\" \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    : \"mdi-archive-arrow-down-outline\"\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    // Sauvegarder l'état dans le localStorage\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    localStorage.setItem(this.storageKey, this.opened)\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </script>\n\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <style>\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .hidden-template {\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        display: none !important;\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .v-card:has(.mdi-archive-arrow-down-outline) .v-card-text{\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        display: none;\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 45,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9bb9e547f1ad1fea",
+        "type": "function",
+        "z": "31f49f61237bfcaa",
+        "g": "0df27e9c54ae115a",
+        "name": "Build cheap/expensive hour(15min-time) lists V4.1",
+        "func": "let raw = global.get('ZonneplanTijdsloten');\n\n// Controleer op minimale data\nif (!raw || !raw.data || !Array.isArray(raw.data) || raw.data.length < 96) {\n    node.status({ fill: 'red', shape: 'ring', text: 'geen volledige kwartierdata (96 slots)' });\n    return null;\n}\n\n// OPLOSSING FOUT 2: Pak strikt de eerste 96 kwartieren (vandaag)\n// Mocht je data voor morgen willen berekenen, doe dat dan in een aparte flow.\nlet rawDataVandaag = raw.data.slice(0, 96);\n\nconst cheapCount = 4 * 4;        // 16 kwartieren (4 uur laden)\nconst expensiveMaxCount = 4;  //  max 16 kwartieren (4 uur ontladen)\nconst minSpread = 0.08;          // 8 cent boven cheap average\n\nfunction indexToTime(idx) {\n    // Zorgt dat index altijd binnen de 0-95 range van 1 dag blijft voor de tijdweergave\n    const localIdx = idx % 96; \n    const mins = localIdx * 15;\n    const h = Math.floor(mins / 60).toString().padStart(2, '0');\n    const m = (mins % 60).toString().padStart(2, '0');\n    return `${h}:${m}`;\n}\n\nlet kwartieren = rawDataVandaag.map((item, index) => ({\n    index,\n    tijd: indexToTime(index),\n    prijs: Number(item.prijsZP)\n})).filter(x => !isNaN(x.prijs));\n\nif (kwartieren.length === 0) {\n    node.status({ fill: 'red', shape: 'ring', text: 'no valid prices' });\n    return null;\n}\n\nlet goedkoopstePrijs = Math.min(...kwartieren.map(x => x.prijs));\n\nlet cheapQuarters = [...kwartieren]\n    .sort((a, b) => a.prijs - b.prijs)\n    .slice(0, cheapCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\nlet cheapPrices = kwartieren\n    .filter(x => cheapQuarters.includes(x.index))\n    .map(x => x.prijs);\n\nlet cheapAvg = cheapPrices.length\n    ? cheapPrices.reduce((a, b) => a + b, 0) / cheapPrices.length\n    : goedkoopstePrijs;\n\nlet duurste = [...kwartieren].sort((a, b) => b.prijs - a.prijs)[0];\nlet duursteIndex = duurste.index;\nlet duursteTijd = duurste.tijd;\nlet duurstePrijs = duurste.prijs;\nlet spreadDuursteVsCheapAvg = duurstePrijs - cheapAvg;\nlet spreadDuursteVsGoedkoopste = duurstePrijs - goedkoopstePrijs;\nlet dischargeAllowed = spreadDuursteVsCheapAvg >= minSpread;\n\nlet expensiveQuarters = [...kwartieren]\n    .filter(x => x.prijs >= (cheapAvg + minSpread))\n    .sort((a, b) => b.prijs - a.prijs)\n    .slice(0, expensiveMaxCount)\n    .sort((a, b) => a.index - b.index)\n    .map(x => x.index);\n\nfunction mergeQuartersToSlots(quarterIndexes) {\n    if (!quarterIndexes.length) return [];\n\n    let slots = [];\n    let startIdx = quarterIndexes[0];\n    let endIdx = quarterIndexes[0];\n\n    for (let i = 1; i < quarterIndexes.length; i++) {\n        if (quarterIndexes[i] === endIdx + 1) {\n            endIdx = quarterIndexes[i];\n        } else {\n            slots.push({\n                starttijd: indexToTime(startIdx),\n                eindtijd: indexToTime(endIdx + 1)\n            });\n            startIdx = quarterIndexes[i];\n            endIdx = quarterIndexes[i];\n        }\n    }\n\n    slots.push({\n        starttijd: indexToTime(startIdx),\n        eindtijd: indexToTime(endIdx + 1)\n    });\n\n    return slots;\n}\n\nlet cheapSlots = mergeQuartersToSlots(cheapQuarters);\nlet expensiveSlots = mergeQuartersToSlots(expensiveQuarters);\n\nlet cheapQuarterTexts = cheapQuarters.map(i => kwartieren.find(x => x.index === i)?.tijd).filter(Boolean);\nlet expensiveQuarterTexts = expensiveQuarters.map(i => kwartieren.find(x => x.index === i)?.tijd).filter(Boolean);\nlet cheapSlotTexts = cheapSlots.map(slot => `${slot.starttijd} - ${slot.eindtijd}`);\nlet expensiveSlotTexts = expensiveSlots.map(slot => `${slot.starttijd} - ${slot.eindtijd}`);\n\nglobal.set('ZonneplanCheapHours', cheapQuarters);\nglobal.set('ZonneplanCheapSlots', cheapSlots);\nglobal.set('ZonneplanCheapSlotTexts', cheapSlotTexts);\nglobal.set('ZonneplanExpensiveHours', expensiveQuarters);\nglobal.set('ZonneplanExpensiveSlots', expensiveSlots);\nglobal.set('ZonneplanExpensiveSlotTexts', expensiveSlotTexts);\nglobal.set('ZonneplanCheapAvg', cheapAvg);\nglobal.set('ZonneplanDuursteUur', duursteTijd);\nglobal.set('ZonneplanDuurstePrijs', duurstePrijs);\nglobal.set('ZonneplanSpreadDuursteVsCheapAvg', spreadDuursteVsCheapAvg);\nglobal.set('ZonneplanDischargeAllowed', dischargeAllowed);\n\nmsg.payload = {\n    cheapQuarters,\n    cheapQuarterTexts,\n    cheapSlots,\n    cheapSlotTexts,\n    expensiveQuarters,\n    expensiveQuarterTexts,\n    expensiveSlots,\n    expensiveSlotTexts,\n    goedkoopstePrijs,\n    cheapAvg,\n    duursteIndex,\n    duursteTijd,\n    duurstePrijs,\n    spreadDuursteVsCheapAvg,\n    spreadDuursteVsGoedkoopste,\n    dischargeAllowed\n};\n\nnode.status({\n    fill: dischargeAllowed ? 'green' : 'yellow',\n    shape: 'dot',\n    text: 'cheap slots: ' + cheapSlots.length + ' | duurste ' + duursteTijd + ' €' + duurstePrijs.toFixed(3) + ' spread ' + spreadDuursteVsCheapAvg.toFixed(3)\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1305,
+        "wires": [
+            [
+                "edb4224af4664766"
+            ]
+        ]
+    },
+    {
+        "id": "14c47ec808042cfe",
+        "type": "http request",
+        "z": "31f49f61237bfcaa",
+        "g": "2d2c3f5424649f1d",
+        "name": "http request | Provide valid token",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://enever.nl/apiv3/stroomprijs_vandaag.php?token=YOUR_TOKEN&resolution=15&price=prijs,prijsZP",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 425,
+        "y": 240,
+        "wires": [
+            [
+                "fa21afcf5b12cea2"
+            ]
+        ]
+    },
+    {
+        "id": "0a8e107baeb80fcb",
+        "type": "ui_spacer",
+        "z": "31f49f61237bfcaa",
+        "name": "spacer",
+        "group": "78f49ffbd11e559b",
+        "order": 6,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "78f49ffbd11e559b",
+        "type": "ui_group",
+        "d": true,
+        "name": "Forecast",
+        "tab": "cccf47e4.857ec8",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "6ad6bd245c78b95a",
+        "type": "server",
+        "name": "Home Assistant",
+        "version": 6,
+        "addon": false,
+        "rejectUnauthorizedCerts": true,
+        "ha_boolean": [
+            "y",
+            "yes",
+            "true",
+            "on",
+            "home",
+            "open"
+        ],
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": 30,
+        "areaSelector": "friendlyName",
+        "deviceSelector": "friendlyName",
+        "entitySelector": "friendlyName",
+        "statusSeparator": ": ",
+        "statusYear": "hidden",
+        "statusMonth": "short",
+        "statusDay": "numeric",
+        "statusHourCycle": "default",
+        "statusTimeFormat": "h:m",
+        "enableGlobalContextStore": false
+    },
+    {
+        "id": "5bbb4ae470c26847",
+        "type": "ui-group",
+        "name": "Forecast",
+        "page": "af2240e5c72311cb",
+        "width": "10",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ed65cae6cca93de9",
+        "type": "ui-base",
+        "name": "UI 2.0",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-form",
+            "ui-text-input",
+            "ui-number-input",
+            "ui-file-input",
+            "ui-button",
+            "ui-button-group",
+            "ui-dropdown",
+            "ui-radio-group",
+            "ui-slider",
+            "ui-switch",
+            "ui-text",
+            "ui-table",
+            "ui-chart",
+            "ui-gauge",
+            "ui-notification",
+            "ui-audio",
+            "ui-markdown",
+            "ui-template",
+            "ui-control",
+            "ui-progress",
+            "ui-iframe",
+            "ui-led"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": "3",
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "cccf47e4.857ec8",
+        "type": "ui_tab",
+        "name": "Energy",
+        "icon": "battery_charging_60",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "af2240e5c72311cb",
+        "type": "ui-page",
+        "name": "Energy 2.0",
+        "ui": "ed65cae6cca93de9",
+        "path": "/energy/",
+        "icon": "battery_charging_60",
+        "layout": "grid",
+        "theme": "66d991c71fbeaf8c",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "10"
+            },
+            {
+                "name": "Desktop",
+                "px": "2048",
+                "cols": "36"
+            },
+            {
+                "name": "Mobile (sm)",
+                "px": "1024",
+                "cols": "10"
+            }
+        ],
+        "order": 1,
+        "className": "/* Stop groups being clamped to three wide on mobile*/ @media only screen and (max-width: 576px) {      /* Fixed layout */     .nrdb-layout--flex {           --layout-columns: 6 !important;       }     /* Grid layout */     .nrdb-layout--grid {           --layout-columns: 6 !important;       }   }",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "66d991c71fbeaf8c",
+        "type": "ui-theme",
+        "name": "Hans Theme",
+        "colors": {
+            "surface": "#097479",
+            "primary": "#26a269",
+            "bgPage": "#000008",
+            "groupBg": "#10220c",
+            "groupOutline": "#3d3846"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "comfortable"
+        }
+    },
+    {
+        "id": "1768932f1932e94c",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-home-assistant-websocket": "0.80.3",
+            "node-red-contrib-boolean-logic-ultimate": "1.2.14",
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]
