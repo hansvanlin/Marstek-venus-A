@@ -314,6 +314,8 @@ Check the cell voltages
 ## **Dashboard 2.0 support**
 You can open the dashboard at http://localhost:1880/dashboard
 Marstek 2.0UI:
+![alt text](images/marstekUI2.0.jpg)
+
 
 
 
