@@ -313,7 +313,6 @@ Check the cell voltages
 
 ## **Dashboard 2.0 support**
 
-Marstek 2.0UI:
 <img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
 
 
