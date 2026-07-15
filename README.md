@@ -312,7 +312,7 @@ Check the cell voltages
 
 ![alt text](images/tools.png)
 
-## **Dashboard 2.0 support**
+## **Dashboard 2.0 support:**
 
 <img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
 
