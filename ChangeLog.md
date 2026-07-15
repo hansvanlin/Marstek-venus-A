@@ -1,6 +1,6 @@
 
 
-## **1.10 Release version**
+## **1.11 Release version**
 
 🔧 Features:
 
@@ -15,13 +15,14 @@
 * Direct Modbus register access
 * Battery diagnostics and tooling (set max pwr limit)
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
-* Node-RED Dashboard UI
+* Node-RED Dashboard UI and Dashboard 2.0 support
+* 15min time interval price control
 
 ## **Improvements**
 
-* Improved dynamic pricing validation
-* Improved prices table storage and reloading
-* Improved schedule control stability (bug fixes)
+* Dashboard 2.0 support
+* 15min time interval price control
+* Upgraded the mode engine
 
 
 ### 1.01 Stability fix
@@ -50,7 +51,7 @@
  * Node-Red UI 
 
 
-
+0.11   added Dashboard 2.0 support and 15min price control
 0.1.9. added the power slider\
 0.1.8  cleanup unused nodes and bug fix\
 0.1.7  due to the discharging fw bug I found a new way to contol the battery using the schedule scheme.\
