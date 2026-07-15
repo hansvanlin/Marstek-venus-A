@@ -314,7 +314,8 @@ Check the cell voltages
 ## **Dashboard 2.0 support**
 
 Marstek 2.0UI:
-![alt text](images/pricecontrolUI2.0.jpg)   ![alt text](images/marstekUI2.0.jpg) 
+<img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
+
 
 
 
