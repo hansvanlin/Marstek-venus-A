@@ -1,6 +1,4 @@
-
-
-## **1.11 Release version**
+## **1.12 Release version**
 
 🔧 Features:
 
@@ -19,6 +17,11 @@
 * 15min time interval price control
 
 ## **Improvements**
+* Dashboard2.0: new status and battery cards
+* Dashboard2.0 solved sync issues
+* Implemented "give control" for better response of Marstek modes
+
+## **1.11 Release version**
 
 * Dashboard 2.0 support
 * 15min time interval price control
