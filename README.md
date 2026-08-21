@@ -321,7 +321,9 @@ Check the cell voltages
 
 
 ## **Battery Cards:**
-<img width="336" height="584" alt="image" src="https://github.com/user-attachments/assets/041800f7-1f6c-4546-9cf9-174dc76b7bb8" />
+<img width="266" height="296" alt="image" src="https://github.com/user-attachments/assets/33ced61e-7a7b-4755-9189-48e74420e9c3" />     <img width="267" height="297" alt="image" src="https://github.com/user-attachments/assets/7b9ad0b9-78ad-48bf-b426-6c6436936742" />
+
+
 
 
 
