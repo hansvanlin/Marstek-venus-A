@@ -319,7 +319,13 @@ Check the cell voltages
 
 ## **New Status Card:** (with dynamic colors)
 <img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />   <img width="270" height="593" alt="image" src="https://github.com/user-attachments/assets/02a1c59a-baf0-44a3-acbc-d545ed88d116" />
-
+**Tip**: if you don't want to loose graph data,
+enable following part in node-red settings.json
+**contextStorage: {
+    default: {
+        module: "localfilesystem"
+    }
+},**
 
 
 ## **Battery Cards:**
