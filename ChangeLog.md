@@ -1,4 +1,5 @@
-## **1.12 Release version**
+## **1.13 Release version**
+
 
 🔧 Features:
 
@@ -14,9 +15,16 @@
 * Battery diagnostics and tooling (set max pwr limit)
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
 * Node-RED Dashboard UI and Dashboard 2.0 support
+* New Dashboard 2.0 Status Cards
 * 15min time interval price control
 
 ## **Improvements**
+
+* New dynamic status cards (dashboard 2.0)
+* fixed some small issues
+
+## **1.12 Release version**
+
 * Dashboard2.0: new status and battery cards
 * Dashboard2.0 solved sync issues
 * Implemented "give control" for better response of Marstek modes

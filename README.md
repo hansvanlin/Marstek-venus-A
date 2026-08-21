@@ -22,6 +22,7 @@ Tested with Marstek Venus A firmware up to version 149.
 * Battery diagnostics and tooling
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
 * Node-RED Dashboard UI and Dashboard 2.0 support
+* New Dashboard 2.0 Status Cards
 * 15min time interval price control
 
 ## Why this project?
@@ -316,11 +317,20 @@ Check the cell voltages
 
 <img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
 
-## **Status Card:**
-<img width="390" height="592" alt="image" src="https://github.com/user-attachments/assets/33e0ef45-bd0f-485c-93db-61ec807f1a4b" />
+## **New Status Card:** (with dynamic colors)
+<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />   <img width="270" height="593" alt="image" src="https://github.com/user-attachments/assets/02a1c59a-baf0-44a3-acbc-d545ed88d116" />
+
+**Tip**: if you don't want to loose graph data,
+enable following part in node-red settings.js
+
+<img width="275" height="107" alt="image" src="https://github.com/user-attachments/assets/2a50336b-ec50-4bb3-9a95-b17cda1407bf" />
+
+
 
 ## **Battery Cards:**
-<img width="336" height="584" alt="image" src="https://github.com/user-attachments/assets/041800f7-1f6c-4546-9cf9-174dc76b7bb8" />
+<img width="266" height="296" alt="image" src="https://github.com/user-attachments/assets/33ced61e-7a7b-4755-9189-48e74420e9c3" />     <img width="267" height="297" alt="image" src="https://github.com/user-attachments/assets/7b9ad0b9-78ad-48bf-b426-6c6436936742" />
+
+
 
 
 
