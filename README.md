@@ -116,7 +116,7 @@ Requirements\
    * Use port `502`
 
 7. Open the dashboard UI
-   http://localhost:1880/ui
+   http://localhost:1880/ui or http://localhost:1880/dashboard  (for dashboard2.0)
 
 
 
