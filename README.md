@@ -22,6 +22,7 @@ Tested with Marstek Venus A firmware up to version 149.
 * Battery diagnostics and tooling
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
 * Node-RED Dashboard UI and Dashboard 2.0 support
+* New Dashboard 2.0 Status Cards
 * 15min time interval price control
 
 ## Why this project?
