@@ -325,10 +325,10 @@ enable following part in node-red settings.js
 <img width="275" height="107" alt="image" src="https://github.com/user-attachments/assets/2a50336b-ec50-4bb3-9a95-b17cda1407bf" />
 
 ## **Price Card:**
-<div style="height: 100px; width: 80px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
-  <img src="<img width="286" height="493" alt="image" src="https://github.com/user-attachments/assets/dae946a1-6e65-4d48-88c6-7e044cad98e3" />
-" alt="Mobiele weergave" style="width: 30%; height: auto; display: block;">
+<div style="height: 400px; width: 320px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="https://github.com/user-attachments/assets/2cf8c37c-d44a-41f1-8ea9-995cc2b7feda" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
 </div>
+
 
 ## **Battery Cards:**
 <img width="266" height="296" alt="image" src="https://github.com/user-attachments/assets/33ced61e-7a7b-4755-9189-48e74420e9c3" />     <img width="267" height="297" alt="image" src="https://github.com/user-attachments/assets/7b9ad0b9-78ad-48bf-b426-6c6436936742" />
