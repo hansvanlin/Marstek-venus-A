@@ -327,7 +327,7 @@ enable following part in node-red settings.js
 ## **Price Card:**
 <img width="1014" height="2088" alt="Screenshot_20260826_175324_Firefox" src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" />
 <div style="height: 400px; width: 320px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
-  <img src="[LINK_NAAR_JE_LANGE_SCREENSHOT.png](https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a)" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
+  <img src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
 </div>
 
 ## **Battery Cards:**
