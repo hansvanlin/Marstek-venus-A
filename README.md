@@ -258,8 +258,8 @@ eg: read the 13 contiguous cell voltages registers in one poll.
 
 
 ### **Price Based Mode ON** result:
-
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
+
 <img width="292" height="513" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />\
 Orange is energy used from grid.
 
