@@ -326,7 +326,7 @@ enable following part in node-red settings.js
 
 ## **Price Card:**
 <div style="height: 100px; width: 80px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
-  <img src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" alt="Mobiele weergave" style="width: 50%; height: auto; display: block;">
+  <img src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" alt="Mobiele weergave" style="width: 30%; height: auto; display: block;">
 </div>
 
 ## **Battery Cards:**
