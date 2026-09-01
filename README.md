@@ -326,9 +326,11 @@ enable following part in node-red settings.js
 
 ## **Price Card:**
 <div style="height: 400px; width: 320px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
-  <img src="https://github.com/user-attachments/assets/929d579f-bfb0-4573-a873-00efeb250dda" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
+  <img src="<img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/de17a101-e068-428c-9cfd-47329a3aa019" />
+" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
 </div>
-<img width="299" height="582" alt="image" src="https://github.com/user-attachments/assets/929d579f-bfb0-4573-a873-00efeb250dda" />
+<img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/7ad43212-7187-4880-9c2b-f8e73a0ce297" />
+
 
 
 ## **Battery Cards:**
