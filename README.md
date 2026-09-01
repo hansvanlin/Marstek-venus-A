@@ -325,10 +325,6 @@ enable following part in node-red settings.js
 <img width="275" height="107" alt="image" src="https://github.com/user-attachments/assets/2a50336b-ec50-4bb3-9a95-b17cda1407bf" />
 
 ## **Price Card:**
-<div style="height: 400px; width: 320px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
-  <img src="<img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/de17a101-e068-428c-9cfd-47329a3aa019" />
-" alt="Mobiele weergave" style="width: 100%; height: auto; display: block;">
-</div>
 <img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/7ad43212-7187-4880-9c2b-f8e73a0ce297" />
 
 
