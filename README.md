@@ -325,8 +325,7 @@ enable following part in node-red settings.js
 <img width="275" height="107" alt="image" src="https://github.com/user-attachments/assets/2a50336b-ec50-4bb3-9a95-b17cda1407bf" />
 
 ## **Price Card:**
-<img width="1014" height="2088" alt="Screenshot_20260826_175324_Firefox" src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" />
-<div style="height: 200px; width: 160px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
+<div style="height: 100px; width: 80px; overflow-y: scroll; border: 1px solid #ccc; border-radius: 8px;">
   <img src="https://github.com/user-attachments/assets/9b9ad193-f937-403a-b6aa-8b338d306b2a" alt="Mobiele weergave" style="width: 50%; height: auto; display: block;">
 </div>
 
