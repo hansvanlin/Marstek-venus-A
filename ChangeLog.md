@@ -1,4 +1,4 @@
-## **1.13 Release version**
+## **1.15 Release version**
 
 
 🔧 Features:
@@ -15,10 +15,16 @@
 * Battery diagnostics and tooling (set max pwr limit)
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
 * Node-RED Dashboard UI and Dashboard 2.0 support
-* New Dashboard 2.0 Status Cards
+* New Dashboard 2.0 Status **Cards**
 * 15min time interval price control
 
 ## **Improvements**
+* New price card and price engine card 
+* Separate power settings for charge and discharge
+* Added restart buttons
+
+  
+## **1.13 Release version**
 
 * New dynamic status cards (dashboard 2.0)
 * fixed some small issues
