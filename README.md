@@ -6,8 +6,8 @@
 
 Node-RED dashboard and Modbus TCP control flow for local control of the Marstek Venus A and compatible Marstek batteries (eg. venus E V3.0). Supports schedule control, charging, discharging, Dynamic price control and automation without relying on the cloud.
 
-Tested with **Marstek Venus A** , (fw up to vers. 149) and 
-**Marstek Venus E V3.0** , (fw 148).
+Tested with **Marstek Venus A**, (up to fw149) and 
+**Marstek Venus E V3.0**, (fw148).
 
 ## 🔧 Features:
 * Local battery control (no cloud dependency)
