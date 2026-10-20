@@ -4,9 +4,9 @@
 
 # Marstek Venus EMS
 
-Node-RED dashboard and Modbus TCP control flow for local control of the Marstek Venus A and compatible Marstek batteries (eg. venus E 3.0). Supports schedule control, charging, discharging, Dynamic price control and automation without relying on the cloud.
+Node-RED dashboard and Modbus TCP control flow for local control of the Marstek Venus A and compatible Marstek batteries (eg. venus E V3.0). Supports schedule control, charging, discharging, Dynamic price control and automation without relying on the cloud.
 
-Tested with **Marstek Venus A** , (fw up to version 149) and 
+Tested with **Marstek Venus A** , (fw up to vers. 149) and 
 **Marstek Venus E V3.0** , (fw 148).
 
 ## 🔧 Features:
