@@ -2,11 +2,12 @@
 ![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
 ![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)![Smart Read/Write](https://img.shields.io/badge/-Smart%20Read/Write-orange)
 
-# Marstek Venus A Controller
+# Marstek Venus EMS
 
-Node-RED dashboard and Modbus TCP control flow for local control of the Marstek Venus A and compatible Marstek batteries (eg. venus E 3.0). Supports schedule control, charging, discharging and automation without relying on the cloud.
+Node-RED dashboard and Modbus TCP control flow for local control of the Marstek Venus A and compatible Marstek batteries (eg. venus E 3.0). Supports schedule control, charging, discharging, Dynamic price control and automation without relying on the cloud.
 
-Tested with Marstek Venus A firmware up to version 149.
+Tested with Marstek Venus A firmware up to version 149 and 
+Marstek Venus E V3.0 with firmware 148.
 
 ## 🔧 Features:
 * Local battery control (no cloud dependency)
@@ -23,7 +24,7 @@ Tested with Marstek Venus A firmware up to version 149.
 * Optional SMA Tripower integration (dynamic export limiting and   power control)
 * Node-RED Dashboard UI and Dashboard 2.0 support
 * New Dashboard 2.0 Status Cards
-* 15min time interval price control
+* 15min time interval price control configurable engine (tab Forecast)
 
 ## Why this project?
 Unlike many Modbus implementations that continuously write individual control registers, this project uses the Marstek internal schedule registers (43100–43104) to control battery behaviour.\
@@ -172,12 +173,11 @@ The Mode Controller creates and activates a schedule by writing the following Mo
 |Write Sequence:|
 |:----------------------|
 |the controller writes the registers in the following order:|
-|1. Disable schedule ("43104 = 0")|
-|2. Set active days ("43100 = 127")|
-|3. Set start time ("43101 = 0000")|
-|4. Set end time ("43102 = 2359")|
-|5. Set mode/power value ("43103")|
-|6. Enable schedule ("43104 = 1")|
+|1. Set active days ("43100 = 127")|
+|2. Set start time ("43101 = 0000")|
+|3. Set end time ("43102 = 2359")|
+|4. Set mode/power value ("43103")|
+|5. Enable schedule ("43104 = 1")|
 
 ## **Force Mode**
 
@@ -250,7 +250,7 @@ Notes:
 
 ### **Modbus configuration**
 Set IP adress and port number. (double click on the node).
-<img width="1080" height="1589" alt="Screenshot_20260605_040708_Firefox" src="https://github.com/user-attachments/assets/2b5c5ed9-45fd-4cd8-8ff1-14a6562fc73c" />
+<img width="540"  alt="Screenshot_20260605_040708_Firefox" src="https://github.com/user-attachments/assets/2b5c5ed9-45fd-4cd8-8ff1-14a6562fc73c" />
 
 ### **Read sequence in one call**
 eg: read the 13 contiguous cell voltages registers in one poll.
