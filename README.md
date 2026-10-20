@@ -329,7 +329,7 @@ enable following part in node-red settings.js
 
 
 ## **Battery Cards:**
-<img width="266" height="296" alt="image" src="https://github.com/user-attachments/assets/33ced61e-7a7b-4755-9189-48e74420e9c3" />     <img width="267" height="297" alt="image" src="https://github.com/user-attachments/assets/7b9ad0b9-78ad-48bf-b426-6c6436936742" />  <img width="266" alt="image" src="https://github.com/user-attachments/assets/1c639a7f-6f4b-4adc-889b-c5053137512e" />
+<img width="266" height="296" alt="image" src="https://github.com/user-attachments/assets/33ced61e-7a7b-4755-9189-48e74420e9c3" />     <img width="267" height="297" alt="image" src="https://github.com/user-attachments/assets/7b9ad0b9-78ad-48bf-b426-6c6436936742" />  <img width="270" alt="image" src="https://github.com/user-attachments/assets/1c639a7f-6f4b-4adc-889b-c5053137512e" />
 
 
 
