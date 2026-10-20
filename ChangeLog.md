@@ -18,7 +18,7 @@
 * New Dashboard 2.0 Status **Cards**
 * 15min time interval price control
 * Add example of Venus 3.0
-* Price engine configurable even settings like charge only on cheap hours (expensive 0 or via switch)
+* Price engine configurable even settings like charge only on cheap hours (expensive 0 hours or via switch)
 
 ## **Improvements**
 * Added an example of Vensus E 3.0
