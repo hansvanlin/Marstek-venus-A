@@ -1,4 +1,4 @@
-## **1.15 Release version**
+## **2.0 Release version**
 
 
 🔧 Features:
@@ -17,8 +17,16 @@
 * Node-RED Dashboard UI and Dashboard 2.0 support
 * New Dashboard 2.0 Status **Cards**
 * 15min time interval price control
+* Add example of Venus 3.0
+* Price engine configurable even settings like charge only on cheap hours (expensive 0 or via switch)
 
 ## **Improvements**
+* Added an example of Vensus E 3.0
+* Price engine configurable via UI (forecast tab)
+* Modbus improvements
+
+## **1.15 Release version**
+
 * New price card and price engine card 
 * Separate power settings for charge and discharge
 * Added restart buttons
