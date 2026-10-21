@@ -320,7 +320,7 @@ Check the cell voltages
 
 <img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" /> 
 
-https://github.com/user-attachments/assets/c4acdb89-ef75-4498-ad01-7c0f6b547a54
+
 
    
 
