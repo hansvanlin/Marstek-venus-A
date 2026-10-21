@@ -260,7 +260,7 @@ Charge or buy during cheap hours and sell for eg 1hour at expensive hour (Config
 
 
 ### **Do Not Sell switched ON:**
-Or set expensive hours to 0
+Or set expensive hours to 0 \
 <img width="500"  alt="image" src="https://github.com/user-attachments/assets/b956c568-814f-4769-87fa-51bb5d43dc5c" /> <img width="300"  alt="image" src="https://github.com/user-attachments/assets/fe6dd72f-e80d-48f6-aee0-56dcb3ee83e9" /> 
 
 
