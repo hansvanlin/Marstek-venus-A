@@ -317,8 +317,12 @@ Check the cell voltages
 <img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
 
 ## **New Status Card:** (with dynamic colors)
-<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />  
-https://github.com/user-attachments/assets/87b7e221-37a0-420f-b256-09fbff798e91
+<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />    
+
+https://github.com/user-attachments/assets/b185a52e-26f4-4dfa-a93b-b77684f8460b
+
+
+
 
 **Tip**: if you don't want to loose graph data,
 enable following part in node-red settings.js
@@ -326,7 +330,7 @@ enable following part in node-red settings.js
 <img width="275" height="107" alt="image" src="https://github.com/user-attachments/assets/2a50336b-ec50-4bb3-9a95-b17cda1407bf" />
 
 ## **Price/Engine Card:**
-<img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/7ad43212-7187-4880-9c2b-f8e73a0ce297" />
+<img width="280" height="475" alt="image" src="https://github.com/user-attachments/assets/7ad43212-7187-4880-9c2b-f8e73a0ce297" />   
 
 
 
