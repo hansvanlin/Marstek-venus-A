@@ -240,11 +240,8 @@ Notes:
 
 ## **Some ScreenShots:**
 
-### **Flow for reading all the data from the modbus registers**
 
-![alt text](images/ReadModbus.png)
-
-### **Flow for processing and controlling the batteries**
+### **Easy adaptable Node-red flows to customize**
 
 ![alt text](images/BatteryControl.png)
 
