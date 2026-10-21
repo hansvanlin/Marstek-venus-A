@@ -243,7 +243,7 @@ Notes:
 
 ### **Easy customizable Node-red flows to adapt for your hardware configuration**
 
-![alt text](images/BatteryControl.png)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/836a7425-5804-4e57-9bb6-879919c09fe0" />
 
 ### **Modbus configuration**
 Set IP adress and port number. (double click on the node).\
