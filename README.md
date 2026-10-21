@@ -26,6 +26,8 @@ Tested with **Marstek Venus A**, (up to fw149) and
 * New Dashboard 2.0 Status Cards
 * 15min time interval price control configurable engine (tab Forecast)
 
+Multi-battery support: Tested with up to 3 Marstek batteries. The modular Node-RED architecture can potentially support additional batteries by duplicating the corresponding Modbus and control branches. Configurations with more than 3 batteries have not yet been tested.
+
 ## Why this project?
 Unlike many Modbus implementations that continuously write individual control registers, this project uses the Marstek internal schedule registers (43100–43104) to control battery behaviour.\
 \
