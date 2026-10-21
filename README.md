@@ -41,7 +41,7 @@ From version 0.1.7 onwards, schedule control is the recommended and default cont
 
 
 ## Dashboard
-Node-red script with UI to control the Marstek venus A (Tested up to firmware 149).
+Node-red script with UI to control the Marstek venus.
 All without digging deep into marstek app to toggle the options.
 
 ![alt text](images/Dashboard.png)
