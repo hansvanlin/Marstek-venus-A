@@ -355,7 +355,8 @@ Using this EMS?
 If you're running this project with a Marstek Venus A, D or E, I'd love to hear about your experience! Feel free to open a GitHub Discussion to share your setup, report compatibility results or suggest improvements.
 
 
-
+https://github.com/hansvanlin/Marstek-venus-A/discussions/8
+\
 
 
 
