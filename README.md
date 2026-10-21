@@ -317,7 +317,8 @@ Check the cell voltages
 <img width="952" height="592" alt="image" src="https://github.com/user-attachments/assets/9240c254-27cf-49a9-8e67-9cb486134ebf" />
 
 ## **New Status Card:** (with dynamic colors)
-<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />  https://github.com/user-attachments/assets/87b7e221-37a0-420f-b256-09fbff798e91
+<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" />  
+https://github.com/user-attachments/assets/87b7e221-37a0-420f-b256-09fbff798e91
 
 **Tip**: if you don't want to loose graph data,
 enable following part in node-red settings.js
