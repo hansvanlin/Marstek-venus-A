@@ -241,7 +241,7 @@ Notes:
 ## **Some ScreenShots:**
 
 
-### **Easy adaptable Node-red flows to customize**
+### **Easy customizable Node-red flows to adapt for your hardware configuration**
 
 ![alt text](images/BatteryControl.png)
 
