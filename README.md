@@ -350,6 +350,16 @@ enable following part in node-red settings.js
 
 
 
+Using this EMS?
+
+If you're running this project with a Marstek Venus A, D or E, I'd love to hear about your experience! Feel free to open a GitHub Discussion to share your setup, report compatibility results or suggest improvements.
+
+
+
+
+
+
+
 
 
 
