@@ -256,9 +256,14 @@ Set IP adress and port number. (double click on the node).\
 
 ### **Price Based Mode ON** result:
 Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/8438cebe-8c2a-42a3-9ae2-58ddfa2bed98" />
 
-<img width="292" height="513" alt="image" src="https://github.com/user-attachments/assets/0fa33994-11fd-4764-901c-e4f1c216dd5d" />\
-Orange is energy used from grid.
+
+Do not sell switched on:
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/fe6dd72f-e80d-48f6-aee0-56dcb3ee83e9" />
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/b956c568-814f-4769-87fa-51bb5d43dc5c" />
+
+
 
 ### Marstek app graph:
 <img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
