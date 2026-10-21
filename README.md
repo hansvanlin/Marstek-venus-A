@@ -266,9 +266,6 @@ Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
 <img width="300"  alt="image" src="https://github.com/user-attachments/assets/fe6dd72f-e80d-48f6-aee0-56dcb3ee83e9" />
 
 
-### Marstek app graph:
-<img width="1102" height="543" alt="image" src="https://github.com/user-attachments/assets/9ec237ec-6d33-4e17-857f-b84cac47b69d" />
-
 ### **Dynamic price control**
 Battery state in charging during cheap hours:
 
