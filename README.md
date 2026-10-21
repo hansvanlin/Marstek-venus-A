@@ -255,7 +255,7 @@ Set IP adress and port number. (double click on the node).\
 
 
 ### **Price Based Mode ON** :
-Charge or buy during cheap hours and sell for eg 1hour at expensive hour;
+Charge or buy during cheap hours and sell for eg 1hour at expensive hour (Configurable in Forecast):
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8438cebe-8c2a-42a3-9ae2-58ddfa2bed98" /> <img width="375"  alt="image" src="https://github.com/user-attachments/assets/9b174c68-6ab2-4e47-b3ef-0091255078da" />
 
 
