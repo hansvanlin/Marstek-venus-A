@@ -315,7 +315,11 @@ Check the cell voltages
 
 ## **New Status Card:** (with dynamic colors)
 
-<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" /> 
+<img width="268" height="591" alt="image" src="https://github.com/user-attachments/assets/ba3f15be-db67-4e25-b7c3-c7b7f6d3ce4b" /> , 
+
+https://github.com/user-attachments/assets/51299b3e-fe4d-4482-97e6-51bf440a853d
+
+
 
 
 
