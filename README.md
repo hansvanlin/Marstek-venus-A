@@ -1,4 +1,4 @@
-[![GitHub Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-EMS)](https://github.com/hansvanlin/Marstek-venus-EMS/releases/latest)
+[![Release](https://img.shields.io/github/v/release/hansvanlin/Marstek-venus-EMS?label=)](https://github.com/hansvanlin/Marstek-venus-EMS/releases/latest)
 ![Force Mode](https://img.shields.io/badge/-Force%20Mode-red)
 ![Schedule Mode](https://img.shields.io/badge/-Schedule-blue)
 ![Battery Tools](https://img.shields.io/badge/-Battery%20Tools-green)![Smart Read/Write](https://img.shields.io/badge/-Smart%20Read/Write-orange)
