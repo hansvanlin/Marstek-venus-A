@@ -81,16 +81,11 @@ Dis/Charge Power setting can be set in the UI. The power can be set from 100W to
 
 > [!IMPORTANT]
 > **Legacy Workaround — Discharge Issue (not required since v0.1.7)**
-> 
-On older versions, discharging at 1500 W via Modbus may fail to start.
-
-Workaround: Open the official Marstek app and create a 24-hour discharge schedule set to 1500 W. Leave this schedule disabled (do not activate it).
-
-This keeps the necessary registers available, allowing Node-RED to control the battery correctly.
-
-Alternatively, try setting the discharge power to 1400 W.
-
-The Battery Tooling flow also supports writing to the maximum discharge power register. This can be automated by enabling the corresponding Inject node.
+> On older versions, discharging at 1500 W via Modbus may fail to start.
+> Workaround: Open the official Marstek app and create a 24-hour discharge schedule set to 1500 W. Leave this schedule disabled (do not activate it).
+> This keeps the necessary registers available, allowing Node-RED to control the battery correctly.
+> Alternatively, try setting the discharge power to 1400 W.
+> The Battery Tooling flow also supports writing to the maximum discharge power register. This can be automated by enabling the corresponding Inject node.
 
 
 ## Related Projects
